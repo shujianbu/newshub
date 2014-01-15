@@ -1,22 +1,16 @@
-# Newshub - Keep Journalism Accountable
+# Newshub
 
-> quotes <br/>
-> --  <br/>
 
-This is a project sponsored by 'Magic Grant,' seek funding made possible by the Brown Institue for Media Innovation at Columbia and Stanford. 
-We are establishing a system to track censorship and inappropriate journalistic practice post-publication, especially in authoritarian regimes. We started this project because we want to better inform the readers and involve them in monitoring online publications, to keep journalism accountable.
-When a story is revised or deleted after publication, our system will pick up the change and inform the readers. We will also produce monthly reports and visualizations to help our readers better understand these changes. The project has a special focus on Asia
+This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), seek funding made possible by the Brown Institue for Media Innovation at [Columbia](http://www.columbia.edu/) and [Stanford](http://www.stanford.edu/) University. We are building a system to track the censorship and inappropriate journalistic practice post-publication. We started this project because we want to better inform the readers and involve the public in monitoring online publications, to keep journalism accountable. We will also produce monthly reports and visualizations to help our readers better understand these changes. The project has a special focus on Asian countries. <br/>
 
-Read more: http://brown.stanford.edu/magic
+### Localization
 
-## Localization
-
-We focus on .... Translations of the guide are available in the following languages. 
+Translations of the guide are available in the following languages. 
 * [Chinese Simplified](https://github.com/shujianbu/newshub/README-zhCN.md)
 * [Chinese Traditional](https://github.com/shujianbu/newshub/README-zhTW.md)
 * [Hindi](https://github.com/shujianbu/newshub/README-Hindi.md)
 
-## Setup 
+### Setup 
 
 ```Python
   
@@ -28,11 +22,11 @@ We focus on .... Translations of the guide are available in the following langua
   
 ```
 
-## Browser Addon 
+### Browser Addon 
 
-## Findings & Reports 
+### Findings & Reports 
 
-## Team 
+### Team 
 
 A team of graduate students and recent graduates of the Columbia School of Journalism and the School of Engineering and Applied Science ..... 
 
@@ -43,15 +37,13 @@ A team of graduate students and recent graduates of the Columbia School of Journ
 * Sophie Chou, sbc2125@columbia.edu
 
 
-## Contribution 
+### Contribution 
 
 Newsdiffs ... 
 Jschool 
 some professors
 
-## Grant ?? 
-
-## License
+### License
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike CC BY-NC-SA License 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
