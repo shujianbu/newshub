@@ -28,6 +28,10 @@ We focus on .... Translations of the guide are available in the following langua
   
 ```
 
+## Browser Addon 
+
+## Findings & Reports & ??
+
 ## Team 
 
 A team of graduate students and recent graduates of the Columbia School of Journalism and the School of Engineering and Applied Science ..... 
@@ -45,7 +49,9 @@ Newsdiffs ...
 Jschool 
 some professors
 
-## License 
+## Grant ?? 
+
+## License
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike CC BY-NC-SA License 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
