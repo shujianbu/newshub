@@ -3,9 +3,9 @@
 > quotes <br/>
 > --  <br/>
 
-This is a project by Stanford... grant. 
-The reason we started this project.. a system for tracking censorship in authoritarian regimes post-publication
-When a story is revised or deleted after publication ... The project has a special focus on Asia
+This is a project sponsored by 'Magic Grant,' seek funding made possible by the Brown Institue for Media Innovation at Columbia and Stanford. 
+We are establishing a system to track censorship and inappropriate journalistic practice post-publication, especially in authoritarian regimes. We started this project because we want to better inform the readers and involve them in monitoring online publications, to keep journalism accountable.
+When a story is revised or deleted after publication, our system will pick up the change and inform the readers. We will also produce monthly reports and visualizations to help our readers better understand these changes. The project has a special focus on Asia
 
 Read more: http://brown.stanford.edu/magic
 
@@ -30,7 +30,7 @@ We focus on .... Translations of the guide are available in the following langua
 
 ## Browser Addon 
 
-## Findings & Reports & ??
+## Findings & Reports 
 
 ## Team 
 
@@ -41,7 +41,7 @@ A team of graduate students and recent graduates of the Columbia School of Journ
 * Yi Du, yd2257@columbia.edu 
 * Anirvan Ghost, ag3299@columbia.edu
 * Sophie Chou, sbc2125@columbia.edu
-* Sravan Bhamidipati, sb3400@columbia.edu
+
 
 ## Contribution 
 
