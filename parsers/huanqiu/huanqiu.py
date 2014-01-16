@@ -19,12 +19,16 @@ for link in all_links:
     article = urllib2.urlopen(link.get('href').encode('utf-8'))
     soup = BeautifulSoup(article)
 
-    outfile = file(soup.title.string.encode('utf-8'), "w")
+    title = soup.title.string.encode('utf-8')
+    print title
+
+    outfile = file(title, "w")
 
     text_divs = soup.findAll("div", { "class" : "text" })
     for div in text_divs:
         paragraphs = div.findAll("p")
         for p in paragraphs:
-            outfile.write(p.string.encode('utf-8'))
+            if p.string:
+                outfile.write(p.string.encode('utf-8'))
 
     outfile.close()
