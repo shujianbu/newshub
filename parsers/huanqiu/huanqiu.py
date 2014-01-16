@@ -8,7 +8,6 @@ Script to fetch the contents of all the articles from huanqiu news site and save
 """
 
 main_page = urllib2.urlopen("http://www.huanqiu.com/")
-
 main_soup = BeautifulSoup(main_page)
 
 #find all articles (denoted by date format)
@@ -19,16 +18,16 @@ for link in all_links:
     article = urllib2.urlopen(link.get('href').encode('utf-8'))
     soup = BeautifulSoup(article)
 
-    title = soup.title.string.encode('utf-8')
-    print title
+    if soup.title.string:
+        title = soup.title.string.encode('utf-8')
 
-    outfile = file(title, "w")
-
-    text_divs = soup.findAll("div", { "class" : "text" })
-    for div in text_divs:
-        paragraphs = div.findAll("p")
-        for p in paragraphs:
-            if p.string:
-                outfile.write(p.string.encode('utf-8'))
+        text_divs = soup.findAll("div", { "class" : "text" })
+        if text_divs != []: # get rid of articles that contain only pics
+            outfile = open('parsers/huanqiu/output/' + title + '.txt', "w")
+            for div in text_divs:
+                paragraphs = div.findAll("p")
+                for p in paragraphs:
+                    if p.string and (p.string != ""):
+                        outfile.write(p.string.encode('utf-8'))
 
     outfile.close()
