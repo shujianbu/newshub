@@ -1,7 +1,9 @@
 # Newshub
 
 
-This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), seek funding made possible by the Brown Institue for Media Innovation at [Columbia](http://www.columbia.edu/) and [Stanford](http://www.stanford.edu/) University. We are building a system to track the censorship and inappropriate journalistic practice post-publication. We started this project because we want to better inform the readers and involve the public in monitoring online publications, to keep journalism accountable. We will also produce monthly reports and visualizations to help our readers better understand these changes. The project has a special focus on Asian countries. <br/>
+This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), seek funding made possible by the [Brown Institue for Media Innovation](http://brown.columbia.edu/) at [Columbia University in the City of New York](http://www.columbia.edu/) and [Stanford University](http://www.stanford.edu/) . <br/>
+
+In an era of booming information, news websites publish an average of 200 articles a day. Many times changes are made to articles without any communication to readers. In many cases the reason is government censorship or exchange of money behind the scene. We are building a system to track censorship and inappropriate journalistic practice post-publication . We started this project because we want to involve the public in monitoring online publications and keeping journalism accountable. The project has a special focus on Asian countries. <br/>
 
 ### Localization
 
@@ -24,9 +26,11 @@ Translations of the guide are available in the following languages.
 
 ### Browser Addon 
 
-The Browser addon will indicate whether one article or publication is already in our database and whether there have been changes on the article. Readers will be able to add new publications to our database and receive email alerts as they wish.
+The Browser addon will indicate whether an article is already in our database and whether changes have been made to the article. Readers will be able to add new articles and publications to our database and receive email alerts if they wish to.
 
 ### Findings & Reports 
+
+We will also produce monthly reports and visualizations to help our readers better understand the data that we collect. Monthly reports will highlight publications that make major changes to their online articles with both stories and visualizations. We will also right individual stories on substantial changes related to important news events. 
 
 ### Team 
 
@@ -41,9 +45,9 @@ A team of graduate students and recent graduates of the Columbia School of Journ
 
 ### Contribution 
 
-Newsdiffs ... 
-Jschool 
-some professors
+Newsdiffs <br/>
+Columbia Graduate School of Journalism
+
 
 ### License
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
