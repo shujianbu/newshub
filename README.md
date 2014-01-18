@@ -3,7 +3,7 @@
 
 This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), seek funding made possible by the [Brown Institue for Media Innovation](http://brown.columbia.edu/) at [Columbia University in the City of New York](http://www.columbia.edu/) and [Stanford University](http://www.stanford.edu/) . <br/>
 
-In an era of booming information, news websites publish an average of 200 articles a day. Many times changes are made to articles without any communication to readers. In many cases the reason is government censorship or exchange of money behind the scene. We are building a system to track censorship and inappropriate journalistic practice post-publication . We started this project because we want to involve the public in monitoring online publications and keeping journalism accountable. The project has a special focus on Asian countries. <br/>
+In an era of booming information, news websites publish an average of 200 articles a day and changes are made to articles without any communication to readers. In many cases the reason is government censorship or exchange of money behind the scene. We are building a system to track censorship and inappropriate journalistic practice post-publication . We started this project because we want to involve the public in monitoring online publications and keeping journalism accountable. The project has a special focus on Asian countries. <br/>
 
 ### Localization
 
