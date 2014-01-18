@@ -39,7 +39,7 @@ A team of graduate students and recent graduates of the Columbia School of Journ
 * Shujian Bu, sb3331@columbia.edu
 * Yue Qiu, yq2154@columbia.edu 
 * Yi Du, yd2257@columbia.edu 
-* Anirvan Ghost, ag3299@columbia.edu
+* Anirvan Ghosh, ag3299@columbia.edu
 * Sophie Chou, sbc2125@columbia.edu
 
 
