@@ -24,6 +24,8 @@ Translations of the guide are available in the following languages.
 
 ### Browser Addon 
 
+The Browser addon will indicate whether one article or publication is already in our database and whether there have been changes on the article. Readers will be able to add new publications to our database and receive email alerts as they wish.
+
 ### Findings & Reports 
 
 ### Team 
