@@ -48,6 +48,10 @@ A team of graduate students and recent graduates of the Columbia School of Journ
 Newsdiffs <br/>
 Columbia Graduate School of Journalism
 
+### Contact Us
+
+Email: info@newshub.cc
+
 
 ### License
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
