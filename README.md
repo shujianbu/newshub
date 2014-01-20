@@ -1,8 +1,8 @@
 # Newshub
 
-Newsrooms deliver millions of articles each day. Many of which are updated as news stories develop. Aside from spelling corrections and story follow-ups, some media made changes to their stories under the pressure of government censorship or as a result of bribery from those in the news. Newshub aims at monitoring sensitive news, presenting readers the whole picture they deserve to see, and try to keep journalism accountable. The project has a special focus on Asian countries. 
+Newsrooms deliver millions of articles each day. Many of which are updated as news stories develop. Aside from spelling corrections and story follow-ups, some media made changes to their stories under the pressure of government censorship or as a result of bribery from those in the news. Newshub aims at monitoring sensitive news, giving readers the whole picture they deserve to see, and making an effort to keep journalism accountable. The project has a special focus on Asian countries. 
 
-This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), seek funding made possible by the [Brown Institue for Media Innovation](http://brown.columbia.edu/) at [Columbia University in the City of New York](http://www.columbia.edu/) and [Stanford University](http://www.stanford.edu/) . <br/>
+This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), with funding made possible by the [Brown Institue for Media Innovation](http://brown.columbia.edu/) at [Columbia University](http://www.columbia.edu/) and [Stanford University](http://www.stanford.edu/) . <br/>
 
 
 ### Localization
@@ -31,7 +31,7 @@ Newshub is expecting to have browser addons to allow users add articles they wan
 
 ### Findings & Reports 
 
-We will produce monthly reports and visualizations to show readers the data we collect over the month. In case of any scheduled or unexpected big events, we will also produce hot news report to track real time news stories. Bi-weekly summaries are also available in readers’ request. 
+We will produce monthly reports and visualizations to show readers the data we collect over the month. In case of any scheduled or unexpected big events, we will also produce hot news report to track real time news stories. Bi-weekly summaries are also available upon readers’ request. 
 
 ### Team 
 
@@ -47,11 +47,11 @@ Newshub is the joint effort of the following Columbia graduates:
 ### Contribution 
 
 Eric Price, Newsdiffs; <br/>
-Mark Hansen, Director of Brown Institute for Media Innovation, Columbia Graduate School of Journalism; <br/>
 Jonathan Stray, Fellow at Columbia Graduate School of Journalism;<br/>
+Mark Hansen, Director of Brown Institute for Media Innovation, Columbia Graduate School of Journalism; <br/>
 Scott Klein, Senior Editor at ProPublica;<br/>
-Sisi Wei, News Application Developer at ProPublica; <br/>
 Shi-fu Chang, Senior Vice Dean of Engineering School at Columbia University; <br/>
+Sisi Wei, News Application Developer at ProPublica; <br/>
 Sravan Bhamitipati
 
 
