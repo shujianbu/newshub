@@ -1,8 +1,9 @@
 # Newshub
 
-Newsrooms deliver millions of articles each day. Many of which are updated as news stories develop. Aside from spelling corrections and story follow-ups, some media made changes to their stories under the pressure of government censorship or as a result of bribery from those in the news. Newshub aims at monitoring sensitive news, giving readers the whole picture they deserve to see, and making an effort to keep journalism accountable. The project has a special focus on Asian countries. 
+In today’s information-driven world, news websites publish several thousand stories a day. Many times, particularly in authoritarian regimes, changes are made to articles without any communication to readers. This can be due to political interference, or a nexus between the media and influential entities.  <br/>
 
-This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), with funding made possible by the [Brown Institue for Media Innovation](http://brown.columbia.edu/) at [Columbia University](http://www.columbia.edu/) and [Stanford University](http://www.stanford.edu/) . <br/>
+We are building a system to track censorship and inappropriate journalistic practice post-publication. We embarked on this project because we wanted the public to be empowered and hold journalism accountable. The project has a special focus on Asian countries.  <br/>
+The project has been funded through [Magic Grant](http://brown.stanford.edu/magic), awarded annually by the  [Brown Institue for Media Innovation](http://brown.columbia.edu/) , a collaboration between [Columbia University](http://www.columbia.edu/)  and [Stanford University](http://www.stanford.edu/) . 
 
 
 ### Localization
@@ -26,12 +27,13 @@ Translations of the guide are available in the following languages.
 
 ### Browser Addon 
 
-Newshub is expecting to have browser addons to allow users add articles they want to track and filter the level of news changes they want to be notified. 
+Newshub is expecting to have browser addons to allow users add articles they want to track. The Browser addon will indicate whether an article is already in our database and whether changes have been made to the article. Readers will be able to add new articles and publications to our database and receive email alerts if they wish to. 
 
 
 ### Findings & Reports 
 
-We will produce monthly reports and visualizations to show readers the data we collect over the month. In case of any scheduled or unexpected big events, we will also produce hot news report to track real time news stories. Bi-weekly summaries are also available upon readers’ request. 
+We will also produce monthly reports and visualizations to help our readers better understand the data that we collect. Monthly reports will highlight publications that make major changes to their online articles with both stories and visualizations. We will also write individual stories on substantial changes related to important news events.
+
 
 ### Team 
 
@@ -50,9 +52,9 @@ Eric Price, Newsdiffs; <br/>
 Jonathan Stray, Fellow at Columbia Graduate School of Journalism;<br/>
 Mark Hansen, Director of Brown Institute for Media Innovation, Columbia Graduate School of Journalism; <br/>
 Scott Klein, Senior Editor at ProPublica;<br/>
-Shi-fu Chang, Senior Vice Dean of Engineering School at Columbia University; <br/>
+Shi-fu Chang, Senior Vice Dean of Engineering, Fu Foundation School  of Engineering and Applied Sciences, Columbia University; <br/>
 Sisi Wei, News Application Developer at ProPublica; <br/>
-Sravan Bhamitipati
+Sravan Bhamitipati, recent graduate from Fu Foundation School  of Engineering and Applied Sciences, Columbia University.
 
 
 ### Contact Us
