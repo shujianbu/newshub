@@ -46,17 +46,18 @@ Newshub is the joint effort of the following Columbia graduates:
 
 ### Contribution 
 
-Eric Price, Newsdiffs <br/>
-Mark Hansen, Director of Brown Institute for Media Innovation, Columbia Graduate School of Journalism: <br/>
-Jonathan Stray, Fellow at Columbia Graduate School of Journalism<br/>
-Scott Klein, Senior Editor at ProPublica<br/>
-Sisi Wei, News Application Developer at ProPublica <br/>
-Shi-fu Chang, Senior Vice Dean of Engineering School at Columbia University<br/>
+Eric Price, Newsdiffs; <br/>
+Mark Hansen, Director of Brown Institute for Media Innovation, Columbia Graduate School of Journalism; <br/>
+Jonathan Stray, Fellow at Columbia Graduate School of Journalism;<br/>
+Scott Klein, Senior Editor at ProPublica;<br/>
+Sisi Wei, News Application Developer at ProPublica; <br/>
+Shi-fu Chang, Senior Vice Dean of Engineering School at Columbia University; <br/>
+Sravan Bhamitipati
 
 
 ### Contact Us
 
-Email: info@newshub.cc
+We welcome suggestions and questions on publication selection, data interpretation, algorithm, etc. Please contact us at info@newshub.cc. 
 
 
 ### License
