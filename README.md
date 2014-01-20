@@ -3,6 +3,7 @@
 In today’s information-driven world, news websites publish several thousand stories a day. Many times, particularly in authoritarian regimes, changes are made to articles without any communication to readers. This can be due to political interference, or a nexus between the media and influential entities.  <br/>
 
 We are building a system to track censorship and inappropriate journalistic practice post-publication. We embarked on this project because we wanted the public to be empowered and hold journalism accountable. The project has a special focus on Asian countries.  <br/>
+
 The project has been funded through [Magic Grant](http://brown.stanford.edu/magic), awarded annually by the  [Brown Institue for Media Innovation](http://brown.columbia.edu/) , a collaboration between [Columbia University](http://www.columbia.edu/)  and [Stanford University](http://www.stanford.edu/) . 
 
 
