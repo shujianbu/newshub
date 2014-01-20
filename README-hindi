@@ -1,57 +1,51 @@
-# Newshub
+## न्यूज़हब 
 
-Newsrooms deliver millions of articles each day. Many of which are updated as news stories develop. Aside from spelling corrections and story follow-ups, some media made changes to their stories under the pressure of government censorship or as a result of bribery from those in the news. Newshub aims at monitoring sensitive news, presenting readers the whole picture they deserve to see, and try to keep journalism accountable. The project has a special focus on Asian countries. 
+आजकल मीडिया वेबसाइट पर २०० के ऊपर लेख एवं निबंध प्रकाशित होते हैं. कई दफा, प्रकाशन के बाद, पाठको को बताये बिना इन लेखों में बदलाव किये जाते हैं. इन बदलावों के कई कारण हैं - जिनमे से सबसे महत्त्वपूर्ण हैं राजनितिक दबाव और मीडिया में भ्रष्टाचार।  
 
-This is a project sponsored by [Magic Grant](http://brown.stanford.edu/magic), seek funding made possible by the [Brown Institue for Media Innovation](http://brown.columbia.edu/) at [Columbia University in the City of New York](http://www.columbia.edu/) and [Stanford University](http://www.stanford.edu/) . <br/>
+न्यूज़हब में हम लोग एक ऐसा कंप्यूटर प्रोग्राम बना रहे हैं जिसके द्वारा इन अनुचित बदलावों का पता चल सकेगा। इसके लिए पाठकों का समर्थन और उनकी भागेदारी आवश्यक है. इस प्रोग्राम के द्वारा पाठक स्वयं इन बदलावों को देख सकेंगे, और मीडिया की जवाबदेही बनी रहेगी। यह प्रोजेक्ट खासकर एशिया के देशों पर केंद्रित है. 
 
+कोलंबिया विश्वविद्यालय, न्यू यॉर्क और स्टैनफोर्ड विश्विद्यालय द्वारा स्थापित ब्राउन इंस्टिट्यूट ऑफ़ मीडिया इनोवेशन ने इस प्रोजेक्ट को आर्थिक समर्थन दिया है. 
 
-### Localization
+## स्थानीकरण 
 
-Translations of the guide are available in the following languages. 
-* [Chinese Simplified](https://github.com/shujianbu/newshub/README-zhCN.md)
-* [Chinese Traditional](https://github.com/shujianbu/newshub/README-zhTW.md)
-* [Hindi](https://github.com/shujianbu/newshub/README-Hindi.md)
+यह सूचना हिंदी, चीनी (परंपरागत) एवं चीनी (साधारण) में उपलब्ध है. 
 
-### Setup 
+## स्थापना 
 
-```Python
-  
-  # sync the database
+इस पाइथन कोड का उपयोग करें: 
+
+ # डेटाबेस सिंक  
   python website/manage.py syncdb 
   
-  # migration
-  python website/manage.py migrate  
-  
-```
-
-### Browser Addon 
-
-Newshub is expecting to have browser addons to allow users add articles they want to track and filter the level of news changes they want to be notified. 
+  # वेबसाइट प्रवर्जन 
+  python website/manage.py migrate
 
 
-### Findings & Reports 
+## ब्राउज़र सहित 
 
-We will produce monthly reports and visualizations to show readers the data we collect over the month. In case of any scheduled or unexpected big events, we will also produce hot news report to track real time news stories. Bi-weekly summaries are also available in readers’ request. 
+उपयोगकर्ताओं के लिए ब्राउज़र ऐड-ऑन उपलब्ध होगा। इसके ज़रिये उपयोगकर्ता यह देख सकेंगे कि उनके चुने हुए लेखों में क्या बदलाव किये गए. 
 
-### Team 
+## निष्कर्ष 
 
-Newshub is the joint effort of the following Columbia graduates:
+इस प्रोजेक्ट में हर महीने बदलावों कि सूची बनायीं जायेगी। अगर कोई अप्रत्याशित और महत्त्वपूर्ण घटना होती है, उसके लिए बदलावों को रियल-टाइम दिखाया जायेगा। हर दो हफ्ते की रपट भी सम्भव है. 
 
-* Shujian Bu, sb3331@columbia.edu
-* Yue Qiu, yq2154@columbia.edu 
-* Yi Du, yd2257@columbia.edu 
-* Anirvan Ghosh, ag3299@columbia.edu
-* Sophie Chou, sbc2125@columbia.edu
+## हमारी टीम 
 
+न्यूज़ हब में कोलंबिया विश्विद्यालय के निम्नलिखित स्नातक और छात्र कार्यरत हैं. 
 
-### Contribution 
+१. शुजीआं बू 
+२. यूए क्यू 
+३. यी डू 
+४. अनिर्वाण घोष 
+५. सोफी चाऊ 
 
-Newsdiffs <br/>
-Columbia Graduate School of Journalism
+## अतिरिक्त योगदान 
 
-### Contact Us
+इस प्रोजेक्ट में स्रवण भामिदीपति, NewsDiff और ProPublica का योगदान है. 
 
-Email: info@newshub.cc
+## संपर्क 
+
+हमें info@newshub.cc पर संपर्क करें। 
 
 
 ### License
