@@ -48,7 +48,7 @@ Newshub is the joint effort of the following Columbia graduates:
 
 ### Contribution 
 
-We would like to credit [Eric Price](mailto:ecprice@mit.edu), [Greg Price](mailto:gnprice@gmail.com), and [Jennifer 8. Lee](mailto:jenny@jennifer8lee.com) for sharing the source code of [Newsdiff](http://newsdiffs.org/). Thanks for the support from Prof. [Mark Hansen](http://www.journalism.columbia.edu/profile/428-mark) and [Shih-Fu Chang](http://www.ee.columbia.edu/shih-fu-chang) at Columbia University. Also, we would like to thank Scott Klein and Sisi Wei from ProPublica. Sravan Bhamitipati has also contributed to this project. 
+We would like to credit [Eric Price](mailto:ecprice@mit.edu), [Greg Price](mailto:gnprice@gmail.com), and [Jennifer 8. Lee](mailto:jenny@jennifer8lee.com) for sharing the source code of [Newsdiff](http://newsdiffs.org/). Thanks for the support from Prof. [Mark Hansen](http://www.journalism.columbia.edu/profile/428-mark) and [Shih-Fu Chang](http://www.ee.columbia.edu/shih-fu-chang) at Columbia University. Also, we would like to thank [Scott Klein](https://twitter.com/kleinmatic) and [Sisi Wei](https://twitter.com/sisiwei) from ProPublica. Sravan Bhamitipati has also contributed to this project. 
 
 
 ### Contact Us
