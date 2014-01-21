@@ -10,8 +10,7 @@ The project has been funded through [Magic Grant](http://brown.stanford.edu/magi
 ### Localization
 
 Translations of the guide are available in the following languages. 
-* [Chinese Simplified](https://github.com/shujianbu/newshub/README-zhCN.md)
-* [Chinese Traditional](https://github.com/shujianbu/newshub/README-zhTW.md)
+* [Chinese](https://github.com/shujianbu/newshub/README-zhCN.md)
 * [Hindi](https://github.com/shujianbu/newshub/README-Hindi.md)
 
 ### Setup 
