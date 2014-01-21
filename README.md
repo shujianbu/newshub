@@ -48,18 +48,12 @@ Newshub is the joint effort of the following Columbia graduates:
 
 ### Contribution 
 
-Eric Price, Newsdiffs; <br/>
-Jonathan Stray, Fellow at Columbia Graduate School of Journalism;<br/>
-Mark Hansen, Director of Brown Institute for Media Innovation, Columbia Graduate School of Journalism; <br/>
-Scott Klein, Senior Editor at ProPublica;<br/>
-Shi-fu Chang, Senior Vice Dean of Engineering, Fu Foundation School  of Engineering and Applied Sciences, Columbia University; <br/>
-Sisi Wei, News Application Developer at ProPublica; <br/>
-Sravan Bhamitipati, recent graduate from Fu Foundation School  of Engineering and Applied Sciences, Columbia University.
+We would like to credit [Eric Price](mailto:ecprice@mit.edu), [Greg Price](mailto:gnprice@gmail.com), and [Jennifer 8. Lee](mailto:jenny@jennifer8lee.com) for sharing the source code of [Newsdiff](http://newsdiffs.org/). Thanks for the support from Prof. [Mark Hansen](http://www.journalism.columbia.edu/profile/428-mark) and [Shih-Fu Chang](http://www.ee.columbia.edu/shih-fu-chang) at Columbia University. Also, we would like to thank Scott Klein and Sisi Wei from ProPublica. Sravan Bhamitipati has also contributed to this project. 
 
 
 ### Contact Us
 
-We welcome suggestions and questions on publication selection, data interpretation, algorithm, etc. Please contact us at info@newshub.cc. 
+We welcome any suggestions or questions on the publication selection, data interpretation, algorithm, etc. If you have any stories about censorship and inappropriate journalistic practice post-publication, please also contact us at [info@newshub.cc](mailto:info@newshub.cc)
 
 
 ### License
