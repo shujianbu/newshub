@@ -18,7 +18,7 @@ def get_pages_with_retry(url):
         print "attempt", i+1
         while True:
             try:
-                r = requests.get(url)
+                r = requests.get(url, timeout=5)
                 return r
             except requests.exceptions.Timeout:
                 print "Your request timed out."
@@ -47,10 +47,18 @@ def get_title(soup):
 def get_links(soup):
     """Get all the links to articles (with date in them)"""
     links = soup.findAll('a', href=re.compile('http://\w+\.huanqiu\.com/\S*\d\d\d\d-\d\d/\d+\.html'))
+    links = [l.get('href').encode('utf-8') for l in links]
     return links
 
+def get_category(link):
+    category = re.findall('http://\w+\.huanqiu\.com/(\w+)/\d\d\d\d-\d\d/\d+\.html', link)
+    if category:
+        return category[0]
+    else:
+        return None
+
 def get_content(soup):
-    """ Am I yielding right """
+    """Return the encoded text in the article"""
     text_divs = soup.findAll("div", { "class" : "text" })
     if text_divs: #some articles only pics
         for div in text_divs:
@@ -83,12 +91,15 @@ def test_all():
     """Test scraper on all articles"""
     main = get_soup("http://www.huanqiu.com/")
     if main:    
+        print "got the main soup"
         all_links = get_links(main)
         num_links = len(all_links)
 
         i = 0
         for link in all_links:
-            soup = get_soup(link.get('href').encode('utf-8'))
+            category = get_category(link)
+            print category
+            soup = get_soup(link)
             if soup:
                 encoded_content = [line for line in get_content(soup)]
                 all_meta, author, publishdate = get_meta(soup)
@@ -109,6 +120,3 @@ def test_all():
     print "NUMBER OF SUCCESSFULLY FETCHED ARTICLES: ", i
     print "TOTAL NUMBER OF ARTICLES", num_links
     #TODO: Create class for above, format SQL
-
-
-
