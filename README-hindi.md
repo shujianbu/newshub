@@ -41,7 +41,7 @@
 
 ## अतिरिक्त योगदान 
 
-न्यूज़हब की ओर से [एरिक प्राइस](mailto:ecprice@mit.edu), [ग्रेग प्राइस](mailto:gnprice@gmail.com), एवं [जेनिफर ली(mailto:jenny@jennifer8lee.com) को  [न्यूज़डिफ](http://newsdiffs.org/) का सूत्र कोड देने के लिए धन्यवाद। कोलंबिया विश्वविद्यालय के [प्रोफेसर मार्क हानसेन](http://www.journalism.columbia.edu/profile/428-mark), एवं [शिह फु चांग](http://www.ee.columbia.edu/shih-fu-chang) का शुक्रिया। प्रोपब्लिका के [स्कॉट क्लाइन](https://twitter.com/kleinmatic) एवं [सीसी वेई](https://twitter.com/sisiwei) को मार्गदर्शन के लिए धन्यवाद। श्रावण भमिदीपति के योगदान के लिए धन्यवाद।  
+न्यूज़हब की ओर से [एरिक प्राइस](mailto:ecprice@mit.edu), [ग्रेग प्राइस](mailto:gnprice@gmail.com), एवं [जेनिफर ली](mailto:jenny@jennifer8lee.com) को  [न्यूज़डिफ](http://newsdiffs.org/) का सूत्र कोड देने के लिए धन्यवाद। कोलंबिया विश्वविद्यालय के [प्रोफेसर मार्क हानसेन](http://www.journalism.columbia.edu/profile/428-mark), एवं [शिह फु चांग](http://www.ee.columbia.edu/shih-fu-chang) का शुक्रिया। प्रोपब्लिका के [स्कॉट क्लाइन](https://twitter.com/kleinmatic) एवं [सीसी वेई](https://twitter.com/sisiwei) को मार्गदर्शन के लिए धन्यवाद। श्रावण भमिदीपति के योगदान के लिए धन्यवाद।   
 
 ## संपर्क 
 
