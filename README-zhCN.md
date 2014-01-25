@@ -11,14 +11,14 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 
 了解更多请访问: http://brown.stanford.edu/magic
 
-## Localization
+### Localization
 
 请参阅如下语言. 
 * [简体中文](https://github.com/shujianbu/newshub/README-zhCN.md)
 * [繁體中文](https://github.com/shujianbu/newshub/README-zhTW.md)
 * [Hindi](https://github.com/shujianbu/newshub/README-Hindi.md)
 
-## Set Up
+### Set Up
 
 ```Python
   
@@ -39,7 +39,7 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 
 我们将撰写月度报告，为读者解读这一个月来我们收集到的数据，用故事和可视化的形式展现网络媒体在更改文章上的表现。我们也会针对热点新闻事件撰写独立的故事。
 
-## Team 
+### Team 
 
 我们的团队由哥伦比亚大学新闻学院和机械与应用科学学院的毕业生组成。我们是：
 
