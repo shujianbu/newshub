@@ -52,7 +52,7 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 
 ### Contribution 
 
-感谢[Eric Price](mailto:ecprice@mit.edu), [Greg Price](mailto:gnprice@gmail.com), 和 [Jennifer 8. Lee](mailto:jenny@jennifer8lee.com) 与我们分享f [Newsdiff](http://newsdiffs.org/)的源代码。感谢哥伦比亚大学[Mark Hansen](http://www.journalism.columbia.edu/profile/428-mark)教授和 [Shih-Fu Chang](http://www.ee.columbia.edu/shih-fu-chang)教授的帮助和支持。 同时感谢ProPublica的 [Scott Klein](https://twitter.com/kleinmatic) 和 [Sisi Wei](https://twitter.com/sisiwei)。 Sravan Bhamitipati 对本项目亦有贡献。
+感谢[Eric Price](mailto:ecprice@mit.edu), [Greg Price](mailto:gnprice@gmail.com), 和 [Jennifer 8. Lee](mailto:jenny@jennifer8lee.com) 与我们分享 [Newsdiff](http://newsdiffs.org/)的源代码。感谢哥伦比亚大学[Mark Hansen](http://www.journalism.columbia.edu/profile/428-mark)教授和 [Shih-Fu Chang](http://www.ee.columbia.edu/shih-fu-chang)教授的帮助和支持。 同时感谢ProPublica的 [Scott Klein](https://twitter.com/kleinmatic) 和 [Sisi Wei](https://twitter.com/sisiwei)。 Sravan Bhamitipati 对本项目亦有贡献。
 
 
 ### Contact Us
