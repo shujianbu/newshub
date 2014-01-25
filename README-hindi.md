@@ -33,20 +33,19 @@
 
 न्यूज़ हब में कोलंबिया विश्विद्यालय के निम्नलिखित स्नातक और छात्र कार्यरत हैं. 
 
-१. शुजीआं बू 
-२. यूए क्यू 
-३. यी डू 
-४. अनिर्वाण घोष 
-५. सोफी चाऊ 
+१. शुजीआ बू (sb3331@columbia.edu)
+२. यूए क्यू (yq2154@columbia.edu)
+३. यी डू (yd2257@columbia.edu )
+४. अनिर्वाण घोष (ag3299@columbia.edu)
+५. सोफी चाऊ (sbc2125@columbia.edu)
 
 ## अतिरिक्त योगदान 
 
-इस प्रोजेक्ट में स्रवण भामिदीपति, NewsDiff और ProPublica का योगदान है. 
+न्यूज़हब की ओर से [एरिक प्राइस](mailto:ecprice@mit.edu), [ग्रेग प्राइस](mailto:gnprice@gmail.com), एवं [जेनिफर ली(mailto:jenny@jennifer8lee.com) को  [न्यूज़डिफ](http://newsdiffs.org/) का सूत्र कोड देने के लिए धन्यवाद। कोलंबिया विश्वविद्यालय के [प्रोफेसर मार्क हानसेन](http://www.journalism.columbia.edu/profile/428-mark), एवं [शिह फु चांग](http://www.ee.columbia.edu/shih-fu-chang) का शुक्रिया। प्रोपब्लिका के [स्कॉट क्लाइन](https://twitter.com/kleinmatic) एवं [सीसी वेई](https://twitter.com/sisiwei) को मार्गदर्शन के लिए धन्यवाद। श्रावण भमिदीपति के योगदान के लिए धन्यवाद।  
 
 ## संपर्क 
 
-हमें info@newshub.cc पर संपर्क करें। 
-
+हम आपके सुझाव और हमारे प्रोग्राम से सम्बंधित प्रश्नों का स्वागत करते हैं. अगर आप किसी दैनिक समाचार पत्रिका अथवा साप्ताहिक पत्रिकाओं के वेबसाइट पर अनुचित बदलावों के बारे में जानते हैं तो कृपया [info@newshub.cc](mailto:info@newshub.cc) पर सूचित करें। 
 
 ### License
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
