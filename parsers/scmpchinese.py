@@ -25,7 +25,9 @@ def get_publishdate(soup):
     return publishdate
 
 def get_content(soup):
-    content = re.findall("<p>[<.+?>]*(.*?)[<.+?>]*</p>", str(s1))
+    content = re.findall("<p>[<.+?>]*(.*?)[<.+?>]*</p>", str(soup))
+    if content:
+        return content[0]
     return content
 
 def get_meta(soup):
@@ -33,40 +35,32 @@ def get_meta(soup):
     return all_meta
 
 def test_all():
-    pass
-
-"""
-def test_all():
-    "Test scraper on all articles"
-    main = get_soup("http://www.huanqiu.com/")
-    if main:    
-        print "got the main soup"
+    root = "http://www.nanzao.com"
+    main = scraper.get_soup(root)
+    if main:
+        print "Fetched index page"
         all_links = get_links(main)
         num_links = len(all_links)
+        print "num_links", num_links
 
         i = 0
-        for link in all_links:
-            category = get_category(link)
-            print category
-            soup = get_soup(link)
+       
+        for url, cat in all_links:
+            print "URL AND CAT"
+            print url, cat
+            soup = scraper.get_soup(root + url)
             if soup:
-                encoded_content = [line for line in get_content(soup)]
-                all_meta, author, publishdate = get_meta(soup)
-                parsedate = strftime("%Y-%m-%d %H:%M:%S")
-
-                #for testing
-                if encoded_content:
-                    for p in encoded_content:
-                        print p
-                print all_meta
-                print author
+                publishdate = get_publishdate(soup)
+                print "PUBLISHDATE"
                 print publishdate
-                print parsedate
-
-                print "ARTICLE NUMBER", i
+                content = get_content(soup)
+                print "CONTENT"
+                print content
+                meta = get_meta(soup)
+                print "META"
+                print meta
+                print "ARTICLE NUM", i
                 i += 1
-
     print "NUMBER OF SUCCESSFULLY FETCHED ARTICLES: ", i
     print "TOTAL NUMBER OF ARTICLES", num_links
-    #TODO: Create class for above, format SQL
-"""
+  

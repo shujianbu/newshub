@@ -21,8 +21,10 @@ def get_pages_with_retry(url):
                 continue
             except requests.exceptions.TooManyRedirects:
                 print "Too Many Redirects. Check your URL. Stopping."
+                continue
             except requests.exceptions.RequestException as e:
                 print e
+                continue
             break
 
 def get_soup(url):
