@@ -35,7 +35,7 @@
 
 १. शुजीआ बू (sb3331@columbia.edu)
 २. यूए क्यू (yq2154@columbia.edu)
-३. यी डू (yd2257@columbia.edu )
+३. यी डू (yd2257@columbia.edu)
 ४. अनिर्वाण घोष (ag3299@columbia.edu)
 ५. सोफी चाऊ (sbc2125@columbia.edu)
 
