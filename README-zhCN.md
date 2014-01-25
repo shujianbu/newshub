@@ -1,4 +1,4 @@
-# 中文  Newshub —— 让新闻更可靠
+# Newshub —— 让新闻更可靠
 
 > quotes <br/>
 > --  <br/>
