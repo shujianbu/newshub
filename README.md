@@ -4,7 +4,7 @@ In today’s information-driven world, news websites publish several thousand st
 
 We are building a system to track censorship and inappropriate journalistic practice post-publication. We embarked on this project because we wanted the public to be empowered and hold journalism accountable. The project has a special focus on Asian countries.  <br/>
 
-The project has been funded through [Magic Grant](http://brown.stanford.edu/magic), awarded annually by the  [Brown Institue for Media Innovation](http://brown.columbia.edu/) , a collaboration between [Columbia University](http://www.columbia.edu/)  and [Stanford University](http://www.stanford.edu/) . 
+The project has been funded through [Magic Grant](http://brown.stanford.edu/magic), awarded annually by the  [Brown Institue for Media Innovation](http://brown.columbia.edu/), a collaboration between [Columbia University](http://www.columbia.edu/)  and [Stanford University](http://www.stanford.edu/). 
 
 
 ### Localization
@@ -16,6 +16,10 @@ Translations of the guide are available in the following languages.
 ### Setup 
 
 ```Python
+  
+  # Library 
+  pip install Flask
+  pip install requests 
   
   # sync the database
   python website/manage.py syncdb 
