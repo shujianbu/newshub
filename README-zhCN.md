@@ -35,9 +35,7 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 
 ### 团队
 
-我们的团队由哥伦比亚大学新闻学院和机械与应用科学学院的毕业生组成。我们是：
-
-[Shujian Bu](mailto:sb3331@columbia.edu), [Yue Qiu](mailto:yq2154@columbia.edu), [Yi Du](mailto:yd2257@columbia.edu), [Anirvan Ghost](mailto:ag3299@columbia.edu), [Sophie Chou](mailto:sbc2125@columbia.edu)
+我们的团队由哥伦比亚大学新闻学院和机械与应用科学学院的毕业生组成。我们是：[Shujian Bu](mailto:sb3331@columbia.edu), [Yue Qiu](mailto:yq2154@columbia.edu), [Yi Du](mailto:yd2257@columbia.edu), [Anirvan Ghost](mailto:ag3299@columbia.edu), [Sophie Chou](mailto:sbc2125@columbia.edu)
 
 
 ### 贡献
