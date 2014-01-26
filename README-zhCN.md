@@ -1,7 +1,5 @@
 # Newshub —— 让新闻更可靠
 
-> quotes <br/>
-> --  <br/>
 
 在今天这样一个信息爆炸的时代, 新闻网站每日刊登数以千计的文章.很多时候，网站在不告知读者的情况下擅自更改或删除已经刊登的文章。这背后的原因有时是公司、财团的贿赂，有时是政府的新闻审查。 <br/>
 
@@ -14,9 +12,8 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 ### Localization
 
 请参阅如下语言. 
-* [简体中文](https://github.com/shujianbu/newshub/README-zhCN.md)
-* [繁體中文](https://github.com/shujianbu/newshub/README-zhTW.md)
-* [Hindi](https://github.com/shujianbu/newshub/README-Hindi.md)
+* [英语](https://github.com/shujianbu/newshub/blob/master/README.md)
+* [印度语](https://github.com/shujianbu/newshub/blob/master/README-hindi.md)
 
 ### Set Up
 
@@ -43,11 +40,7 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 
 我们的团队由哥伦比亚大学新闻学院和机械与应用科学学院的毕业生组成。我们是：
 
-* Shujian Bu, sb3331@columbia.edu
-* Yue Qiu, yq2154@columbia.edu 
-* Yi Du, yd2257@columbia.edu 
-* Anirvan Ghost, ag3299@columbia.edu
-* Sophie Chou, sbc2125@columbia.edu
+[Shujian Bu](mailto:sb3331@columbia.edu), [Yue Qiu](mailto:yq2154@columbia.edu), [Yi Du](mailto:yd2257@columbia.edu), [Anirvan Ghost](mailto:ag3299@columbia.edu), [Sophie Chou](mailto:sbc2125@columbia.edu)
 
 
 ### Contribution 
@@ -63,7 +56,4 @@ Newhushub是一个帮助读者监督新闻网站的平台。我们正在努力�
 ### License
 ![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png)
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike CC BY-NC-SA License 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-
-
 
