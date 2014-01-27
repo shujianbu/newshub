@@ -1,4 +1,4 @@
-
+import socket
 import requests
 from bs4 import BeautifulSoup as BS
 import re
@@ -17,6 +17,9 @@ def get_pages_with_retry(url):
                 r = requests.get(url, timeout=5)
                 return r
             except requests.exceptions.Timeout:
+                print "Your request timed out."
+                continue
+            except socket.timeout: #bug in requests lib, must catch this as well
                 print "Your request timed out."
                 continue
             except requests.exceptions.TooManyRedirects:

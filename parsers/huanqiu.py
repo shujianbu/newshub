@@ -23,7 +23,7 @@ def get_category(link):
     if category:
         return category[0]
     else:
-        return Noneg
+        return None
 
 def get_content(soup):
     """Return the encoded text in the article"""
