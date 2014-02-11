@@ -41,7 +41,7 @@ We will also produce monthly reports and visualizations to help our readers bett
 
 ### Team 
 
-Newshub is the joint effort of the following Columbia graduates: [Shujian Bu](mailto:sb3331@columbia.edu), [Yue Qiu](mailto:yq2154@columbia.edu), [Yi Du](mailto:yd2257@columbia.edu), [Anirvan Ghost](mailto:ag3299@columbia.edu), [Sophie Chou](mailto:sbc2125@columbia.edu)
+Newshub is the joint effort of the following Columbia graduates: [Shujian Bu](mailto:sb3331@columbia.edu), [Yue Qiu](mailto:yq2154@columbia.edu), [Yi Du](mailto:yd2257@columbia.edu), [Anirvan Ghost](mailto:ag3299@columbia.edu), [Shiyao Zhu](mailto:sz2395@columbia.edu), [Sophie Chou](mailto:sbc2125@columbia.edu)
 
 ### Contribution 
 
