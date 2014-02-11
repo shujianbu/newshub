@@ -15,10 +15,6 @@ def get_links(soup):
     links = re.findall("<a href=\"(http://(\w+)\.caixin\.com/(\d{4}-\d{2}-\d{2})/\d+\.html)\">", str(soup))
     return links
 
-def get_meta(soup):
-    all_meta = soup.findAll('meta')
-    return all_meta
-
 def get_content(soup):
     if soup.find("div", {"id":"Main_Content_Val", "class":"text"}):
         content_div = soup.find("div", { "id":"Main_Content_Val", "class":"text"})
@@ -44,6 +40,11 @@ def get_reporter(soup):
     else:
         return None
 
+            content = [line for line in get_content(article)]
+            content = [line for line in get_content(article)]
+            content = [line for line in get_content(article)]
+            content = [line for line in get_content(article)]
+            content = [line for line in get_content(article)]
     first_para = content_div.find("p").encode('utf-8')
     LEFT_BRAC = '\xef\xbc\x88'
     RIGHT_BRAC = '\xef\xbc\x89'
@@ -64,7 +65,7 @@ def test_all():
         print category
         print date
         article = scraper.get_soup(url)
-        meta = get_meta(article)
+        meta = scraper.get_meta(article)
         print meta
         content = get_content(article)
         if content:

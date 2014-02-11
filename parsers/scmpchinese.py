@@ -30,10 +30,6 @@ def get_content(soup):
         return content[0]
     return content
 
-def get_meta(soup):
-    all_meta = soup.findAll('meta')
-    return all_meta
-
 def test_all():
     root = "http://www.nanzao.com"
     main = scraper.get_soup(root)
@@ -56,7 +52,7 @@ def test_all():
                 content = get_content(soup)
                 print "CONTENT"
                 print content
-                meta = get_meta(soup)
+                meta = scraper.get_meta(soup)
                 print "META"
                 print meta
                 print "ARTICLE NUM", i

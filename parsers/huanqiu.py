@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup as BS
 import re
@@ -8,8 +7,6 @@ from scraper import *
 huanqiu_scraper.py
 
 scrapes http://www.huanqiu.com/ for article content and information.
-
-Extend functions for multiple sites.
 """
 
 def get_links(soup):
@@ -35,21 +32,23 @@ def get_content(soup):
                 if p.string and (len(p.string) > 0):
                     yield p.string.encode('utf-8') 
 
-def get_meta(soup):
-    all_meta = soup.findAll('meta')
+def get_author(soup):
     author_text = soup.find("meta", {"name": "author"})
-    publishdate_text = soup.find("meta", {"name": "publishdate"})
 
     if author_text:
         author = author_text.get("content").encode("utf-8")
     else:
         author = None
-    if publishdate_text:
+    
+    return author
+
+def get_publishdate(soup):
+   publishdate_text = soup.find("meta", {"name": "publishdate"})
+   if publishdate_text:
         publishdate = publishdate_text.get("content")
     else:
         publishdate = None
-
-    return all_meta, author, publishdate
+    return publishdate
 
 
 def test_all():
@@ -67,7 +66,9 @@ def test_all():
             soup = get_soup(link)
             if soup:
                 encoded_content = [line for line in get_content(soup)]
-                all_meta, author, publishdate = get_meta(soup)
+                all_meta = scraper.get_meta(soup)
+                author = get_author(soup)
+                publishdate = get_publishdate(soup)
                 parsedate = strftime("%Y-%m-%d %H:%M:%S")
 
                 #for testing

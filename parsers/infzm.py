@@ -14,9 +14,6 @@ def get_links(soup):
     links = re.findall("href=\"(http://www\.infzm\.com/content/\d+)\"", str(soup))
     return links
 
-def get_meta(soup):
-    all_meta = soup.findAll('meta')
-
 def get_tags(soup):
     tag_links = soup.findAll('li', {'class' : 'tagContent'})
     if tag_links:
@@ -52,7 +49,7 @@ def test_all():
         print i
         print link
         article = scraper.get_soup(link)
-        meta = get_meta(article)
+        meta = scraper.get_meta(article)
         print meta
         content = get_content(article)
         print content
