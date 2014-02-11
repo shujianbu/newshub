@@ -10,11 +10,15 @@ customized functions for general parsing of news sites
 
 def get_pages_with_retry(url):
     """Try to get page with 5 retries"""
+    head =  {'Connection': 'Close',
+            'Proxy-Connection': 'Keep-Alive',
+            'User-Agent': 'Wget/1.13.4 (linux-gnu)'}
+
     for i in range(5):
         print "attempt", i+1
         while True:
             try:
-                r = requests.get(url, timeout=5)
+                r = requests.get(url, headers=head, timeout=5)
                 return r
             except requests.exceptions.Timeout:
                 print "Your request timed out."
