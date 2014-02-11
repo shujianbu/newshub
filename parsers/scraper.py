@@ -49,29 +49,11 @@ def get_title(soup):
         return soup.title.string.encode('utf-8')
 
 def get_meta(soup):
-    all_meta = soup.findall('meta')
-    return all_meta
+    if soup:
+        all_meta = soup.findAll('meta')
+        return all_meta
 
 def current_time():
     return strftime("%Y-%m-%d %H:%M:%S")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
