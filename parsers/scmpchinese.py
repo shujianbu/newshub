@@ -59,4 +59,5 @@ def test_all():
                 i += 1
     print "NUMBER OF SUCCESSFULLY FETCHED ARTICLES: ", i
     print "TOTAL NUMBER OF ARTICLES", num_links
-  
+
+test_all()  

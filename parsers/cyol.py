@@ -53,3 +53,5 @@ def test_all():
         i += 1
 
     print("SUCCESFULLY RETRIEVED " + str(i) + "/" + str(num_links))
+
+test_all()

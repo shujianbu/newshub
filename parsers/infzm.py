@@ -40,7 +40,11 @@ def get_content(soup):
     return content
 
 def test_all():
-    main = scraper.get_soup("http://www.infzm.com")
+    print "test11"
+
+    main = scraper.get_soup("http://www.infzm.com/")
+
+    print "test22"
     links = get_links(main)
     num_links = len(links)
 
@@ -56,3 +60,5 @@ def test_all():
         i += 1
 
     print("SUCCESFULLY RETRIEVED " + str(i) + "/" + str(num_links))
+
+test_all()

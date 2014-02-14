@@ -7,7 +7,7 @@ from time import strftime
 """
 customized functions for general parsing of news sites
 """
-
+print("test0")
 def get_pages_with_retry(url):
     """Try to get page with 5 retries"""
     head =  {'Connection': 'Close',

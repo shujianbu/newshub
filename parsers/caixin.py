@@ -40,11 +40,12 @@ def get_reporter(soup):
     else:
         return None
 
-            content = [line for line in get_content(article)]
-            content = [line for line in get_content(article)]
-            content = [line for line in get_content(article)]
-            content = [line for line in get_content(article)]
-            content = [line for line in get_content(article)]
+    content = [line for line in get_content(article)]
+    content = [line for line in get_content(article)]
+    content = [line for line in get_content(article)]
+    content = [line for line in get_content(article)]
+    content = [line for line in get_content(article)]
+    
     first_para = content_div.find("p").encode('utf-8')
     LEFT_BRAC = '\xef\xbc\x88'
     RIGHT_BRAC = '\xef\xbc\x89'
@@ -77,5 +78,4 @@ def test_all():
 
     print("SUCCESFULLY RETRIEVED " + str(i) + "/" + str(num_links))
 
-
-
+test_all()

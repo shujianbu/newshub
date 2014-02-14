@@ -1,7 +1,9 @@
 import requests
 from bs4 import BeautifulSoup as BS
 import re
-from scraper import *
+import time
+import scraper
+# from scraper import *
 
 """
 huanqiu_scraper.py
@@ -46,14 +48,14 @@ def get_publishdate(soup):
    publishdate_text = soup.find("meta", {"name": "publishdate"})
    if publishdate_text:
         publishdate = publishdate_text.get("content")
-    else:
+   else:
         publishdate = None
-    return publishdate
+   return publishdate
 
 
 def test_all():
     """Test scraper on all articles"""
-    main = get_soup("http://www.huanqiu.com/")
+    main = scraper.get_soup("http://www.huanqiu.com/")
     if main:    
         print "got the main soup"
         all_links = get_links(main)
@@ -63,13 +65,13 @@ def test_all():
         for link in all_links:
             category = get_category(link)
             print category
-            soup = get_soup(link)
+            soup = scraper.get_soup(link)
             if soup:
                 encoded_content = [line for line in get_content(soup)]
                 all_meta = scraper.get_meta(soup)
                 author = get_author(soup)
                 publishdate = get_publishdate(soup)
-                parsedate = strftime("%Y-%m-%d %H:%M:%S")
+                parsedate = time.strftime("%Y-%m-%d %H:%M:%S")
 
                 #for testing
                 if encoded_content:
@@ -86,3 +88,5 @@ def test_all():
     print "NUMBER OF SUCCESSFULLY FETCHED ARTICLES: ", i
     print "TOTAL NUMBER OF ARTICLES", num_links
     #TODO: Create class for above, format SQL
+
+test_all()
