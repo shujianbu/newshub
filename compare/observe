@@ -1,0 +1,56 @@
+##############0____0
+python compare.py ./articles/sample_1/Shujian-A1-V1-2014-02-10-1644.txt ./articles/sample_1/Shujian-A1-V2-2014-02-10-1944.txt output/0/output_0_1.html
+##############0____1
+python compare.py ./articles/sample_1/Shujian-A1-V2-2014-02-10-1944.txt ./articles/sample_1/Shujian-A1-V3-2014-02-11-1150.txt output/0/output_1_2.html
+##############0____2
+python compare.py ./articles/sample_1/Shujian-A1-V3-2014-02-11-1150.txt ./articles/sample_1/Shujian-A1-V4-2014-02-11-1502.txt output/0/output_2_3.html
+##############1____0
+python compare.py ./articles/sample_2/Yi-A1-V1-2014-02-10-1715.txt ./articles/sample_2/Yi-A1-V2-2014-02-10-1815.txt output/1/output_0_1.html
+##############1____1
+python compare.py ./articles/sample_2/Yi-A1-V2-2014-02-10-1815.txt ./articles/sample_2/Yi-A1-V3-2014-02-10-1915.txt output/1/output_1_2.html
+##############1____2
+python compare.py ./articles/sample_2/Yi-A1-V3-2014-02-10-1915.txt ./articles/sample_2/Yi-A1-V4-2014-02-10-2015.txt output/1/output_2_3.html
+##############1____3
+python compare.py ./articles/sample_2/Yi-A1-V4-2014-02-10-2015.txt ./articles/sample_2/Yi-A1-V5-2014-02-10-2115.txt output/1/output_3_4.html
+##############1____4
+python compare.py ./articles/sample_2/Yi-A1-V5-2014-02-10-2115.txt ./articles/sample_2/Yi-A1-V6-2014-02-10-2315.txt output/1/output_4_5.html
+##############1____5
+python compare.py ./articles/sample_2/Yi-A1-V6-2014-02-10-2315.txt ./articles/sample_2/Yi-A1-V7-2014-02-11-0815.txt output/1/output_5_6.html
+##############2____0
+python compare.py ./articles/sample_3/Yue-A1-V1-2014-02-11-1316.txt ./articles/sample_3/Yue-A1-V2-2014-02-11-2216.txt output/2/output_0_1.html
+##############2____1
+python compare.py ./articles/sample_3/Yue-A1-V2-2014-02-11-2216.txt ./articles/sample_3/Yue-A1-V3-2014-02-12-0016.txt output/2/output_1_2.html
+##############2____2
+python compare.py ./articles/sample_3/Yue-A1-V3-2014-02-12-0016.txt ./articles/sample_3/Yue-A1-V4-2014-02-12-2016.txt output/2/output_2_3.html
+##############2____3
+python compare.py ./articles/sample_3/Yue-A1-V4-2014-02-12-2016.txt ./articles/sample_3/Yue-A1-V5-2014-02-13-2216.txt output/2/output_3_4.html
+##############3____0
+python compare.py ./articles/sample_4/Shujian-A2-V1-2014-02-10-1648.txt ./articles/sample_4/Shujian-A2-V2-2014-02-10-1848.txt output/3/output_0_1.html
+##############3____1
+python compare.py ./articles/sample_4/Shujian-A2-V2-2014-02-10-1848.txt ./articles/sample_4/Shujian-A2-V3-2014-02-10-1945.txt output/3/output_1_2.html
+##############3____2
+python compare.py ./articles/sample_4/Shujian-A2-V3-2014-02-10-1945.txt ./articles/sample_4/Shujian-A2-V4-2014-02-11-0312.txt output/3/output_2_3.html
+##############3____3
+python compare.py ./articles/sample_4/Shujian-A2-V4-2014-02-11-0312.txt ./articles/sample_4/Shujian-A2-V5-2014-02-11-1153.txt output/3/output_3_4.html
+##############3____4
+python compare.py ./articles/sample_4/Shujian-A2-V5-2014-02-11-1153.txt ./articles/sample_4/Shujian-A2-V6-2014-02-11-1502.txt output/3/output_4_5.html
+##############4____0
+python compare.py ./articles/sample_5/Yi-A2-V1-2014-02-10-1715.txt ./articles/sample_5/Yi-A2-V2-2014-02-10-1815.txt output/4/output_0_1.html
+##############4____1
+python compare.py ./articles/sample_5/Yi-A2-V2-2014-02-10-1815.txt ./articles/sample_5/Yi-A2-V3-2014-02-10-1915.txt output/4/output_1_2.html
+##############4____2
+python compare.py ./articles/sample_5/Yi-A2-V3-2014-02-10-1915.txt ./articles/sample_5/Yi-A2-V4-2014-02-10-2015.txt output/4/output_2_3.html
+##############4____3
+python compare.py ./articles/sample_5/Yi-A2-V4-2014-02-10-2015.txt ./articles/sample_5/Yi-A2-V5-2014-02-10-2115.txt output/4/output_3_4.html
+##############4____4
+python compare.py ./articles/sample_5/Yi-A2-V5-2014-02-10-2115.txt ./articles/sample_5/Yi-A2-V6-2014-02-10-2315.txt output/4/output_4_5.html
+##############4____5
+python compare.py ./articles/sample_5/Yi-A2-V6-2014-02-10-2315.txt ./articles/sample_5/Yi-A2-V7-2014-02-11-0815.txt output/4/output_5_6.html
+##############5____0
+python compare.py ./articles/sample_6/Yue-A2-V1-2014-02-11-1316.txt ./articles/sample_6/Yue-A2-V2-2014-02-11-2216.txt output/5/output_0_1.html
+##############5____1
+python compare.py ./articles/sample_6/Yue-A2-V2-2014-02-11-2216.txt ./articles/sample_6/Yue-A2-V3-2014-02-12-0016.txt output/5/output_1_2.html
+##############5____2
+python compare.py ./articles/sample_6/Yue-A2-V3-2014-02-12-0016.txt ./articles/sample_6/Yue-A2-V4-2014-02-12-2016.txt output/5/output_2_3.html
+##############5____3
+python compare.py ./articles/sample_6/Yue-A2-V4-2014-02-12-2016.txt ./articles/sample_6/Yue-A2-V5-2014-02-13-2216.txt output/5/output_3_4.html
