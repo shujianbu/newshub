@@ -1,12 +1,17 @@
 import os
 
+aFolder = os.listdir("./articles")
+folderNum = len(aFolder)
+
+print folderNum
+
 aPath = []
-for i in range(6):
-	_aPath = "./articles/sample_" + str(i+1)
+for i in range(folderNum):
+	_aPath = "./articles/sample_" + str(i)
 	aPath.append(_aPath)
 
 aSet = []
-for i in range(6):
+for i in range(folderNum):
 	_aSet = os.listdir(aPath[i])
 	_aSet.sort()
 	aSet.append(_aSet)
@@ -15,7 +20,7 @@ if os.system("cd output") == 0:
 	os.system("rm -r output")
 os.mkdir("output")
 
-for i in range(6):
+for i in range(folderNum):
 	dirPath = "output/" + str(i)
 	os.mkdir(dirPath)
 

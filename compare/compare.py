@@ -21,7 +21,8 @@ def comp(t1, t2):
 	diffs = dmp.diff_main(t1, t2)
 	dmp.diff_cleanupSemantic(diffs)
 	output_html = dmp.diff_prettyHtml(diffs)
-	output_html.encode('utf-8')
+	#output_html.decode('utf-8')
+	#output_html.encode('utf-8')
 
 	f_write.write("<meta http-equiv=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"/>")
 	f_write.write(output_html)
