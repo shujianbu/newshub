@@ -3,8 +3,6 @@ import os
 aFolder = os.listdir("./articles")
 folderNum = len(aFolder)
 
-print folderNum
-
 aPath = []
 for i in range(folderNum):
 	_aPath = "./articles/sample_" + str(i)
@@ -27,12 +25,13 @@ for i in range(folderNum):
 	for j in range(len(aSet[i])-1):
 		articlePath_A = aPath[i] + '/' + aSet[i][j]
 		articlePath_B = aPath[i] + '/' + aSet[i][j+1]
-
-		print "##############" + str(i) + "____" + str(j)
-	
 		outputFile = dirPath + "/output_" + str(j) + '_' + str(j+1) + ".html"
 		command = "python compare.py %s %s %s" %(articlePath_A, articlePath_B, outputFile)
-		print command
+		#print command
 		os.system(command)
 
 os.system("rm *.pyc")
+
+print "----------------------"
+print "successfully executed!"
+print "----------------------"
