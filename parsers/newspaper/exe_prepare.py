@@ -1,12 +1,18 @@
 import os
 
 db_identify = "mysql -X --default-character-set=utf8 -h newshub.c5dehgoxr0wn.us-west-2.rds.amazonaws.com"
-db_authenticate = " -u newshub -pcolumbiacuj"
-db_query = "\"use Newshub; select * from sampleTable\"" # can be modified
-db_connect = db_identify + db_authenticate + " -e " + db_query + " > a.xml"
+db_authenticate = " -u newshub -pcolumbiacuj -e \"use Newshub; "
 
+db_query_distinct = "select distinct url from sampleTable order by url ASC\""
+db_query_order = "select * from sampleTable order by url ASC, Time_Check DESC\""
+
+# get all distinct urls stored in the DB
+db_connect = db_identify + db_authenticate + db_query_distinct + " > DB_urls.xml"
 print db_connect
 os.system(db_connect)
 
-#os.system("mysql -X --default-character-set=utf8 -h newshub.c5dehgoxr0wn.us-west-2.rds.amazonaws.com\
-# -u newshub -pcolumbiacuj -e \"use Newshub; select * from sampleTable;\" > a.xml")
+# get all entries in the DB ordered by their urls and time_check
+db_connect = db_identify + db_authenticate + db_query_order + " > DB_stored.xml"
+print db_connect
+os.system(db_connect)
+

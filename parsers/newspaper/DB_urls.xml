@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+
+<resultset statement="select distinct url from sampleTable order by url ASC
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="url">http://bank.hexun.com/2014-03-19/163158176.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://comments.caijing.com.cn/2014-03-19/114019623.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://ctdsb.cnhubei.com/html/ctdsb/20140318/ctdsb2297513.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://finance.nandu.com/html/201403/19/887119.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://finance.nandu.com/html/201403/19/887121.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://health.ycwb.com/2014-03/18/content_6337802.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://house.nandu.com/html/201403/19/887118.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://jjckb.xinhuanet.com/2014-03/18/content_495908.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://life.nandu.com/html/201403/19/887117.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://life.nandu.com/html/201403/19/887120.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://life.nandu.com/html/201403/19/887122.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://news.xinhuanet.com/edu/2014-03/18/c_126281030.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://news.xinhuanet.com/photo/2014-03/18/c_126284770.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://news.ycwb.com/2014-03/18/content_6338458.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://news.ycwb.com/picstorage/2014-03/18/content_6337042.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://overseas.caijing.com.cn/2014-03-18/114016612.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016698.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016991.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://sports.nandu.com/html/201403/19/887123.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://sports.nandu.com/html/201403/19/887124.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/2014-03/18/content_17358085.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/2014-03/18/content_17358087.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357565.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357566.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357567.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357568.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/18/content_17354255.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/18/content_17354438.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/epaper/2014-03/17/content_17351405.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/epaper/2014-03/17/content_17351407.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/epaper/2014-03/17/content_17351408.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/17/content_17350411.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/18/content_17354494.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/18/content_17354496.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/18/content_17356963.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/us/2014-03/18/content_17358090.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/16/content_17350038.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354322.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354349.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354411.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354889.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17355056.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17355523.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17355526.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.chinadaily.com.cn/china/2014-03/18/content_17355489.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.chinadaily.com.cn/epaper/2014-03/17/content_17351406.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.chinadaily.com.cn/kindle/2014-03/14/content_17347442.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.chinadaily.com.cn/kindle/2014-03/14/content_17347443.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.scmp.com/news/china-insider/article/1450899/chinese-government-wants-kill-us-say-hong-kon</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.scmp.com/news/world/article/1450245/president-maduro-warns-caracas-protesters-clear-squar</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.scmp.com/property/hong-kong-china/article/1448521/centaline-build-its-online-business-mai</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.yicai.com/news/2014/03/3574873.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.yicai.com/news/2014/03/3593223.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.yicai.com/news/2014/03/3597725.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.yicai.com/Stock/sz200726.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.yicai.com/video/2014/03/3597749.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.yicai.com/video/2014/03/3598906.html</field>
+  </row>
+
+  <row>
+	<field name="url">www.a.com</field>
+  </row>
+
+  <row>
+	<field name="url">www.b.com</field>
+  </row>
+</resultset>

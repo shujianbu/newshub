@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<resultset statement="select * from sampleTable order by url, Time_Check
+<resultset statement="select * from sampleTable order by url ASC, Time_Check DESC
 " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <row>
 	<field name="ID">293</field>
@@ -379,6 +379,41 @@
 	<field name="Time_Publish">2014-03-18 18:43:06</field>
 	<field name="Time_Check">2014-03-18 18:43:06</field>
 	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">297</field>
+	<field name="Title">两艘货船在日本近海相撞沉没 9名中国船员下落不明-财经网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://overseas.caijing.com.cn/2014-03-18/114016612.html</field>
+	<field name="Time_Publish">2014-03-18 18:53:28</field>
+	<field name="Time_Check">2014-03-18 18:53:28</field>
+	<field name="Content">新华社快讯：中国驻日大使馆说，一艘有20名中国船员的巴拿马籍货船和一艘韩国货船18日凌晨在日本神奈川县附近水域相撞沉没，11名中国船员获救、9人下落不明。</field>
+  </row>
+
+  <row>
+	<field name="ID">296</field>
+	<field name="Title">浙江举办乡干部相亲会</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016698.html</field>
+	<field name="Time_Publish">2014-03-18 18:53:20</field>
+	<field name="Time_Check">2014-03-18 18:53:20</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">298</field>
+	<field name="Title">中年男子假装富豪约见女网友 见面发现是女儿-财经网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016991.html</field>
+	<field name="Time_Publish">2014-03-18 18:53:41</field>
+	<field name="Time_Check">2014-03-18 18:53:41</field>
+	<field name="Content">据新民网报道 安徽马鞍山丹阳镇40多岁的男子张某通过微信“摇一摇”摇到一名20岁的少女，张某声称自己30岁左右，家财万贯，通过聊天，双方约定在宾馆开房见面，不料，见面后才发现这位“女友”竟是自己的女儿。
+
+家住马鞍山市丹阳镇的张某已经40多岁，虽然已结婚20多年并且养育了一个女儿，但是风流成性的张某并不珍惜这来之不易的幸福生活，整天在外面结交异性朋友。妻子李某早起疑心，但是无奈抓不到证据，因此也不好说什么。</field>
   </row>
 
   <row>
@@ -1336,6 +1371,117 @@ Chris Hosmer, managing director (Asia Pacific) of Continuum, a leading service d
   </row>
 
   <row>
+	<field name="ID">301</field>
+	<field name="Title">‘The Chinese government wants to kill us,’ say Hong Kong women accused of Taiwan</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.scmp.com</field>
+	<field name="url">http://www.scmp.com/news/china-insider/article/1450899/chinese-government-wants-kill-us-say-hong-kon</field>
+	<field name="Time_Publish">2014-03-18 18:54:26</field>
+	<field name="Time_Check">2014-03-18 18:54:26</field>
+	<field name="Content">Two women said to be from Hong Kong have become notorious in Taiwan for allegedly vandalising an apartment and telling local authorities that they are being &quot;hunted&quot; by the Chinese government.
+
+Tsang Lai-wun, 20, and Yau Hiu-tung, 19, made headlines on March 12 after they used fake IDs to enter Taiwan and defaced NT$30,000 (HK$8,000) worth of their former Taipei landlord's property, local media reported.
+
+The pair reportedly filled their 33-square-metre room with rubbish, sanitary pads and bloody underwear, and even stole a 37-inch flat-screen television.
+
+According to Taiwan's Now News, after Tsang and Yau were questioned by Taipei police, news of their arrest went viral and the duo fled to southern Taiwan. They were first reported by a hostel owner in Pingtung county and finally apprehended in a separate hostel in Tainan, Taiwan's oldest city.
+
+A worker at the Tainan hostel recognised the two women from television, even though Tsang had dyed her hair orange and Yau had dyed hers pink.
+
+The worker said that one of the women had checked into the hostel using the fake name Chen Mei-ling, but &quot;definitely had a Hong Kong accent&quot; which revealed that she was most likely not a native Taiwanese.
+
+Local Tainan police arrived at the hostel and found that the women's room had been vandalised in a similar manner as their flat in Taipei. Rubbish was strewn about the bed, table and floor, while the toilet had been blocked with tissue. The words &quot;Taiwan is China&quot; had been written on the wall.
+
+Tsang and Yau were arrested and taken to a police station in Taipei. Upon arrest, the two women reportedly demanded fried chicken, and Yau, who had been eating dried pinapple cakes that had cut her gums, asked police to call an ambulance. Her request was denied.
+
+According to Apple Daily reports, when authorities asked the women why they had used fake IDs to enter Taiwan, the pair said that they were on the run after robbing 100,000 yuan (HK$ 126,000) worth of treasure from graves in Xiamen, Fujian province.
+
+Tsang and Yau added that they had smuggled themselves on a boat to the outlying Taiwanese island of Kinmen before entering Taipei and said they had fled Hong Kong after they were framed for stealing a mobile phone.
+
+They insisted that the Chinese Communist Party was &quot;trying to kill them&quot;, and that they planned to commit suicide after their funds were exhausted.
+
+Their claims have yet to be confirmed and investigations are still underway.
+
+Prior to being arrested for theft, forgery and criminal damage, the pair alleged that they were both from Hong Kong and had come to Taipei to study at National Taiwan University of Arts and National Taiwan University.
+
+News of the women's actions has ignited heated online discussion among several Hongkongers, and some netizens have speculated that the women may be &quot;new Hongkongers&quot;, or recent migrants from the mainland.</field>
+  </row>
+
+  <row>
+	<field name="ID">300</field>
+	<field name="Title">President Maduro warns Caracas protesters to clear square</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.scmp.com</field>
+	<field name="url">http://www.scmp.com/news/world/article/1450245/president-maduro-warns-caracas-protesters-clear-squar</field>
+	<field name="Time_Publish">2014-03-18 18:54:22</field>
+	<field name="Time_Check">2014-03-18 18:54:22</field>
+	<field name="Content">Venezuela's President Nicolas Maduro warned protesters in Caracas to clear a square they have made their stronghold, or face eviction by security forces.
+
+Plaza Altamira, in upscale east Caracas, has been a focus of anti-government protests and violence during six weeks of unrest around Venezuela that has killed 28 people.
+
+&quot;I'm giving the Chuckys, the killers, just a few hours,&quot; Maduro said on Saturday, using the name of a murderous child-doll in a horror film to describe anti-government demonstrators who have made the normally genteel 1940s square a base.
+
+&quot;If they don't retreat, I'm going to liberate those spaces with the security forces.&quot;
+
+As dusk fell on Saturday, there were only a handful of protesters in Altamira Square, but some demonstrators were starting to put up barricades of rubbish on other streets in the zone.
+
+Students and other protesters have been using the square, in the pro-opposition Chacao district of Caracas, as a rallying point since a wave of protests started to gather steam in mid-February.
+
+Most nights around dusk, a hard core of several hundred demonstrators has been fighting police and army lines there, in an attempt to access a nearby highway and block traffic.
+
+At a military rally, Maduro also alleged that right-wingers in the US State Department and Pentagon were recommending extreme measures against Venezuela, including sanctions and even his assassination.
+
+&quot;President [Barack] Obama, if this message reaches you, you should know that it would be the worst mistake of your life to sign the authorisation of the assassination of President Nicolas Maduro,&quot; he said in a speech recalling his predecessor Hugo Chavez's spats with the United States.
+
+US antipathy to the socialist government has been in evidence since the start of Chavez's 1999-2013 rule, not least in Washington's quick recognition of a brief 2002 coup against him.
+
+Chavez died from cancer last year, with his protégé Maduro, a 51-year-old former bus driver, winning a vote to replace him.
+
+Maduro says he has seen off a &quot;coup&quot; attempt, and he does not look in danger of being toppled, with the military apparently still behind him.</field>
+  </row>
+
+  <row>
+	<field name="ID">299</field>
+	<field name="Title">Centaline to build up its online business in mainland China</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.scmp.com</field>
+	<field name="url">http://www.scmp.com/property/hong-kong-china/article/1448521/centaline-build-its-online-business-mai</field>
+	<field name="Time_Publish">2014-03-18 18:54:17</field>
+	<field name="Time_Check">2014-03-18 18:54:17</field>
+	<field name="Content">Centaline China, the mainland’s largest property agency by number of branches for the past 10 years, is preparing for the changes that will result from the boom in e-commerce in real estate.
+
+“Our goal last year is to counter the competition from Home Link, our largest competitor on the mainland. This year, we will invest heavily in the online business,” said Sherman Lai Ming-kai, chairman of Centaline Group, the parent company of Centaline China.
+
+Centaline China owns more than 1,700 branches in 15 mainland cities and already has its own property website.
+
+However, that is not enough in this competitive market, Lai said.
+
+E-commerce on the mainland is more popular and well-developed than in Hong Kong, he said.
+
+In the second-hand market, Home Link, a Beijing-based property agency, has developed a mature online property platform and app for smartphones.
+
+Its intranet is also well developed and allows its agents to search for suitable flats available for sale.
+
+I believe e-commerce will create a larger service platform for our business. We could provide a variety of products and immigration services to clients
+
+In the new home market, companies such as online shopping platform Taobao and property information websites SouFun and Sina House have expanded into the property agency business.
+
+“For example, they will gather hundreds of agencies to sell a project and negotiate with the developer to offer a discount,” Lai said.
+
+“If a certain number of people sign up for the offer, then the buyers would be able to get the discounted price.”
+
+Nearly 400 new projects in Beijing are offering discounts on SouFun at present.
+
+“We will set up and launch an e-commerce platform on the mainland this year,” Lai said. “Our strength is we have a strong back-up from our branches and staff.”
+
+The popularity of e-commerce also provides property agencies with more business opportunities, Lai said.
+
+“I believe e-commerce will create a larger service platform for our business. We could provide a variety of products and immigration services to clients,” he said.
+
+In the C-Suite interview on page P3, Sherman Lai reveals his strategies to deal with competitors and why he identifies Home Link as the major competitor in the mainland’s agency business. He also talks about his outlook for the market.</field>
+  </row>
+
+  <row>
 	<field name="ID">244</field>
 	<field name="Title">阿里再投佰程旅行网 BAT逐鹿在线旅游_财经频道_一财网</field>
 	<field name="Author">author</field>
@@ -1468,46 +1614,57 @@ MINI ONE D车型国内没有，因为这是柴油车型。新一代MINI ONE D搭
   </row>
 
   <row>
-	<field name="ID">248</field>
-	<field name="Title">aaa</field>
-	<field name="Author"></field>
+	<field name="ID">306</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
 	<field name="Domain">domain</field>
-	<field name="url">www</field>
-	<field name="Time_Publish">2014-03-18 18:13:21</field>
-	<field name="Time_Check">2014-03-18 18:13:21</field>
-	<field name="Content">what is this</field>
+	<field name="url">www.a.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:50</field>
+	<field name="Time_Check">2014-03-19 04:14:50</field>
+	<field name="Content">content</field>
   </row>
 
   <row>
-	<field name="ID">249</field>
-	<field name="Title">bbb</field>
-	<field name="Author"></field>
+	<field name="ID">304</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
 	<field name="Domain">domain</field>
-	<field name="url">www</field>
-	<field name="Time_Publish">2014-03-18 18:14:25</field>
-	<field name="Time_Check">2014-03-18 18:14:25</field>
-	<field name="Content">what is this</field>
+	<field name="url">www.a.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:18</field>
+	<field name="Time_Check">2014-03-19 04:14:18</field>
+	<field name="Content">content</field>
   </row>
 
   <row>
-	<field name="ID">250</field>
-	<field name="Title">bbb</field>
-	<field name="Author"></field>
+	<field name="ID">302</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
 	<field name="Domain">domain</field>
-	<field name="url">www</field>
-	<field name="Time_Publish">2014-03-18 18:14:36</field>
-	<field name="Time_Check">2014-03-18 18:14:36</field>
-	<field name="Content">what is this</field>
+	<field name="url">www.a.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:04</field>
+	<field name="Time_Check">2014-03-19 04:14:04</field>
+	<field name="Content">content</field>
   </row>
 
   <row>
-	<field name="ID">251</field>
-	<field name="Title">aaa</field>
-	<field name="Author"></field>
+	<field name="ID">305</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
 	<field name="Domain">domain</field>
-	<field name="url">www</field>
-	<field name="Time_Publish">2014-03-18 18:14:42</field>
-	<field name="Time_Check">2014-03-18 18:14:42</field>
-	<field name="Content">what is this</field>
+	<field name="url">www.b.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:24</field>
+	<field name="Time_Check">2014-03-19 04:14:24</field>
+	<field name="Content">content</field>
+  </row>
+
+  <row>
+	<field name="ID">303</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
+	<field name="Domain">domain</field>
+	<field name="url">www.b.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:13</field>
+	<field name="Time_Check">2014-03-19 04:14:13</field>
+	<field name="Content">content</field>
   </row>
 </resultset>
