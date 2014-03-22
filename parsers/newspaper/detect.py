@@ -1,4 +1,4 @@
-import os
+#import os
 import sys
 import diff_match_patch
 import MySQLdb
@@ -28,7 +28,7 @@ def upload_meta(url, title, author, domain, time_pub, text):
 	cursor.close()
 	conn.close()
 
-	print "upload an article"
+	print "upload an updated article"
 
 
 def compare_article(url_urls, content_urls):
@@ -57,11 +57,9 @@ def compare_article(url_urls, content_urls):
 					domain_stored = entry.find("field[@name='Domain']").text
 					time_pub_stored = entry.find("field[@name='Time_Publish']").text
 
-					#url, title, domain, text
 					upload_meta(url_stored, title_stored, author_stored, domain_stored, \
 						time_pub_stored, content_urls)
 
-				print url_stored
 				break
 			else:
 				continue
@@ -70,24 +68,19 @@ def get_article():
 	tree_urls = ET.parse("DB_urls.xml")
 	root_urls = tree_urls.getroot()
 
-	'''
-	tree_stored = ET.parse("DB_stored.xml")
-	root_stored = tree_stored.getroot()
-	'''
-
 	# The problem with English and Chinese can be solved with 
 	for field_urls in root_urls.findall("row"):
 		url_urls = field_urls.find("field").text
-		print "****************"
-		print url_urls
+		#print "****************"
+		#print url_urls
 
 		a = Article(url_urls, language='zh')
 		a.download()
 		a.parse()
 		content_urls = a.text
-		print a.title
+		#print a.title
 		# This is the article content
-		print content_urls
+		#print content_urls
 		
 		compare_article(url_urls, content_urls)
 

@@ -1,11 +1,11 @@
 import newspaper
-import os
+#import os
 import sys
 import re
 import MySQLdb
 
 from time import gmtime, strftime
-from newspaper import Config
+#from newspaper import Config
 #from xml.dom.minidom import parse
 
 reload(sys)

@@ -1,0 +1,1730 @@
+<?xml version="1.0"?>
+
+<resultset statement="select * from sampleTable order by url ASC, Time_Check DESC
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="ID">293</field>
+	<field name="Title">第三方支付回应拟加强监管称 支付宝理财通用户不会受影响-银行频道-和讯网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.hexun.com</field>
+	<field name="url">http://bank.hexun.com/2014-03-19/163158176.html</field>
+	<field name="Time_Publish">2014-03-18 18:45:22</field>
+	<field name="Time_Check">2014-03-18 18:45:22</field>
+	<field name="Content">针对央行下发的《支付机构网络支付业务管理办法》的征求意见稿，阿里小微金融服务集团和财付通3月18日分别作出回应。阿里小微称，支付宝快捷支付用户申购和赎回余额宝，现在和未来都不会受到任何影响。财付通也表示，用户在理财通平台购买的是华夏财富宝基金，不属于第三方账户支付和转账业务范围。
+
+央行近日下发的《支付机构网络支付业务管理办法》征求意见稿主要内容包括：支付机构不得为金融机构以及从事融资、理财、担保、货币兑换等金融业务的其他机构开立支付账户。支付机构应对转账转入资金进行单独管理，转入资金只能用于消费和转账转出，不得向银行账户回提。个人支付账户转账单笔金额不得超过1000元，同一客户所有支付账户转账年累计金额不得超过1万元。个人支付账户单笔消费金额不得超过5000元，同一个客户所有支付账户消费月累计金额不得超过1万元。超过限额的，应通过客户的银行账户办理。
+
+分析人士指出，央行之所以拟出台如此规定，是第三方支付脱离银行体系，银行对资金的划转难以掌控，央行担心因不透明会引发洗钱等诸多问题。
+
+同时征求意见的还有《中国人民银行关于手机支付业务发展的指导意见》征求意见稿，主要内容是支付机构不得为付款人和实体特约商户的交易提供网络支付服务。
+
+北京高华证券认为，如果新规实施，可能放缓互联网金融增长，其中包括余额宝等网络T+0货币基金，因为潜在的月/年交易额上限，可能限制投资者通过支付宝和财付通等网络支付机构进行转账的能力。
+
+分析人士还认为，余额宝受影响最大，如果余额宝里的资金只能用于消费，不能回提，而且申购额一年不能超过一万块钱，就限制了余额宝的规模。
+
+“基于我们对政策的理解和跟监管部门的沟通，支付宝快捷支付用户申购和赎回余额宝，现在和未来都不会受到任何影响，请大家放心。”阿里小微金融服务集团方面3月18日如是回应。
+
+阿里小微还表示，征求意见稿属于草案，还处于草拟阶段，并未正式颁布，更没有实施。每一个管理办法的出台会经历很多版本的草案。公司已经将相关的意见反馈给央行，并且正积极与央行进行沟通中。
+
+微信平台上的理财通被称为类余额宝，其运营方财付通方面也表示，意见稿限制的是第三方账户的支付和转账额度，而用户在理财通平台购买的是华夏财富宝基金，申购基金是使用银行卡直接支付，赎回基金是通过银行卡直接提现，均不属于第三方账户支付和转账业务范围，不受限制影响，理财通服务一切正常，用户可放心使用。
+
+业内人士指出，尽管意见稿在第三方支付机构中引发了很大反弹，但互联网金融创新的趋势不会因此改变，事实上，央行人士也多次表示鼓励互联网创新。
+
+据报道，中国支付清算协会常务副会长兼秘书长蔡洪波3月18日表示，二维码支付被叫停的原因主要是目前技术安全标准的缺失。“应该说，二维码有一定的安全性，但是否达到金融支付体系的安全标准还不确定。将来通过鉴定，达标后再推广运用，也是有可能的。”</field>
+  </row>
+
+  <row>
+	<field name="ID">293</field>
+	<field name="Title">第三方支付回应央行拟加强监管称 支付宝理财通用户不会受影响-银行频道-和讯网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.hexun.com</field>
+	<field name="url">http://bank.hexun.com/2014-03-19/163158176.html</field>
+	<field name="Time_Publish">2014-03-18 18:45:22</field>
+	<field name="Time_Check">2014-03-19 01:41:22</field>
+	<field name="Content">针对央行下发的《支付机构网络支付业务管理办法》的征求意见稿，阿里小微金融服务集团和财付通3月18日分别作出回应。阿里小微称，支付宝快捷支付用户申购和赎回余额宝，现在和未来都不会受到任何影响。财付通也表示，用户在理财通平台购买的是华夏财富宝基金，不属于第三方账户支付和转账业务范围。
+
+央行近日下发的《支付机构网络支付业务管理办法》征求意见稿主要内容包括：个人支付账户转账单笔金额不得超过1000元，同一客户所有支付账户转账年累计金额不得超过1万元。个人支付账户单笔消费金额不得超过5000元，同一个客户所有支付账户消费月累计金额不得超过1万元。超过限额的，应通过客户的银行账户办理。
+
+分析人士指出，央行之所以拟出台如此规定，是第三方支付脱离银行体系，银行对资金的划转难以掌控，央行担心因不透明会引发洗钱等诸多问题。
+
+同时征求意见的还有《中国人民银行关于手机支付业务发展的指导意见》征求意见稿，主要内容是支付机构不得为付款人和实体特约商户的交易提供网络支付服务。
+
+北京高华证券认为，如果新规实施，可能放缓互联网金融增长，其中包括余额宝等网络T+0货币基金，因为潜在的月/年交易额上限，可能限制投资者通过支付宝和财付通等网络支付机构进行转账的能力。
+
+分析人士还认为，申购额一年不能超过一万块钱，就限制了余额宝的规模。
+
+“基于我们对政策的理解和跟监管部门的沟通，支付宝快捷支付用户申购和赎回余额宝，现在和未来都不会受到任何影响，请大家放心。”阿里小微金融服务集团方面3月18日如是回应。
+
+阿里小微还表示，征求意见稿属于草案，还处于草拟阶段，并未正式颁布，更没有实施。每一个管理办法的出台会经历很多版本的草案。公司已经将相关的意见反馈给央行，并且正积极与央行进行沟通中。
+
+微信平台上的理财通被称为类余额宝，其运营方财付通方面也表示，意见稿限制的是第三方账户的支付和转账额度，而用户在理财通平台购买的是华夏财富宝基金，申购基金是使用银行卡直接支付，赎回基金是通过银行卡直接提现，均不属于第三方账户支付和转账业务范围，不受限制影响，理财通服务一切正常，用户可放心使用。
+
+业内人士指出，尽管意见稿在第三方支付机构中引发了很大反弹，但互联网金融创新的趋势不会因此改变，事实上，央行人士也多次表示鼓励互联网创新。
+
+据报道，中国支付清算协会常务副会长兼秘书长蔡洪波3月18日表示，二维码支付被叫停的原因主要是目前技术安全标准的缺失。“应该说，二维码有一定的安全性，但是否达到金融支付体系的安全标准还不确定。将来通过鉴定，达标后再推广运用，也是有可能的。”</field>
+  </row>
+
+  <row>
+	<field name="ID">293</field>
+	<field name="Title">第三方支付回应央行拟加强监管称 支付宝理财通用户不会受影响-银行频道-和讯网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.hexun.com</field>
+	<field name="url">http://bank.hexun.com/2014-03-19/163158176.html</field>
+	<field name="Time_Publish">2014-03-18 18:45:22</field>
+	<field name="Time_Check">2014-03-22 20:15:30</field>
+	<field name="Content">针对央行下发的《支付机构网络支付业务管理办法》的征求意见稿，阿里小微金融服务集团和财付通3月18日分别作出回应。阿里小微称，支付宝快捷支付用户申购和赎回余额宝，现在和未来都不会受到任何影响。财付通也表示，用户在理财通平台购买的是华夏财富宝基金，不属于第三方账户支付和转账业务范围。
+
+央行近日下发的《支付机构网络支付业务管理办法》征求意见稿主要内容包括：支付机构不得为金融机构以及从事融资、理财、担保、货币兑换等金融业务的其他机构开立支付账户。支付机构应对转账转入资金进行单独管理，转入资金只能用于消费和转账转出，不得向银行账户回提。个人支付账户转账单笔金额不得超过1000元，同一客户所有支付账户转账年累计金额不得超过1万元。个人支付账户单笔消费金额不得超过5000元，同一个客户所有支付账户消费月累计金额不得超过1万元。超过限额的，应通过客户的银行账户办理。
+
+同时征求意见的还有《中国人民银行关于手机支付业务发展的指导意见》征求意见稿，主要内容是支付机构不得为付款人和实体特约商户的交易提供网络支付服务。
+
+北京高华证券认为，如果新规实施，可能放缓互联网金融增长，其中包括余额宝等网络T+0货币基金，因为潜在的月/年交易额上限，可能限制投资者通过支付宝和财付通等网络支付机构进行转账的能力。
+
+分析人士还认为，余额宝受影响最大，如果余额宝里的资金只能用于消费，不能回提，而且申购额一年不能超过一万块钱，就限制了余额宝的规模。
+
+“基于我们对政策的理解和跟监管部门的沟通，支付宝快捷支付用户申购和赎回余额宝，现在和未来都不会受到任何影响，请大家放心。”阿里小微金融服务集团方面3月18日如是回应。
+
+阿里小微还表示，征求意见稿属于草案，还处于草拟阶段，并未正式颁布，更没有实施。每一个管理办法的出台会经历很多版本的草案。公司已经将相关的意见反馈给央行，并且正积极与央行进行沟通中。
+
+微信平台上的理财通被称为类余额宝，其运营方财付通方面也表示，申购基金是使用银行卡直接支付，赎回基金是通过银行卡直接提现，均不属于第三方账户支付和转账业务范围，不受限制影响，理财通服务一切正常，用户可放心使用。
+
+业内人士指出，尽管意见稿在第三方支付机构中引发了很大反弹，但互联网金融创新的趋势不会因此改变，事实上，央行人士也多次表示鼓励互联网创新。
+
+据报道，中国支付清算协会常务副会长兼秘书长蔡洪波3月18日表示，二维码支付被叫停的原因主要是目前技术安全标准的缺失。</field>
+  </row>
+
+  <row>
+	<field name="ID">292</field>
+	<field name="Title">受贿补偿家人-财经网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://comments.caijing.com.cn/2014-03-19/114019623.html</field>
+	<field name="Time_Publish">2014-03-18 18:44:56</field>
+	<field name="Time_Check">2014-03-18 18:44:56</field>
+	<field name="Content">据报道，四川省农信社主任(正厅级干部)李永真，因受贿罪、贪污罪数罪并罚入狱。她称，自己公权私用，是因自己事业的成功想“给家人一点补偿”。可网民对此并不“买账”。（3月18日《检察日报》） 漫画/勾犇</field>
+  </row>
+
+  <row>
+	<field name="ID">291</field>
+	<field name="Title">图文：初春好时节 明星家庭乐_楚天都市报_多媒体报</field>
+	<field name="Author">author</field>
+	<field name="Domain">ctdsb.cnhubei.com</field>
+	<field name="url">http://ctdsb.cnhubei.com/html/ctdsb/20140318/ctdsb2297513.html</field>
+	<field name="Time_Publish">2014-03-18 18:43:59</field>
+	<field name="Time_Check">2014-03-18 18:43:59</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">253</field>
+	<field name="Title">贵州茅台拟剥离系列酒 新公司将谋划上市_财经_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://finance.nandu.com/html/201403/19/887119.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:11</field>
+	<field name="Time_Check">2014-03-18 18:29:11</field>
+	<field name="Content">摘要：贵州省近日启动国企产权制度改革3年行动计划，明确本轮改革不设股比、不限合作方式，其中最引人关注的当属茅台集团的大手笔变革。前述报道即表示，目前，茅台集团计划推进茅台酒板块、其他酒类板块、营销商贸板块、金融板块、文化旅游板块、创业投资板块等七大业务板块，逐步培育形成6～7个子集团。
+
+贵州省近日启动国企产权制度改革3年行动计划，明确本轮改革不设股比、不限合作方式，其中最引人关注的当属茅台集团的大手笔变革。
+
+茅台集团的改革目标为建设产融结合的多元化控股集团，到2017年整体销售收入达千亿元级。将推进茅台酒、其他酒类、营销商贸、金融、文化旅游、创业投资等七大业务板块，逐步培育形成6~7个子集团；在酒类业务方面，计划将系列酒剥离贵州茅台，集团保健酒、葡萄酒等业务装入习酒板块等。
+
+针对茅台集团的变革，有人表示赞赏，认为比预期的动作更大，尤其是剥离系列酒的举措，能让上市公司聚焦主品牌。也有专家提醒，茅台集团的强项在于酒类业务，现在加码非主营板块，进入不熟悉的领域，应注意风险的把控，此前也不乏酒企多元化的失败案例。
+
+在茅台集团的“改革路线图”中，“内部拆分股份公司”的计划引起了资本市场及经销商的高度关注。
+
+这一“另起炉灶”的做法，得到了多名业内人士及经销商的肯定，这样既可保证贵州茅台专注于优势品牌，又为培育系列酒提供了机遇。白酒营销专家杨承平向《每日经济新闻》记者表示，系列酒在跟随茅台期间已累积了品牌、市场两大优势，可看作茅台集团一把“尚未开锋的宝剑”，若运用得当，未来将有较大盈利空间。
+
+长期以来，白酒业同一品牌之下产品众多、过分稀释主品牌的现象较为普遍，贵州茅台也不例外。业内人士认为，将系列酒整体从股份公司剥离，能有效减少对茅台品牌力的稀释。
+
+“股份公司此举意在整合产品系列，进一步稳固品牌价值。系列酒剥离之后或对股份公司的短期业绩产生一定影响，但从长远来看可以明晰品牌价值、提升整体利润水平。”中投顾问食品行业研究员向健军在接受 《每日经济新闻》记者的采访时表示。
+
+不少业内人士则认为，系列酒剥离后，将更利于股份公司集中精力推动其主品牌茅台高档酒的销售，也有利于解决同业竞争问题。
+
+实际上，贵州茅台从2011年起就已开始实施 “淡化非茅台酒”战略，预计3~5年完成淡化工作。也因此，一些业内人士认为做出将其剥离的决定可看作“符合公司计划”。
+
+至于系列酒剥离至新公司后能否顺利上市，向健民表示，目前国内整个上市环境较之前更加严格，新公司需要经营良好、具有发展前景方能成功上市。
+
+此外，业内人士亦表示，将众多品牌拆分后独立运作将是未来酒企的发展方向。“特别是以公司形式运作，将更加有效地整合社会资源，促进品牌提升，形成差异竞争。”杨承平告诉记者。
+
+系列酒是贵州茅台公司中的中低价位产品，一直以来，贵州茅台对其投入较小，其收入占公司收入的比重不到10%，毛利仅占8%。
+
+不过，在白酒行业进入严冬之时，风向已悄然变化。茅台集团对系列酒的逐渐重视，显示出当前白酒业转型“民酒”的力度只增不减。
+
+近日，茅台某省域经销商人士向《每日经济新闻》记者透露，今年茅台的新动作或在于加大对公司系列酒的培养。“从厂家到经销商，都想大力去做。不像以往，我们只是顺带做系列酒的销售，现在是更加主动地去做。”
+
+实际上，茅台从去年中期就已开始加码中低端产品，通过对汉酱、仁酒等大幅调价发力 “腰部”，并举办系列酒推介会；去年底在贵阳举行的茅台经销商大会上，贵州茅台集团董事长袁仁国也指出系列酒还有很大空间，值得厂商共同挖掘。
+
+杨承平认为，茅台系列酒是一把尚未开锋的宝剑，一旦开锋，将削铁如泥，“事在人为，关键是怎么使用这把宝剑。”在杨承平看来，系列酒的优势十分明显，在剥离以后，上升空间较大。“首先受益的是它的品牌，多年来已经积累了很好的口碑；第二个优势是茅台作为一类酒企早已占领的全国市场。
+
+让系列酒 “另起炉灶”的计划，也让一众期望在今年发力系列酒的经销商看到希望。“这个动作是正确且及时的，”昨日，在听闻此消息后，上述经销商迅速回应了《每日经济新闻》记者，“多年来，系列酒成绩不理想的原因有两点：用做茅台酒的思维去做系列酒；借茅台品牌去打造系列酒的市场认可度，但结果只会适得其反。”
+
+在这位经销商看来，系列酒独立出来至关重要，“有了这一步才可能有后续成功必备的改革的基础。”据其透露，目前确有经销商想把系列酒做大做强，“但也感觉到以经销商一己之力无法改变现状，尤其是正确的、顶端营销缺失，而现在看来，希望已经出现。”
+
+茅台又一次成为市场和行业的焦点。探索建立股权激励或员工持股机制，实施在移动互联网、清洁能源等新兴产业方面的对外扩张，实施“大习酒”战略，整合集团内其他酒类板块，并推动年内赴港上市……媒体披露出的茅台集团改革规划看点不少。
+
+“建设为产融结合的多元化控股集团，目标到2017年整体销售收入达千亿元级”，雄心勃勃的目标也刺激了资本市场的神经，昨日（3月18日）贵州茅台股价高开高走，最大涨幅接近6%。消息是否确实？各界人士有什么看法？《每日经济新闻》今日解读。
+
+“改革力度很大。”这是多位业内人士对媒体最新曝出的茅台集团改革方案的评述。
+
+昨日（3月18日），多家媒体报道称，茅台集团改革目标是建设为产融结合的多元化控股集团，目标到2017年整体销售收入达千亿元级。拟改革的方案中，茅台集团拟加码商贸、文化旅游、投资等多个板块。酒类业务方面，不乏计划把系列酒分离出贵州茅台，集团保健酒、葡萄酒等业务装入习酒板块等“大胆”尝试。
+
+昨日，《每日经济新闻》记者从茅台集团方面了解到，这一改革的方案尚在论证、审核过程中。贵州省国资委一位人士透露，包括茅台集团下属监管企业的方案将于本月底上报，具体的改革方案也尚需审核。
+
+茅台集团在千亿目标之下，加码非主业板块的规划已经十分明显，但在业内人士看来，多元化的发展过程中还应注意风险的把控。
+
+据悉，贵州省国资委曾要求监管企业于今年3月底前制订并上报产权制度改革实施方案。在3月17日的一次会议上，包括茅台集团在内的22家贵州省属国企的最新改革发展思路首次公开。茅台集团副总经理房国兴在该次会上表示，茅台集团将以产权制度改革为重点，充分发挥产权制度改革的牵引作用，借助品牌、文化和资本优势，优化资源配置，强化核心竞争力，做强茅台集团股份公司，做大茅台集团公司，在各子公司层面引进战略投资者、发展混合所有制经济。
+
+对于茅台集团未来产权制度等改革的具体方向，18日有报道称，在贵州省国资委制作的会议资料上，茅台集团的发展方向是成为 “产融结合的多元化控股集团，到2017年左右，集团整体销售收入达到千亿元级。”茅台集团战略管理部部长吴德望对 《每日经济新闻》记者表示，本次改制属于顶层设计，上述信息属于一个总体思考框架，具体方案还有待商定。
+
+在外界人士看来，这与茅台集团提出的“千亿目标”有关。2012年1月，贵州省曾提出组建 “大茅台集团”，实现“千亿茅台”的目标，要求茅台在“十二五”计划末期销售额达到500亿元，“十三五”计划末期收入达到1000亿元，目前距离这一目标尚有距离，这意味着茅台集团未来4年需完成600亿的销售增量。
+
+“改革力度很大。”中信证券食品饮料行业首席分析师黄巍昨日向《每日经济新闻》记者表示，从目前披露出的信息来看，茅台集团此次改革的力度着实不小，特别是“做大规模的决心很大”。
+
+对于茅台此次改革的具体情况，昨日，茅台集团一位人士向《每日经济新闻》记者表示，改革方案尚处论证和审核过程中，未来才会出台。
+
+《每日经济新闻》记者注意到，在昨日媒体的报道中，茅台集团酒类板块的“大胆”规划，就包括将系列酒拆分出贵州茅台上市公司，以及集团保健酒、葡萄酒等业务装入习酒公司等新规划。
+
+茅台集团多元化的大战略也更加明确。纵观茅台集团近年来的多元化发展，涉足机场、证券投资、金融业等多个领域。
+
+该报道还称，茅台集团下属物流公司将积极引入中运、中远等国有物流企业，引进顺丰、申通、圆通、中通、韵达等民营物流企业参股物流公司，拓展物流仓储、原料仓储等酒类上下一体化业务，2015年底初步建成产权多元化，管理及技术现代化的西南地区领先的物流公司；2014年将旗下各贸易公司整合至贵州酒业发展公司，积极引入非公经济参股。
+
+多元化成为了茅台集团近年的主要动作之一。中投顾问食品行业研究员向健军表示，多元化控股集团旨在强调多元化和控股，可以使一个企业充分借助外部资金使用有限的自有资金涉猎多个业务范围，利于企业分散经营风险，同时也可以通过战略投资者的引进，提升集团竞争力。
+
+不过，多元化既是机遇，也是风险。贵州白酒专家万兴贵就曾向记者表示，未来其多元化的发展，“在主业不能忽略的前提下，关键看采取怎样的方式，与主业相关联的投资应采取渐进的方式；比如证券、机场等非关联性的就需要把握好战略方向。”对于酒企的多元化，多有业内人士评述道，酒企长于做酒，但在其他业务领域的发展缺乏经验，跨界进入有不小的风险。
+
+白酒营销专家赵义祥向 《每日经济新闻》记者表示，茅台集团加码多元化，需要注意介入领域其中的风险因素，特别是介入与原酒业主业关联度不大的领域。</field>
+  </row>
+
+  <row>
+	<field name="ID">252</field>
+	<field name="Title">兴润置业资金断链已4年 涉2.4亿疑似假按揭_财经_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://finance.nandu.com/html/201403/19/887121.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:10</field>
+	<field name="Time_Check">2014-03-18 18:29:10</field>
+	<field name="Content">摘要：3月17日，《每日经济新闻》对宁波奉化当地最大的房企——浙江兴润置业投资有限公司（以下简称兴润置业）及其所属公司在内的“兴润系”，资金链断裂导致资不抵债，欠下35亿元巨额债务一事进行了报道。
+
+3月17日，《每日经济新闻》对宁波奉化当地最大的房企——浙江兴润置业投资有限公司（以下简称兴润置业）及其所属公司在内的“兴润系”，资金链断裂导致资不抵债，欠下35亿元巨额债务一事进行了报道。昨日（3月18日），有外媒报道称，央行紧急讨论救助小型房地产公司。央行微博对此予以否认，称人民银行未参与浙江兴润置业相关风险处置。
+
+记者昨日从可靠渠道获得更进一步的消息显示，整个“兴润系”资金链断裂已有4年。此外，“兴润系”还有近2.4亿元是 “疑似假按揭”，涉及7家银行。而因为“兴润系”新增的不良资产，2014年奉化市的不良率将达浙江省最高。
+
+对于资产不过30亿元的兴润置业来说，如何偿还24亿元的银行欠贷、非法吸收的公共存款7亿元，以及拖欠的4亿工程款和工资，目前尚无定论。
+
+根据记者掌握的可靠消息显示，“兴润系”实际控制人是沈财兴，法人代表为其子沈明崇，都因涉嫌非法吸收公众存款罪于3月11日移送奉化检察院起诉。
+
+沈财兴是宁波象山人，从奉化起家做房地产生意。在宁波奉化的房地产开发历史已经超过12年，目前奉化高档的住宅小区大部分都是沈财兴的兴润置业开发建造的。而兴润置业资金链断裂的情况已经存在4年之久，在这期间，奉化市政府多次召集金融机构开会，要求所有银行维持现有授信，降低利率，不得压贷迟贷，并且拿出财政资金给予转贷。
+
+之前奉化市金融办主任邬永本告诉记者，银行欠贷在24亿元，涉及15家银行，额度最大的是建行，将近12亿元，浦发第二，近3.8亿元。中新网向官方核实的数据显示，欠贷涉及的银行有19家，包括农行、中信、恒丰、浙商、民生等银行。
+
+此次根据记者掌握的消息显示，确认的银行贷款接近25亿元，涉及的银行有24家。民间借贷确认的是5亿元，但实际已无法核实。之前奉化市金融办通报称兴润置业非法吸收的公众存款在7亿元。
+
+值得注意的是，“兴润系”还有近2.4亿元是“疑似假按揭”，涉及7家银行。分别是工行1327万元，农行83万元，中行5394万元，建行8318万元，招行863万元，光大1948万元，华夏6057万元。这2.4亿元是包括在25亿元的银行欠贷金额内，还是单独一笔金额，目前尚无法得到确认。
+
+根据奉化市金融办的预计，2014年度奉化市由于“兴润系”会新增19亿元不良资产，使不良贷款率达到5.27%的高位，居浙江全省之首。
+
+消息透露，沈财兴的“兴润系”大部分的不良资产由于各种原因没有办法清偿，这包括了抵押优先权不明、空壳公司关联担保、楼盘已销售未优先归还项目贷款等情况。这可能会增加后续的资产处置难度。
+
+另外根据记者的了解，由于兴润置业的案件非常复杂，涉及政府部门人员较多，且时间跨度很大，因此政府部门对于该案件要求各银行机构集体“保持沉默”，等待市里统一处理。之前奉化官方通报的非法吸收公众存款所涉及的7名机关事业人员外，非本人名义、而以家属等出面的，当地暂时未予追究。
+
+在银行停止房地产贷款传闻之后，兴润置业的问题被视为是继“超日债”成为国内首单公司债违约之后，国内房地产企业违约的第一单。目前关于兴润置业债务究竟如何处理，奉化官方尚未公布具体措施。
+
+3月18日，央行微博称，个别外媒报道《中国央行紧急讨论救助小型房地产公司》，与事实不符：第一，人民银行未参加文中提到的“周二召开的紧急会议”。第二，人民银行未参与浙江兴润置业相关风险处置。对该媒体在未经核实的情况下发布失实报道的行为，人民银行予以强烈谴责。</field>
+  </row>
+
+  <row>
+	<field name="ID">289</field>
+	<field name="Title">疏肝解郁、活血止痛　本草食疗养生：玫瑰花</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.ycwb.com</field>
+	<field name="url">http://health.ycwb.com/2014-03/18/content_6337802.htm</field>
+	<field name="Time_Publish">2014-03-18 18:43:15</field>
+	<field name="Time_Check">2014-03-18 18:43:15</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">256</field>
+	<field name="Title">央行否认参与兴润置业风险处置_房产_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://house.nandu.com/html/201403/19/887118.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:29</field>
+	<field name="Time_Check">2014-03-18 18:29:29</field>
+	<field name="Content">摘要：昨日晚间，针对个别外媒报道《中国央行紧急讨论救助小型房地产公司》一事，中国人民银行办公厅官方微博予以明确否认。这份报道称，中国人民银行、中国建设银行(601939,股吧)和浙江宁波奉化政府官员周二召开了紧急会议，讨论如何偿还浙江兴润置业35亿元人民币的债务。
+
+本报讯（记者 杨汛）昨日晚间，针对个别外媒报道《中国央行紧急讨论救助小型房地产公司》一事，中国人民银行办公厅官方微博予以明确否认。对该媒体在未经核实的情况下发布失实报道的行为，中国人民银行予以强烈谴责。
+
+这份报道称，中国人民银行、中国建设银行(601939,股吧)和浙江宁波奉化政府官员周二召开了紧急会议，讨论如何偿还浙江兴润置业35亿元人民币的债务。
+
+兴润置业是宁波奉化当地最大的房企，拥有30亿元资产。但如今却资金链断裂、资不抵债，主要原因是经营不善，被高利贷拖垮。目前，企业控制人沈财兴和沈明崇已经因非法吸收公众存款被移送检察机关起诉。其留下超过35亿元的巨额债务，其中银行欠贷达24亿元，涉及十多家银行。中国建设银行是兴润置业的主要借款人。
+
+央行方面表示，3月18日，个别外媒报道《中国央行紧急讨论救助小型房地产公司》，与事实不符。人民银行未参加文中提到的“周二召开的紧急会议”。人民银行未参与浙江兴润置业相关风险处置。对该媒体在未经核实的情况下发布失实报道的行为，人民银行予以强烈谴责。</field>
+  </row>
+
+  <row>
+	<field name="ID">294</field>
+	<field name="Title">城镇化激活新机遇 房地产行业进入转型周期 新华社――经济参考网</field>
+	<field name="Author">author</field>
+	<field name="Domain">jjckb.xinhuanet.com</field>
+	<field name="url">http://jjckb.xinhuanet.com/2014-03/18/content_495908.htm</field>
+	<field name="Time_Publish">2014-03-18 18:45:50</field>
+	<field name="Time_Check">2014-03-18 18:45:50</field>
+	<field name="Content">《国家新型城镇化规划(2014-2020年)》的发布给城镇化道路指明了大方向。分析人士认为，规划的亮点在于强化城市群建设，增强中心城市的辐射带动作用和推动区域一体化建设。房地产行业仍有发展机会，但受供需关系的改变和以人为核心的城镇化逻辑影响，房地产业转型是大势所趋，其对经济的拉动作用将发生变化。在当前经济增速放缓的背景下，期待房地产调控政策松绑以刺激经济并不切实际，投资者要看到房地产业将步入转型周期。此外，产业在区域间布局的优化是城镇化的影响之一，这将带来新需求和新机遇。
+
+分析人士认为，新型城镇化十分重视城市群建设，提出以城市群为主体形态、推动大中小城市和小城镇协调发展，并强调中心城市的辐射带动作用，在区域经济发展一体化的推动下，各具特色的城市群经济带有望加快形成。
+
+《国家新型城镇化规划(2014-2020年)》提出，构建以陆桥通道、沿长江通道为两条横轴，以沿海、京哈京广、包昆通道为三条纵轴，以轴线上城市群和节点城市为依托、其他城镇化地区为重要组成部分，大中小城市和小城镇协调发展的“两横三纵”城镇化战略格局。
+
+规划还提出，特大城市要适当疏散经济功能和其他功能，推进劳动密集型加工业向外转移，加强与周边城镇基础设施连接和公共服务共享，推进中心城区功能向1小时交通圈地区扩散，培育形成通勤高效、一体发展的都市圈。
+
+分析人士称，新型城镇化要重点优化提升东部地区城市群、培育发展中西部城市群的战略意图十分明显。此前的中央城镇化工作会议就提出，我国已经形成京津冀、长三角、珠三角三大城市群，要在中西部和东北有条件的地区，依靠市场力量和国家规划引导，逐步发展形成若干城市群，成为带动中西部和东北地区发展的重要增长极，推动国土空间均衡开发。
+
+其中，中西部地区城市群将成为推动区域协调发展的新的重要增长极。目前，东部地区常住人口城镇化率达到62.2%，而中部、西部地区分别只有48.5%、44.8%。随着西部大开发和中部崛起战略的深入推进和东部沿海地区产业转移的加快，中西部地区推进城镇化的空间巨大。成渝、中原、长江中游、哈长等城市群预计将加快发展，成为引领区域经济发展的重要增长极。
+
+在东部地区城市群的优化升级中，京津冀协同发展空间相对更大。中信证券分析师陈聪认为，环北京区域是国内极少数低起点、大空间，可能出现跨越式发展的区域。京津冀从来没有形成真正的城市群，而是形成了两个孤立的大都市。行政区域边界限制了公共资源的均衡配置，而功能中心的过分重叠使得核心城市对周边区域有巨大的虹吸作用，却少有正辐射。这种状况非但造成了环北京区域发展相对缓慢，也造成了北京本身承载能力已接近极限。
+
+新型城镇化强调走以人为核心的道路，新兴城市群的崛起必然需要新的产业支撑。分析人士称，东部地区的产业需要转型升级，中西部需要承接东部地区产业转移，附属城市则要承接中心城市剥离出来的部分功能。
+
+规划提出，沿海中心城市要加快产业转型升级，提高参与全球产业分工的层次，延伸面向腹地的产业和服务链，加快提升国际化程度和国际竞争力。内陆中心城市要加大开发开放力度，健全以先进制造业、战略性新兴产业、现代服务业为主的产业体系，提升要素集聚、科技创新、高端服务能力，发挥规模效应和带动效应。区域重要节点城市要完善城市功能，壮大经济实力，加强协作对接，实现集约发展、联动发展、互补发展。
+
+规划还提出，中西部城镇体系比较健全、城镇经济比较发达、中心城市辐射带动作用明显的重点开发区域，要在严格保护生态环境的基础上，引导有市场、有效益的劳动密集型产业优先向中西部转移，吸纳东部返乡和就近转移的农民工，加快产业集群发展和人口集聚，培育发展若干新的城市群。
+
+分析人士认为，产业在区域间布局的优化是城镇化的影响之一，更重要的是带来新的需求并给相关产业带来发展机遇，新支柱产业对于下一阶段的经济发展更为关键。
+
+申万分析师李慧勇表示，新型城镇化的推进将带来三大行业需求的提升，一是房地产业，二是环保、清洁能源、路桥、公用事业、医院、学校等相关基础设施，三是金融中介。他认为，中国过去的城镇化可以归结为东部的城镇化、大城市的城镇化、工业推动的城镇化、就业的城镇化，是一种半拉子城镇化。新型城镇化更加强调市民化，更加强调以人为本，这使得新型城镇化本身集目的手段过程于一体，是一种高成本的城镇化。
+
+有分析人士指出，房地产的黄金十年不会再次重演，不能将房地产业作为下一轮经济发展周期的支柱产业，钢铁、水泥、平板玻璃等行业需求转好和景气回升的预期可能会落空。
+
+实际上，随着经济增速下行压力加大，市场对于房地产调整政策松绑的预期正在逐渐发酵。分析人士认为，当前的房地产调控其实是有保有压，进一步宽松的迹象还没有显现，继续以房地产投资刺激经济并非明智之举。未来十年，房地产投资对于经济的拉动作用依然会存在，但逻辑已经发生了很大变化，并不是单纯房地产开发，更重要的是存量房品质的提升。这意味着房地产拉动的下游行业发生了重要转变，而背后最根本的推动力是人们对于生活品质要求的提升。
+
+国泰君安首席经济学家林采宜表示，中国城镇人口的平均住房面积达到30平方米，已经超过了日本、韩国、香港、新加坡等国家和地区的水平，这意味着房地产的存量已经供应过剩，房地产行业已经迎来拐点，黄金十年的传奇难以续写。
+
+她指出，部分二、三线城市的房价已经开始拐头，部分大城市的房价由急涨转为慢涨，甚至停涨，一些条件不太好的小区房价会出现回落。“有的时候是变相降价，比如新建楼盘的价格跟旧楼盘差不多，但房子的品质大为提升。”
+
+她认为，未来十年，房地产行业进入转型升级的调整周期，行业依然会有所作为，但表现不再是急切地盖房子，而是更好地规划小区的功能，加强社区服务，改善居住环境，房屋更加节能环保，而室内的装修则更加智能化。与房地产行业转型相伴随的是消费拉动作用的增强和第三产业的崛起。
+
+分析人士称，第三产业占GDP的比重已经超过第二产业，目前的水平约为46%，未来将达到60%-70%的水平。随着人们生活水平的提升和发展方式的转变，医疗保健、婴幼儿、智能家电、节能环保、绿色食品等产业在未来十年依然有广阔的发展空间。
+
+“经济转型必然伴随着传统制造业的衰退，但是无烟工业将会崛起。虽然这意味着增长速度的放缓，但相关产业对于劳动力的吸纳会更多。”林采宜表示，当前经济面临的并不是周期性问题，而是结构性问题，不同产业之间的差别非常大，可以说是几家欢乐几家愁。</field>
+  </row>
+
+  <row>
+	<field name="ID">259</field>
+	<field name="Title">陕西油画有望超越自我_消费_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://life.nandu.com/html/201403/19/887117.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:38</field>
+	<field name="Time_Check">2014-03-18 18:29:38</field>
+	<field name="Content">将于22日开幕的第三届﹃九城联展﹄西安站也为艺术爱好者们带来了特别的油画单元，贺丹、李易初、马安平、钟国昌等十几位油画家带来了各自的精品力作，这些出自陕西油画家的作品将会融合多种绘画艺术元素，让你进入一个丰富多彩的油画世界。
+
+陕西一直给人印象最深的就是国画，然而就在这个水墨之乡，作为舶来品的油画不但生存了下来，而且这两年还发展得不错。在油画家、西安美术学院副院长贺丹看来，本土文化对其的影响不可小看。“我在法国游学12年，为什么要回来？就是要用我的所学描绘我的家乡生活。油画仅是材料，用西方的材料表达自己的生活，表现中国人的想法是很正常的。就像现在的欧洲人用水墨表达自己的想法一样。”而在油画家强世军看来，古今中外的许多风景艺术大师都是深深扎根于民族传统文化之厚土，并借鉴、吸收其他民族的优秀文化与艺术成果，然后再完善并成就自身的。如梵高，在他的艺术实践中融入了东方文化意蕴与日本浮世绘的造型特征；而巴尔蒂斯则从中国宋元山水画入手，吸取灵感从而使他的作品体现出浓浓的东方韵味。“作为中国的油画风景画家，只有立足于本民族的传统文化与艺术精神之中，立足于当代生活，同时借鉴其他民族的优秀文化艺术，才可能最终充实并超越自我，才可能使作品散发出清新而独特的气息。”强世军说。
+
+前两届“九城联展”，作为主办方的华商报社在推广陕西油画、培养市民油画欣赏习惯方面做了不少工作。从现场反馈的情况来看，越来越多的艺术爱好者对油画提高了关注度，一些藏家的兴趣也逐渐转到油画上来。因此，本次西安站的展览也是组织了陕西一线的油画家拿出他们的精品力作请观众欣赏。
+
+那么目前陕西的油画都呈现出哪些特点呢？“学院派的味道太浓，”油画家马安平介绍说，而现在普通的艺术爱好者更喜欢古典油画，他们可能会觉得其他类型的油画离自己的生活有些远，他们会看不懂。“在市场上，油画还需要更多的推动力，让更多的人了解到油画的价值，油画才能发展得更好。”</field>
+  </row>
+
+  <row>
+	<field name="ID">258</field>
+	<field name="Title">『好声音』李代沫涉毒被警方带走(图)_消费_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://life.nandu.com/html/201403/19/887120.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:37</field>
+	<field name="Time_Check">2014-03-18 18:29:37</field>
+	<field name="Content">摘要：昨日中午，“中国娱乐报道官微”发微博称，“因选秀节目一夜成名的某光头歌手卷入吸毒事件，被警方带走调查。昨天，刘欢出现在《中国好歌曲》的录制现场，作为第一季好声音学员李代沫的导师刘欢并不愿意多谈李代沫吸毒一事。
+
+昨日中午，“中国娱乐报道官微”发微博称，“因选秀节目一夜成名的某光头歌手卷入吸毒事件，被警方带走调查。”随后追发的一条微博，直指此歌手为李代沫。这是继翻唱《我的歌声里》引发侵权案、同性绯闻、吞虫减肥之后，李代沫再次令人大跌眼镜的负面新闻。随后，北京市公安局官方微博证实，李代沫尿检呈阳性。网友纷纷用其翻唱成名曲“没有一防备，也没有一丝顾虑，你就这样出现……”的句式对其涉毒表达谴责。
+
+昨天中午12时48分，认证为“中国娱乐报道官微”的微博账号爆料称，因选秀节目一夜成名的某光头歌手卷入吸毒事件，被警方带走调查。消息一出，因《中国好声音》蹿红的光头歌手平安、李代沫等都成了网友猜测的对象。平安经纪人向本报记者强调：“他平时连烟都不抽，绝对不可能吸毒。”而《中国好声音》制作方灿星公司的陆伟则笑称：“简直是胡说八道！”并坚称李代沫和平安都没有因为吸毒被捕。
+
+不过很快，“中国娱乐报道官微”更新消息称，“李代沫与朋友在出租房中吸毒被抓。”随后记者联系李代沫公司的宣传、老板，但无一例外的“失联”。不久经纪公司回应称：“李代沫在外商演中，暂时未联络上本人。”
+
+事发后，北京众多媒体赶到北京市公安局朝阳分局三里屯派出所蹲守，但未从警方得到更多消息。本报记者于15时20分拨通派出所电话，接电话民警表示：“无可奉告。”
+
+随后，在辽宁卫视《中国喜剧力量》的发布会上，原本在助演歌手名单中的李代沫并没有出现，被问及原因时，主持人回答：“刚才有人递给我小纸条，李代沫不会出现在我们的舞台上了。”不久辽宁卫视工作人员也致电记者：“我们也是刚刚听说有类似的消息，发生得很突然，如经公安机关调查确认此事属实，我们节目将会对节目的拟邀嘉宾做出相应调整。”</field>
+  </row>
+
+  <row>
+	<field name="ID">254</field>
+	<field name="Title">“食神”伊尹故里在陕西合阳(图)_消费_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://life.nandu.com/html/201403/19/887122.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:25</field>
+	<field name="Time_Check">2014-03-18 18:29:25</field>
+	<field name="Content">摘要：从春节展开的豫菜、陕菜的中国“母亲菜”之争，近日看似风平浪静了，背后却有暗流　　涌动。日前，合阳县的学者研究发现，中国烹饪师祖伊尹的故里就在当地，为陕菜作为中国的“母亲菜”提供了有力证据。
+
+从春节展开的豫菜、陕菜的中国“母亲菜”之争，近日看似风平浪静了，背后却有暗流
+
+涌动。日前，合阳县的学者研究发现，中国烹饪师祖伊尹的故里就在当地，为陕菜作为中国的“母亲菜”提供了有力证据。
+
+伊尹，名挚，又称阿衡。他是商代的开国功臣，是我国商朝初年的第一位贤能相国，史称“元圣”。《吕氏春秋·本味》中记载伊尹以“至味”说汤的故事，通过食物中五味调和的方法来论述国家政事，提出了世界最古老的烹饪理论，“五味调和说”与“火候论”直到现在一直被奉为厨师界的金科玉律。同时伊尹还发明了汤药与中国医食同源的养生理论。
+
+伊尹是哪里人一直众说纷纭，明代以前有陕西合阳、山东陈留、河南偃师三种说法，到了明清以后，河南又增加了嵩县、伊川、栾川，山东增加了曹县、莘县几种说法。
+
+“伊尹即便是河南人，《吕氏春秋》总论也是在陕西咸阳写成的。”陕西烹饪协会副会长李曦表示，陕西和河南都曾集中了当时厨师的精英，陕西在唐之后，河南在北宋之后，都经历了经济与政治中心转移后的人才断层之痛，当下也都在重振的过程中，争论有益于双方对自身的认知，有一定的现实意义。
+
+从文物考据来说，《陕西省第三次全国文物普查丛书》记载，现在合阳的莘村和秦庄各有一座伊尹墓。合阳县政协文史资料委员会近日出版了《千秋贤相伊尹》，在合阳县莘村中的马家祠堂就存放有伊尹神道的断碑。合阳县委宣传部副部长王峰表示，合阳人都认为这里就是伊尹故里，关于伊尹的记载，在合阳县志原来就有过，最近多年以来，合阳县政协一直在搜集整理《合阳文史资料》，把伊尹选入其中，应该是搜集整理的一个重要内容。“因为合阳史称‘古有莘国’，而伊尹，是历史上最有名的宰相之一。孟子里面说：伊尹耕于有莘之野，而乐尧舜之道。”
+
+原合阳县文化馆副馆长、现已退休的史耀增从上世纪八十年代就从民俗角度研究了伊尹与合阳的关系。他说合阳百良镇有尹庄，伊尹的墓就在尹庄和莘村之间，过去墓很大，占地一亩多。莘村有姓吕的人，就是当年给伊尹看墓的人。“那里一连串村庄的名字都和伊尹有关。其中一个叫三汲村，传说是因为伊尹每天都从这里去黄河提三次水。还有村庄叫阿场，分为南阿场村和北阿场村，据说就是当年伊尹把麦子收回后打场的地方。”
+
+饮食学者王喜庆看来，如今很多地方都热衷于争论名人的出处，“这些事情，我们往往是从点上研究，比较片面。从中国餐饮史的研究需要全面的、有实据的论证。它是综合体，需要考古、历史、文化、民俗、农耕、基因、化学等方面的综合问题的研究，我们往往是通过考古、历史记载、文学作品的点滴描述去判断事物的存在，却缺乏现实应用的意义，我认为应该建立中国餐饮研究的实证体系。”
+
+王喜庆介绍，伊尹从历史上讲是中国的三大厨神，另外两个是彭祖和易牙。伊尹的历史贡献在于“五味调和”学说，老子引用了伊尹把烹饪理论用到治国上的典故，提出“治大国若烹小鲜”的名句，“研究伊尹烹饪的现实意义，就是烹饪时心要静，要把做菜和做人、治国的理念结合起来。在某种程度上，伊尹的调和学说也是‘和’的理念的缘起。作为陕西研究学者，我们希望通过自己科学的研究，拿出更有力的证据，证明伊尹故里在陕西。但这是学术课题，不是争论的焦点。”
+
+王喜庆多次强调，陕西饮食奠定了中国人生活的基本纲纪，足以说明陕西餐饮在全国饮食文化的地位，“陕菜的味型、技法和成菜的过程，与当今有何差异，如何把过去好的东西传承下来，如何将陕菜悠久的餐饮文化变成现实市场运作的生产力，是我们研究的本意。”本报记者 谢勇强</field>
+  </row>
+
+  <row>
+	<field name="ID">246</field>
+	<field name="Title">湖北又现疑似“药”儿园 为何又是病毒灵？图-新华网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.xinhua.org</field>
+	<field name="url">http://news.xinhuanet.com/edu/2014-03/18/c_126281030.htm</field>
+	<field name="Time_Publish">2014-03-18 18:01:39</field>
+	<field name="Time_Check">2014-03-18 18:01:39</field>
+	<field name="Content">（中国网事·幼儿被喂药）湖北又现疑似“药”儿园　为何又是病毒灵？
+
+新华网北京３月１８日新媒体专电　继陕西省西安市和吉林省吉林市后，１７日湖北省宜昌市再现疑似“药”儿园情况，该市夷陵区馨港幼儿园被举报违规给幼儿集体喂服“病毒灵”，有关部门已经介入调查。
+
+为什么相隔遥远、如此众多的幼儿园“不约而同”给孩子喂食病毒灵，这个药片有什么功效？病毒灵究竟能干什么？能不能预防感冒？吃了病毒灵有什么副作用？
+
+为什么又是病毒灵？病毒灵是什么药，能治什么病？
+
+【新闻链接】：在陕西、吉林相继出现幼儿园违规给幼儿服用病毒灵之后，湖北又出现疑似给幼儿喂服病毒灵情况，警方正在调查。
+
+【网民疑问】：为什么会有这么多、相隔这么远的幼儿园不约而同地给幼儿喂食病毒灵？
+
+【专家解读】：中国药科大学药学院副院长、教授于锋：病毒灵的学名叫盐酸吗啉胍，是一种老药，主要用于抗病毒，但对病毒没有预防作用。于锋表示，“我只能猜测，幼儿园缺乏用药常识。‘盐酸吗啉胍’的商品名‘病毒灵’很容易误导普通人认为这是一种针对病毒很‘灵’的药。”所有的抗病毒药，效果都不好，因为病毒具有变异性。
+
+记者采访的多位三甲医院药剂人员表示，临床已经很久没用这种药了。天津市儿童医院副院长常诚说，他们医院已经多年不用此药。病毒灵对预防病毒感染没有效果，长期使用对肝肾和泌尿系统有损害作用。常诚分析，目前曝出的陕西、吉林、湖北几所幼儿园给孩子用药，可能是误认为病毒灵会对预防病毒感染有效果，或者希望对减少感冒的发生有作用。“市面上有抗病毒效果的药不少，病毒灵低廉的价格估计也是这些机构不约而同进行选择的一个重要原因。”
+
+【专家解读】：常诚等专家表示，药物上市前会进行有效性、安全性的多重测试。而类似病毒灵这种针对常见病的常见药物，其安全性要求更高，不良反应和副作用的发生几率都比较低。但长期使用对肝肾和泌尿系统有损害作用，而幼儿由于身体发育尚未成熟，普遍对药物会更加敏感，其不良反应和副作用的发生几率也更高。
+
+于锋认为，目前还没有证据证明这些孩子的不适症状直接与服用病毒灵有关。他建议国家有关部门对此展开流行病学调查，并长期关注、追踪这些服药孩子的身体状况。</field>
+  </row>
+
+  <row>
+	<field name="ID">247</field>
+	<field name="Title">克里米亚和塞瓦斯托波尔将以联邦主体身份加入俄罗斯_图片频道_新华网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.xinhua.org</field>
+	<field name="url">http://news.xinhuanet.com/photo/2014-03/18/c_126284770.htm</field>
+	<field name="Time_Publish">2014-03-18 18:01:40</field>
+	<field name="Time_Check">2014-03-18 18:01:40</field>
+	<field name="Content">3月18日，俄罗斯总统普京在莫斯科克里姆林宫发表讲话。俄罗斯总统普京18日与克里米亚和塞瓦斯托波尔代表签署条约，克里米亚和塞瓦斯托波尔将以联邦主体身份加入俄罗斯。 新华社/俄新社</field>
+  </row>
+
+  <row>
+	<field name="ID">290</field>
+	<field name="Title">四川一正厅女干部受贿 称自己成功应给家人补偿_金羊网新闻</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.ycwb.com</field>
+	<field name="url">http://news.ycwb.com/2014-03/18/content_6338458.htm</field>
+	<field name="Time_Publish">2014-03-18 18:43:25</field>
+	<field name="Time_Check">2014-03-18 18:43:25</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">288</field>
+	<field name="Title">台湾“百大正妹”出炉 宅男大呼“泪奔了”</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.ycwb.com</field>
+	<field name="url">http://news.ycwb.com/picstorage/2014-03/18/content_6337042.htm</field>
+	<field name="Time_Publish">2014-03-18 18:43:06</field>
+	<field name="Time_Check">2014-03-18 18:43:06</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">297</field>
+	<field name="Title">两艘货船在日本近海相撞沉没 9名中国船员下落不明-财经网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://overseas.caijing.com.cn/2014-03-18/114016612.html</field>
+	<field name="Time_Publish">2014-03-18 18:53:28</field>
+	<field name="Time_Check">2014-03-18 18:53:28</field>
+	<field name="Content">新华社快讯：中国驻日大使馆说，一艘有20名中国船员的巴拿马籍货船和一艘韩国货船18日凌晨在日本神奈川县附近水域相撞沉没，11名中国船员获救、9人下落不明。</field>
+  </row>
+
+  <row>
+	<field name="ID">296</field>
+	<field name="Title">浙江举办乡干部相亲会</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016698.html</field>
+	<field name="Time_Publish">2014-03-18 18:53:20</field>
+	<field name="Time_Check">2014-03-18 18:53:20</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">298</field>
+	<field name="Title">中年男子假装富豪约见女网友 见面发现是女儿-财经网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.caijing.com.cn</field>
+	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016991.html</field>
+	<field name="Time_Publish">2014-03-18 18:53:41</field>
+	<field name="Time_Check">2014-03-18 18:53:41</field>
+	<field name="Content">据新民网报道 安徽马鞍山丹阳镇40多岁的男子张某通过微信“摇一摇”摇到一名20岁的少女，张某声称自己30岁左右，家财万贯，通过聊天，双方约定在宾馆开房见面，不料，见面后才发现这位“女友”竟是自己的女儿。
+
+家住马鞍山市丹阳镇的张某已经40多岁，虽然已结婚20多年并且养育了一个女儿，但是风流成性的张某并不珍惜这来之不易的幸福生活，整天在外面结交异性朋友。妻子李某早起疑心，但是无奈抓不到证据，因此也不好说什么。</field>
+  </row>
+
+  <row>
+	<field name="ID">257</field>
+	<field name="Title">古力李世石均被淘汰_体育_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://sports.nandu.com/html/201403/19/887123.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:35</field>
+	<field name="Time_Check">2014-03-18 18:29:35</field>
+	<field name="Content">摘要：昨天，百灵杯世界围棋公开赛在北京战罢首轮，中韩“大哥级”人物古力和李世石分别在“内战”中遗憾出局。韩国方面，李世石在内战中被名不见经传的后辈陈时映击败，无缘晋级。
+
+京华时报讯（记者刘旭辉）昨天，百灵杯世界围棋公开赛在北京战罢首轮，中韩“大哥级”人物古力和李世石分别在“内战”中遗憾出局。共有22位中国棋手晋级32强，韩国占据了剩下的10个名额。
+
+本轮共有10场中韩对决，最终中国6比4稍占上风。另外两场中日对决中，中国获得全胜。周睿羊、陈耀烨、芈昱廷、范廷钰、朴文垚、江维杰等世界冠军级别的棋手都顺利过关，反倒是古力、时越、唐韦星在内战中告负。韩国方面，李世石在内战中被名不见经传的后辈陈时映击败，无缘晋级。</field>
+  </row>
+
+  <row>
+	<field name="ID">255</field>
+	<field name="Title">把我逼疯！巴神适合尤文3人不该走_体育_南都网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.nandu.com</field>
+	<field name="url">http://sports.nandu.com/html/201403/19/887124.html</field>
+	<field name="Time_Publish">2014-03-18 18:29:27</field>
+	<field name="Time_Check">2014-03-18 18:29:27</field>
+	<field name="Content">摘要：近日在接受《米兰体育报》专访时，马尔蒂尼就米兰目前存在的危机谈论了一些自己的看法。”　　在马尔蒂尼看来，其实2007年赢得欧冠后，米兰的危机就已经显现了。”显然，在马尔蒂尼看来，伊布、席尔瓦以及皮尔洛这三人都是米兰不该放走的重要球员。
+
+近日在接受《米兰体育报》专访时，马尔蒂尼就米兰目前存在的危机谈论了一些自己的看法。在接受采访时，这位米兰永远的传奇毫不掩饰自己对米兰的不满、愤怒以及痛心的情感。
+
+在接受采访时，马队首先谈了米兰2-4不敌帕尔马的比赛。“我看了这场比赛，包括与马竞的比赛，事实上米兰最近两年的比赛我都看了。但这些比赛让我的内心充满了愤怒和失望，我并不是因为比赛的结果和球队目前的排名而生气，我生气是因为他们竟然扔掉了米兰过去十年所辛辛苦苦建立起来的东西。”
+
+“在我看来，出现这样的局面实在是太糟糕了。米兰曾拥有非常宝贵的财富，球队也赢得了很多的冠军，我知道背后的付出有多少，这一段美好历史的创建并不容易。但现在看着这一切都被毁了，我简直快疯掉了。”
+
+随后，记者问马队为何认为米兰被毁掉了，对此他这样解释道：“从那些有着进取心的球员离开开始，我认为这些人是米兰获得成功的基础。过去25年球队有很多人成为过客，有几个人还留在球队继续工作？一个都没有！目前待在米兰最久的是加利，球队青训主管。在他之后是塔索蒂，但我认为塔索蒂会在今夏离开球队。一旦这一切发生又将是一件疯狂的事情，米兰将会因此失去另一段历史，我真的希望这一切不是真的。”
+
+“在拜仁和皇马，那些过去曾做出过伟大贡献的人都留在俱乐部工作了。但米兰没有，这是最大的问题。如今尤文也意识到了这一点，他们开始让一些知道如何取得成功的人管理俱乐部。我说这些不是在为我自己说话，有人认为我是个忘恩负义的人，我想说不是这样的。如今米兰深陷危机让我备受煎熬，我的两个孩子都在米兰青年队效力，一个被租借给了布雷西亚，你要知道我现在仍然感觉是米兰的一部分。”
+
+最近，部分媒体和球迷在炮轰米兰的转会政策。谈及这个，马尔蒂尼表示：“俱乐部必须要明确球队如今要寻求别的目标了，我们已经无法与尤文匹敌了，我们也不是欧洲前十的球队了。现在的米兰没有规划。只想着今天而不是明天。米兰应该买对球队有用的球员，而不是去捡那些免费货。也许你一时得利，不过绝非长久之计。球队免签了球员再给出一份丰厚的合同，这是没意义的。但这是整个结构的问题。”
+
+目前的米兰更衣室也存在一些问题，对此马尔蒂尼也心知肚明，“更衣室的事情我是从老队友那里听说的？没有，我没和任何人谈过，但有些声音是存在的。整个球队的状况都不好，负面情绪是会传染的。有的人受到的影响会小一些，因为他们知道自己不会在米兰待很久。个人的选择，依然是最为重要的。”
+
+在马尔蒂尼看来，其实2007年赢得欧冠后，米兰的危机就已经显现了。“当时我就和加利亚尼说，‘米兰并不是欧洲最好的球队。’那时候我就感觉，如果球队不投入资金进行人员换代，那么成绩肯定会下滑，但这只是开始。最关键的一步是，球队后来卖掉了席尔瓦和伊布，这对米兰的打击是非常大的。”
+
+那么，在马尔蒂尼看来，如今的米兰需要多久才能恢复往日的荣光呢？“我不知道，这取决于俱乐部的目标。球迷们也不愿意只见到一支能赢球的米兰，他们更喜欢看到球队的明确规划，米兰之前的重建计划现在看来已经死了。贝卢斯科尼？现实是，他现在已经不想对米兰继续投入了。”
+
+贝卢斯科尼淡出米兰，其女儿芭芭拉已经开始领导米兰。“芭芭拉是否能领导米兰？我不知道，这取决于她身边的人。我不认为她在理解足球和了解球员方面是专家。”马尔蒂尼这样说道：“莱昂纳多曾尽力让我当球队的体育总监，但加利亚里认为我过气了。但事实上，如果你身边有能力出众的人，那你就能少犯错误。最好的例子就是皮尔洛，如果有个教练说皮尔洛已经完了，球队已经不需要他了，那么就必须有人对俱乐部说‘不！皮尔洛是球队传统的一部分，他必须留下来。’如果当时有人这么做了，我想我们也不会送出一份大礼给尤文了。”显然，在马尔蒂尼看来，伊布、席尔瓦以及皮尔洛这三人都是米兰不该放走的重要球员。
+
+在接受采访时，马尔蒂尼还谈到了与米兰南看台部分球迷的关系，马尔蒂尼与这部分球迷的关系是非常紧张的。“说实话我很厌恶那个群体，我是俱乐部历史出场次数最多的人，我不喜欢那些比我年龄还小的人教我如何努力工作，没人喜欢被球迷以嘘声对待。我们在2007年赢得欧冠后6个月，他们就疯狂批评球队，这让我感到很生气。”
+
+谈到巴洛特利，“他不是冠军球员，当年的帕托也是。说实话我并不了解他，但我觉得如果他去了尤文，能在一个更强硬的环境下发展，那么他或许会有更大的成长。我认为米兰不该把所用重责都让他承担，他不是救世主。”</field>
+  </row>
+
+  <row>
+	<field name="ID">284</field>
+	<field name="Title">Mobile pay halt: mixed reviews</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/2014-03/18/content_17358085.htm</field>
+	<field name="Time_Publish">2014-03-18 18:41:02</field>
+	<field name="Time_Check">2014-03-18 18:41:02</field>
+	<field name="Content">By Michael Barris in New York (China Daily USA)
+
+A move by China's central bank to halt mobile phone payment systems and virtual credit cards over security concerns disappoints convenience-cra-ving consumers as online and mobile payment transactions grow rapidly.
+
+&quot;People who go for convenience just want to get it (a transaction) done as soon as possible,&quot; said Monica Wu, a Toronto resident visiting Manhattan for her 31st birthday. A big fan of Taobao Marketplace, an eBay and Amazon.com-like online shopping website in the Chinese language, Wu said she used the Alibaba Group Holding-operated site &quot;all the time&quot; until she settled in Toronto after graduating from Brock University in Southern Ontario's Niagara Region.
+
+On the other hand, the halting of payments made by scanning a bar code with mobile devices probably won't mean much to consumers who don't feel comfortable with online payment systems, Wu said. &quot;Those people may just go to the traditional channels - like a store,&quot; she said.
+
+As the investment specialist for the Royal Bank of Canada spoke, thousands of revelers, shoppers and tourists streamed through Times Square - many of them dressed in green in celebration of St Patrick's Day. The throng also included hundreds of US university students on spring break. College-age students from China tend to be big users of online shopping and payment services such as Taobao.
+
+One of them, Wu Yue, a university student also visiting New York from Toronto, said halting the mobile payment process is only as important as the size of the transaction one makes with it.
+
+&quot;If I am only buying things under $100, then I don't mind,&quot; the 23-year-old statistics student at the University of Guelph (Ontario) said. Her school friend and traveling companion, Zisang Yang, also 23, said payment security is an important issue as mobile payments gain wider acceptance in China.
+
+&quot;I get the point that mobile payment is not secure, but if the system allows you to go through Alipay (Alibaba Group Holding Ltd's online-payment affiliate) - then you are passing the risk to Alipay, and I don't mind using the mobile,&quot; Zisang said.
+
+The order by China's central bank hits Internet companies Tencent Holdings Ltd and Alibaba which had rolled out new virtual credit cards as competition heats up in China's e-commerce sector. The cards can use QR bar codes scanned by smartphones to process payments, in partnership with China CITIC Bank Corp. The People's Bank of China (PBOC) said its decision targeted worries about the security of verification procedures.
+
+With China widely expected to overtake the US as the world's largest online retail economy this year, the halt of any new services is likely to be temporary, while the PBOC moves to assess how customer information is being secured, according to analysts.
+
+Michael Clendenin, managing director of Shanghai-based RedTech Advisors, viewed the halting of mobile payments as &quot;probably a temporary thing until the government figures out what is going on&quot;.
+
+China's mobile payment market last year surged more than 700 percent to 1.22 trillion yuan ($199 billion) in transactions, according to statistics released by the central bank. Mobile led all categories of e-payment methods recorded by the central bank, including online payments made via computer, as well as telephone payments.
+
+In October 2013, Alibaba said Alipay recorded about 25,000 mobile transactions per minute, for daily transaction value of more than $3.3 billion. In February, Alipay said it handled 900 billion yuan in mobile payment transactions from more than 100 users last year, completing more mobile payments than US-based PayPal and Square Inc combined.
+
+On China's busiest online shopping day - Nov 11 - 21 percent of orders on Alibaba were placed through mobile devices - up from 5 percent a year earlier. As 2013 ended, China had 618 million Internet users and 500 million mobile Internet users, according to data provided by China Internet Network Information Center.</field>
+  </row>
+
+  <row>
+	<field name="ID">283</field>
+	<field name="Title">Real college hoops in China for next season</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/2014-03/18/content_17358087.htm</field>
+	<field name="Time_Publish">2014-03-18 18:41:00</field>
+	<field name="Time_Check">2014-03-18 18:41:00</field>
+	<field name="Content">Real college hoops in China for next season By Jack Freifelder in New York (China Daily USA)
+
+Two men's college basketball teams - the University of Texas at Austin and the University of Washington in Seattle (UW) - have announced plans to play a regular season game in China in 2015, which will mark the first time a major US sports league has hosted anything other than an exhibition match in the world's second-largest economy.
+
+The game, scheduled for an ESPN broadcast on Nov 14, 2015 (Nov 13 in the US), is an offshoot of the Pac-12's Globalization Initiative, with the hopes that this event will become an annual component of the Pac-12 men's basketball season.
+
+Pacific-12 Conference Commissioner Larry Scott announced the news in a statement on Saturday, saying his conference's universities are &quot;proud to be pioneers in China&quot;.
+
+&quot;This event is a great step forward for our initiative designed to use sport and cultural exchange to support the international strategies that many universities have embarked on to extend their reach into China,&quot; Scott said. &quot;Beyond expanding our universities' presence in China, these tours are transformative educational experiences for our student-athletes.&quot;
+
+Scott Woodward, director of athletics at UW, said the conference's &quot;innovative addition&quot; would provide student-athletes a &quot;unique bonding experience&quot; early on in the 2014-2015 campaign.
+
+&quot;The event offers an excellent forum to showcase the university and connect with Washington alumni in China,&quot; Woodward said.
+
+Since launching the globalization program in 2011, the conference has sent a number of collegiate teams to China for competitive exhibitions and clinics, including men's basketball teams from the University of California, Los Angeles (UCLA) and Arizona State University (ASU).
+
+This week in Las Vegas, the Pac-12 also hosted a delegation from the Federation University Sports China (FUSC), China's national organization for university sports under the operation of the Ministry of Education, at the second annual US-China Symposium on Collegiate Sports Development.
+
+Steve Patterson, the athletic director at Texas, is familiar with this program given that he brought the ASU men's basketball team to China in 2013 as part of the conference's global initiative.
+
+Patterson was hired for his new post in November, but broadening the appeal of the Texas Longhorns brand is priority No 1 for the first-year athletic director.
+
+&quot;This will be a great educational experience for our student-athletes and another opportunity to strengthen the university's brand in the world's most populous country,&quot; Patterson said.
+
+Scott, the Pac-12 commissioner, also said that the conference would send a Pac-12 All-Star team to China in August 2014 to play a handful of exhibition games against Chinese professional and university teams.</field>
+  </row>
+
+  <row>
+	<field name="ID">277</field>
+	<field name="Title">Leader of Twitter on 'personal' China visit[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357565.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:36</field>
+	<field name="Time_Check">2014-03-18 18:40:36</field>
+	<field name="Content">Twitter Inc, one of world's most popular social networking service providers, took its first steps into China on Monday, with the company's chief executive officer starting a three-day visit - his first - to the world's second-largest economy.
+
+His visit will take place only in China's business hub; Beijing will not be on the itinerary this time.
+
+Describing the trip as a personal one, Costolo said he intends to mainly meet with academics, college students and officials in Shanghai.
+
+Twitter refused to disclose more details about Costolo's talks with Shanghai government officials, explaining only that Costolo wants to &quot;learn more about Chinese culture and the country's thriving technology sector&quot;.
+
+What has been confirmed regarding Costolo's itinerary is a visit to Fudan University, the official sponsor of his visa. On Wednesday morning, he is scheduled to hold a roundtable meeting with teachers and students at the Journalism School and meet with some of the scholars afterward, according to e-mails from the school.
+
+Hong Bo, an IT reviewer and former editor-in-chief of DoNews, a large information technology forum in China, also characterized Costolo's visit as basically a personal, not a business, trip.
+
+&quot;It is still very difficult for Twitter to enter China for the time being, as many of the tweets touch on political topics. But its Chinese counterpart, Sina Weibo, does not serve as an outlet for these sensitive topics,&quot; he said.
+
+China is a huge market that no company would turn down, &quot;but we have also seen Facebook receiving more than 1 billion users and prices going up even though it has been blocked in China for a long time&quot;, Hong said.
+
+It also was reported by Shanghai local media that Costolo would meet with the officials from the China (Shanghai) Pilot Free Trade Zone. But the administrative committee of the FTZ said it had not been informed about Costolo's schedule, which was arranged by Shanghai's foreign affairs administration department.
+
+Before the FTZ - which serves to test market liberalization measures - was officially established, there were media reports of loosening Internet restrictions, such as lifting the ban on Facebook Inc and Twitter.
+
+But authorities quickly scotched those rumors, and no sign of loosening has been shown thus far.</field>
+  </row>
+
+  <row>
+	<field name="ID">287</field>
+	<field name="Title">404 Not Found</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357566.htm</field>
+	<field name="Time_Publish">2014-03-18 18:41:12</field>
+	<field name="Time_Check">2014-03-18 18:41:12</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">262</field>
+	<field name="Title">Ningxia seeks to spur Arab trade[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357567.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:25</field>
+	<field name="Time_Check">2014-03-18 18:39:25</field>
+	<field name="Content">Northwest China's Ningxia Hui autonomous region is asking the national legislature to let it streamline approval procedures to attract financial institutions from the Arab world to invest in Ningxia.
+
+Ma Li, mayor of the autonomous region's capital city of Yinchuan, said local authorities are striving to create a model for financial cooperation between China and Arab nations.
+
+He suggested introducing a &quot;green channel&quot; for investors from Arab nations, especially sovereign funds.
+
+He also proposed the establishment of a development bank, in partnership with Arab nations, to promote the development of western China.
+
+Further, he suggested establishing jointly invested financial institutions, including brokerages.
+
+Other parts of his proposal cover financial outsourcing services and increased use of the yuan in trading and settling accounts.
+
+&quot;Trade between China and Arab nations has surpassed $200 billion annually, yet cooperation in the financial field is limited,&quot; Ma said.</field>
+  </row>
+
+  <row>
+	<field name="ID">269</field>
+	<field name="Title">404 Not Found</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/business/2014-03/18/content_17357568.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:56</field>
+	<field name="Time_Check">2014-03-18 18:39:56</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">263</field>
+	<field name="Title">Code highlights 'extreme' lack of sex education</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/18/content_17354255.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:38</field>
+	<field name="Time_Check">2014-03-18 18:39:38</field>
+	<field name="Content">By CANG WEI and SONG WENWEI in Nanjing (China Daily)
+
+The lack of sex education, especially concerning how to prevent abuse of young children, is in the spotlight following the release of a code of conduct at a primary school in Yangzhou, Jiangsu province.
+
+The code, which has been distributed to students at Meiling Primary School, tells pupils that &quot;body parts under shorts and underwear should never be touched by other people&quot;, and that &quot;you should tell bad people's secrets to teachers&quot; and &quot;you can lie to bad people&quot;.
+
+Ma Jifen, a sixth-grade teacher at the school, defended the new code.
+
+&quot;Many children in my class have reached puberty and have questions about their bodies. With the newly released code of conduct, I have the chance to discuss the issue with them and answer their questions.&quot;
+
+Zeng Fanlin, a professor from the preschool and special education school affiliated with East China Normal University in Shanghai, said: &quot;The younger the children are, the more vulnerable they could be to abuse. Children cannot express themselves as well as adults. They may be abused if guardians are not paying attention.
+
+&quot;Physically or intellectually challenged children, and those living in rural areas, are the most vulnerable group,&quot; Zeng said.
+
+&quot;Many children may not even realize that they are being abused or were abused.
+
+&quot;Though China introduced legislation to protect children and women in the 1990s, the laws are not well enforced.&quot;
+
+Ignorance about sex may also be a factor. According to a national survey, launched by a protection program for girls under the China Social Assistance Foundation in 2013, which interviewed 235 primary schoolboys and 219 girls, about 61 percent of children did not know what sex education was, while around 22 percent said they &quot;seemed to know&quot;.
+
+When asked how they would react if people tried to touch their private parts, around 24 percent said they would not know what to do or how to get help.
+
+About 44 percent said they would shout or scream.
+
+The survey also interviewed 902 parents of primary school students and 64 percent said they never gave any sex education to their children, and 56.49 percent never showed their children how to prevent sex abuse.
+
+&quot;One of the main reasons that many children get abused is the extreme lack of sex education in China,&quot; said Zhu Zhengfu, vice-president of All China Lawyers Association. &quot;To many children, teachers or parents are the authorities. When the authorities abuse them, maybe they don't even know how to get help.&quot;
+
+According to statistics by Huaiyin district in Huai'an, Jiangsu province, most offenders had an existing relationship with the victims, either as teachers, neighbors or relatives.
+
+Over the last three years, the local procuratorate dealt with 14 cases involving 17 sex offenses perpetrated on children. Some of the offenders arrested had abused children for years.
+
+In 2013, the media reported a spate of sexual assaults on children.
+
+In December, a former county official in Yunnan province was sentenced to eight years in prison for raping a 4-year-old girl.
+
+In June, an official in Henan province was sentenced to death for raping and sexually assaulting 11 girls, the youngest of whom was 9 years old.
+
+In May, a principal at a primary school and a staff member from the local housing authority in Hainan province were sentenced to 13 and 11 years in prison for raping six sixth-grade students.
+
+&quot;I cannot wait for schools to compile books and train teachers to teach sex education and how to prevent my daughter from being abused,&quot; said Jin Yue, a Nanjing resident, who has a 5-year-old girl. &quot;I take every opportunity to teach her how to protect herself.
+
+&quot;For example I told her to say no to other people trying to kiss her or hug her closely.&quot;
+
+Jin said she hopes that Chinese schools will be more active in teaching sex education because &quot;it's necessary and is nothing to be ashamed of&quot;.
+
+Some cities have taken the initiative.
+
+Since June 2013, the women's federation in Guangzhou has distributed 70,000 brochures teaching primary and middle-school girls how to protect themselves.
+
+&quot;Besides having discussions, showing pictures and performing related dramas, the teachers need to repeat again and again self-protection to children,&quot; Zeng said.
+
+Contact the writers at cangwei@chinadaily.com.cn and songwenwei@chinadaily.com.cn</field>
+  </row>
+
+  <row>
+	<field name="ID">286</field>
+	<field name="Title">9 missing after ship collision off Japan coast</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/18/content_17354438.htm</field>
+	<field name="Time_Publish">2014-03-18 18:41:06</field>
+	<field name="Time_Check">2014-03-18 18:41:06</field>
+	<field name="Content">TOKYO - Nine Chinese crew members of a Panama-registered ship went missing after their boat collided with a South Korean cargo in waters near Kanagawa Prefecture early Tuesday morning, said the Chinese Embassy in Tokyo.</field>
+  </row>
+
+  <row>
+	<field name="ID">282</field>
+	<field name="Title">Cotton import curbs spark 'uncertainty': US grower says</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/epaper/2014-03/17/content_17351405.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:53</field>
+	<field name="Time_Check">2014-03-18 18:40:53</field>
+	<field name="Content">For 35 years, Beijing and Washington have been working on their relationship. At times, economist Stephen Roach has written, the world's two largest economies resemble a co-dependent couple locked in an uncomfortable embrace. Those bumps in the road, though, are important in fortifying the union.
+
+Latest example: A statement by the head of China's agricultural policy bank, Zheng Hui. Zheng recently urged China to cut grain and cotton imports to reduce excess inventories. The statement by the president of the Agricultural Development Bank of China, a unit of the People's Bank of China, which funds projects related to economic growth, is sewing &quot;uncertainty&quot; in the US marketplace. That's according to Steve Verett, vice-president of Plains Cotton Growers Inc, representing cotton growers from the Texas High Plains.
+
+&quot;The fact of the stockpile being there is causing uncertainty and then any news like this creates even more,&quot; Verett told China Daily in an interview last week. His group produces 60 percent of Texas cotton and nearly one-quarter of the nation's cotton. China is the largest importer of US cotton.
+
+What gives Texas growers fits is the existence in China of a floor that keeps cotton prices above a certain level and reduces price volatility. The government's 2006 decision to establish that floor, combined with its buying of wheat, corn and cotton when prices dip below the floor, has contributed to a surplus of cotton and grain in China. The excess inventory also stems from the government's boosting of grain production from 2005 to last year by subsidizing Chinese farmers at a cost of 73.9 billion yuan ($12 billion).
+
+In the US, as in the European Union and Japan, farm product prices are driven by supply and demand in the marketplace and commodity markets such as the Chicago Board of Trade and Tokyo Commodity Exchange Inc. Zheng's remarks that trimming imports would free up more storage space for excess grain and cotton are &quot;discouraging&quot; for US growers, given China's large purchases in the US market, according to Verett. Yet Zheng's comments have the US cotton market, not in a tizzy, but in a holding pattern pending more news. &quot;This news has been out there for days, and you haven't seen cotton go down significantly at all,&quot; Verett said. &quot;It's trading in the same range it's been in for the last three or four weeks.&quot;
+
+The market has been bracing for some announcement from China regarding restrictions on cotton and grain imports for some time. Three weeks ago, commodities analyst Mike Zerembski write on the website of The Options Insider that for cotton traders, &quot;the focus will likely continue to be on China, as the world's largest consumer of this commodity is in the early stages of a potential shift from being an aggressive buyer to support government-held stockpiles towards possibly releasing some of its reserves into the domestic market&quot;.
+
+Zerembski said the timing of this shift is &quot;keeping cotton traders and producers up at night, as a rapid release of stockpiles could depress global prices. But a gradual shift away from aggressive purchases could still support prices, as supplies outside of China are rather tight&quot;.
+
+The analyst wrote that increases in cotton production this year &quot;could become an issue for producers later this season should Chinese buying decrease sharply, which would allow global stockpiles outside of China to swell and potentially cause a fairly sharp decline in new-crop prices if China is not willing to absorb excess global inventories&quot;.
+
+The issue surfaces as China endeavors to dispel US fears that China might pose a threat to the US economy, in the wake of 2013 statistics showing China surpassed the US as the world's largest trading nation. Premier Li Keqiang, in talks with US Secretary of State John Kerry, has emphasized the importance and urgency of completing the China-US bilateral investment treaty negotiations and expanding substantive cooperation on a green economy.
+
+The UK-based BRICS Post, an international news and views website, cited data from New York-based investment consulting firm Rhodium Group showing that in the next decade, Chinese outward direct investments will range from $1 trillion to $2 trillion. Many Chinese entrepreneurs aiming to &quot;go global&quot; are much more ambitious to obtain high-valued assets in the US as well as other advanced economies, according to the BRICS Post article.
+
+The point? Zheng's comments may cause uncertainty, but this is no doubt an inevitable part of the evolution of the US-China relationship. The optimistic view says a stronger relationship ultimately will result.
+
+No one ever said building relationships was easy.</field>
+  </row>
+
+  <row>
+	<field name="ID">281</field>
+	<field name="Title">China tourism boosted at marquee NBA game</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/epaper/2014-03/17/content_17351407.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:51</field>
+	<field name="Time_Check">2014-03-18 18:40:51</field>
+	<field name="Content">By May Zhou in Houston (China Daily USA)
+
+Beijing tourism was highlighted at the NBA Spurs vs Utah Jazz game held at the AT&amp;T Center in San Antonio the evening of March 16. Each fan attending the game received a small gift package containing a towel, party favors and a tour map of Beijing. A short film showcasing Beijing landscapes and sports events was broadcast on the big screen in the arena during breaks.
+
+And most of all, during the game, one lucky fan, Andrew Gomez, an IT analyst from San Antonio, won the Free Trip to Beijing, China raffle. Gomez received the big prize - a free 6-day trip from Houston to Beijing for two - from Wang Yue, vice-chairman of Beijing Municipal Tourism Development Commission (BMTDC), and Yang Song, cultural consul from the consulate general of China in Houston.
+
+&quot;I can finally visit Beijing! It's like a dream come true!&quot; Gomez said when he accepted prize.
+
+The small Beijing tourism delegation, led by Wang Yue, consisted of deputy director of BMTDC Liu Jingan, vice-president of China CYTS Tours Holding Co Guo Xiaodong and secretary general of the World Tourism Cities Federation Ding Peng, who joined thousands of fans at the arena to promote Beijing.
+
+According to Wang, BMTDC has been working with the NBA to promote Beijing tourism in the US since 2009 and held similar promotional events through the NBA in New York and Los Angeles in the past. &quot;Our primary goal is to utilize the NBA's platform to promote Beijing as a travel destination,&quot; Wang said.
+
+Besides this one night of a Beijing tourism themed game and prize drawing, BMCTD also advertises its tourism attractions with the NBA and has its ads constantly displayed on the most prominent hometown score boards.
+
+Following its hosting the 2008 Summer Olympic Games, Beijing and Zhangjiakou have been in the process of applying for hosting the 2022 Winter Olympic. Currently, Beijing boasts a number of high-standard stadiums, golf courses and ski courses. Every year, some of the world's top sporting events take place in Beijing, such as the Tour of Beijing, the Beijing International Marathon and the China Open in tennis.
+
+Wang said that by promoting Beijing to US sports fans, BMCTD hopes to combine tourism and sports together to attract tourists to its major sports events, an added bonus to Beijing's many scenic attractions and six world cultural heritage sites.
+
+&quot;Another goal of our promotional trip is to learn something about the NBA's promotional model. They are very successful and very good at marketing and we would like to learn from them,&quot; Wang said.
+
+A big portion of international tourists are serviced by China CYTS Tours. This is why its vice-president, Guo Xiaodong, was part of the delegation. &quot;We hope to spotlight Beijing's unique culture to the US and to help us to better provide inbound tourism services,&quot; Guo said.
+
+Cultural consul Yang Song said that showcasing Chinese elements during a popular NBA game is an effective strategy for BMCTD to promote Beijing. &quot;The US constitutes the biggest percentage - 15 percent - of Beijing's inbound international tourists. More than 700,000 visits are made by Americans every year. That makes the US very important for Beijing's tourism business,&quot; Yang said.
+
+&quot;Of course, I believe this kind of promotional activity will also help the American people to better understand China and Chinese culture, and we also would welcome US cities to promote themselves as travel destinations for the people of China,&quot; Yang added.</field>
+  </row>
+
+  <row>
+	<field name="ID">260</field>
+	<field name="Title">WeChat to take on WhatsApp</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/epaper/2014-03/17/content_17351408.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:22</field>
+	<field name="Time_Check">2014-03-18 18:39:22</field>
+	<field name="Content">WeChat to take on WhatsApp
+
+China's WeChat, the fastest growing mobile social app in the industry, is setting its sights on the US market and says it's committed to offering unique value to brands, charities and education as part of its 2014 market strategy to challenge WhatsApp, the Silicon Valley-based startup that Facebook bought for $19 billion last month.
+
+WeChat &quot;can be used as a platform to promote themselves, manage customer service and even connect online businesses&quot;, said Victoria Wu, director of international business for Tencent's WeChat, during a Thursday event hosted by the Silicon Dragon in San Francisco. Wu is in charge of WeChat's partnership development in the US.
+
+Led by media entrepreneurRebecca Fannin, Silicon Dragon Venture provides news and analysis of trends shaping startups, venture capital and innovations in the world'semerging markets.
+
+Fannin met with Wu at Stanford on Wednesday where she was talking with some professors who are considering using WeChat as a platform to improve student participation.
+
+&quot;What usually takes 20 minutes, is only one minute on WeChat. Using WeChat also facilitates classroom interaction between professor and student,&quot; Wu said.
+
+In a recent case, Wu had persuaded Vivienne Tam, a fashion designer, to use WeChat during her fashion show in New York. Every participant downloaded WeChat to communicate with each other and Tam was also able to interact with her business clients on the platform.
+
+&quot;How serious is Tencent on its global expansion?&quot; Wu said. &quot;We are committed. Tencent is very serious about serving our users around the world.&quot; Wu added that the service would be &quot;stable&quot; and &quot;reliable&quot;.
+
+She said WeChat is more &quot;product&quot; and &quot;user experience&quot; focused, which makes it more competitive among mobile social apps.
+
+Being more versatile than WhatsApp, WeChat allows users to send text, photos, voice messages and find each other by using their smartphones, as well as book and pay for taxis, and track friend's locations.
+
+&quot;At the beginning of globalization, the mobile app is seeing a very high growth in the user base. Therefore, how to make a quick response to users' changing needs is WeChat's biggest challenge,&quot; Wu said.
+
+Jennifer Hodges, a communications officer of Tencent in the US, told China Daily the team is working on educating their US users to take advantage of the &quot;scan the QR code&quot; of WeChat, which is much more widely accepted by Chinese users.
+
+According to a report of AFP, Hong Kong-listed Tencent's shares saw an increase of 9.4 percent after the WhatsApp deal was announced.
+
+The market capitalization of Tencent has been as high as $150 billion, which approaches Facebook's monumental $180 billion, said the report.</field>
+  </row>
+
+  <row>
+	<field name="ID">285</field>
+	<field name="Title">Who'll bail out Ukraine, West or Russia?[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/17/content_17350411.htm</field>
+	<field name="Time_Publish">2014-03-18 18:41:04</field>
+	<field name="Time_Check">2014-03-18 18:41:04</field>
+	<field name="Content">The Ukrainian crisis is quickly becoming a geostrategic conflict. The Crimean parliament's declaration of independence from Ukraine ahead of the March 16 referendum indicates Crimea may possibly join Russia. As Russian President Vladimir Putin maneuvers to restore Russia's right to behave with a superpower's impunity-particularly in its own backyard-the West pushes back.
+
+But economic forces also have shaped this confrontation, especially Ukraine's record as the world's worst performing industrial economy over the last 20 years.
+
+It was popular discontent with this disastrous performance that fomented the recent dissent. This, in turn, triggered a bloody response from ousted Crimean President Viktor Yanukovych. His response consolidated the opposition-and ultimately cost Yanukovych his job.
+
+Beyond this week's political and military maneuvers, the outstanding question is: Who will bail out the Ukrainian economy? Russia, or the EU and the United States? A bailout will be the price of drawing Ukraine into one of the two trading systems on offer.
+
+Stated simply, Ukraine is the economic equivalent of a failed state. After gaining independence in 1991, the country moved briefly to liberalize its economy along the same lines as most of Eastern and Central Europe.
+
+However, Ukraine soon jettisoned its reforms in favor of the state-oligarch model, which was also evolving in Russia. Some 20 years later, Ukraine's GDP has shrunk 30 percent.</field>
+  </row>
+
+  <row>
+	<field name="ID">261</field>
+	<field name="Title">A legacy for the future[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/18/content_17354494.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:23</field>
+	<field name="Time_Check">2014-03-18 18:39:23</field>
+	<field name="Content">Silk Road economic belt is a blueprint for China and Central Asian countries to build a community of common interests
+
+On Sept 7, 2013, while visiting Central Asia, President Xi Jinping proposed that China and the countries of Central Asia draw on the inspiration of the ancient Silk Road and join hands to build on their friendly cooperation over the past 20 years to construct a Silk Road economic belt. This initiative represents a blueprint for common development and common security that will improve the lives of people throughout the region.
+
+The trade volume between China and Central Asian countries has increased a hundred-fold over the past two decades, and China has become the biggest trade and investment partner of these countries. China's accumulative direct investment has reached more than $20 billion. In addition, cooperation among China, Russia and the four Central Asian states within the Shanghai Cooperation Organization has advanced smoothly.
+
+With China's economy expanding, its foreign exchange reserves continue to increase and its foreign investment capabilities are growing. Over the next five years, the scale of China's foreign investment will reach $500 billion. China's new leadership is paying a great deal of attention to development and stability in Central Asia, which is closely related to China's national interests, and it is encouraging Chinese enterprises to &quot;go out&quot;. At present, China has reached a series of cooperative agreements or memorandums of understanding with Central Asian countries in the fields of energy, communications, processing and manufacturing, agriculture and other areas.
+
+The priority for the initiative at present is to develop transport corridors to promote regional economic integration and develop-ment. The collapse of the Soviet Union resulted in the fragmentation of the original traffic and communication systems in Central Asian countries, which are now seeking to strengthen the connectivity among themselves and with China. Kazakhstan has been focusing on the building of the western Europe-western China highway. Uzbekistan is promoting the construction of a railway linking China and Uzbekistan through Kyrgyzstan. While Kyrgyzstan and Tajikistan are striving to upgrade their existing transport and communication systems.
+
+However, while the proposal to establish a Silk Road economic belt has been warmly received by the countries in Central Asia, realizing it does face some difficulties.</field>
+  </row>
+
+  <row>
+	<field name="ID">268</field>
+	<field name="Title">Western hypocrisy in Ukraine[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/18/content_17354496.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:54</field>
+	<field name="Time_Check">2014-03-18 18:39:54</field>
+	<field name="Content">Double standards are on display as Western leaders attack Russia for its stance on and &quot;actions&quot; in Ukraine, while they themselves endorse or commit worse aggression on other countries.
+
+The world's attention has been focused on Ukraine. Russian official media said Sunday's Crimea referendum has polled an overwhelming majority of approval for &quot;reunification&quot; with Russia, while Western powers and the new Kiev government denounce the referendum as illegal. US President Barack Obama told Russian President Vladimir Putin that Crimea's vote &quot;would never be recognized&quot; by the US. The US and EU were expected to announce sanctions against Russia on Monday.
+
+Events shifted to Crimea after Ukrainian President Victor Yanukovych was ousted and a new government formed, with accusations that the Russian military had taken over the region. Yanukovych, resurfacing in a Russian town, said he left because his life was in danger. He also said the new regime is illegitimate and he is still the president.
+
+Western leaders have attacked Putin for his alleged invasion of Crimea. The Russian argument is that it has not invaded Crimea, it has a legitimate interest in the region because of historical links and the ethnic Russians (a significant part of the Crimean population) who live there sought protection against the new and illegitimate Kiev regime.
+
+Countries where separatist forces are active may choose a prudent stance to prevent misuse of &quot;self-determination&quot; from leading to domino effect.
+
+However, that doesn't necessarily mean the Western powers are the messengers of international justice. The rhetoric of some Western leaders is aggressive. They accuse Russia of violating sovereignty and international law, among other things. The United States plans to ban visas for selected Russian officials, followed by sanctions on Russian banks, freezing assets of its companies and possibly trade measures. Obama and US Secretary of State John Kerry have accused Putin of using false claims (that Crimea is in danger) for &quot;invading&quot; the region.
+
+Listening to the American leaders lecturing Russia in their self-righteous tone, one is struck by the double standard and hypocrisy involved. They don't seem to realize how they have violated the same principles and behaviour they demand of Russia.
+
+It was after all the US that invaded Iraq in 2003, massively bombing its territory and killing hundreds of thousands, on the grounds that Iraqi leader Saddam Hussein had amassed weapons of mass destruction. No weapons of mass destruction were found, and many experts consider the war against Iraq a violation of international law, a view also expressed in an interview by the then UN secretary-general Kofi Annan.
+
+The US has also waged war in Afghanistan that has caused thousands of deaths. In Libya, the US and its allies carried out massive bombing, which aided opposition forces and led to the killing of Libyan leader Muammar Gaddafi.
+
+Even now there are sanctions on and the threat of military action against Iran because the West suspects Teheran wants to develop nuclear weapons. In contrast, the US turns a blind eye to Israel's possible ownership of nuclear weapons. Also, when Israel launched blanket bombing on Lebanon and the Gaza Strip that caused thousands of deaths, the US did not condemn it and even blocked the UN Security Council from taking action.</field>
+  </row>
+
+  <row>
+	<field name="ID">265</field>
+	<field name="Title">Energy startups on same wavelength</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/opinion/2014-03/18/content_17356963.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:45</field>
+	<field name="Time_Check">2014-03-18 18:39:45</field>
+	<field name="Content">Harnessing the energy of ocean waves is a concept that is at least 200 years old, but a clear technology has yet to surface. This week, a startup from China is unveiling a mechanism that might just catch the big wave.
+
+&quot;We want to attract California users by offering a compelling and sweet deal - reliable, cheap and clean electricity to single house or small community,&quot; Sam Timofeev, a management partner of Hong Kong-based Finima Innovations, told China Daily in Palo Alto.
+
+Timofeev was among several Chinese cleantech startups on a trip to Silicon Valley to take part in the Hong Kong Science and Technology Parks (HKSTP)-hosted CleanTech Forum, an annual international showcase for venture-grade, emerging clean energy investment opportunities, where US businesses can also get coached on how to take advantage of the facilities and services provided by this hub of innovation in Asia.
+
+&quot;This offers us a chance to stand out,&quot; Timofeev said. &quot;Consumer wave energy is cool - as long as it really works and can be applied.&quot;
+
+The target market for Finima's &quot;breakthrough&quot; technology is individual households, coastal communities and small-scale and distributed electricity generation, he said.
+
+The plan for most of the Chinese cleantech technology startups' attending the forum is networking, getting out and speaking with people who are likeminded and creative.
+
+As of Jan 31, a total of 41 partner companies and 13 incubatees have found a home at the HKSTP, including three energy application projects, five energy efficiency projects, eight environmental engineering, four Green transportation and electric vehicle ventures, six on renewable energy, 14 concerning solid-state lighting, and more.
+
+HKSTP's incubation program provides assistance to technology startups in their vulnerable inception stages, enabling them to grow and flourish.
+
+The park also launched a soft-landing program to provide a platform for overseas and local universities, research institutes, their spin-offs and startup companies to promote their innovations and technologies among Hong Kong industries.
+
+&quot;China has demonstrated strong potential and a commitment to driving cleantech development,&quot; said Frank Leung, a consultant on green-tech and precision engineering with HKSTP.
+
+In a 2014 budget speech, China's finance ministry said it would increase spending on the environment by 7.1 percent - after a drop of 9.7 percent in 2013 - as the nation tries to tackle harsh air pollution that has shrouded many of the nation's cites and the industrial waste that has fouled many of its waterways, Leung pointed out.
+
+In a recent keynote speech to parliament, Premier Li Keqiang vowed to &quot;declare war on pollution&quot; and promised the same level of resolve the government has shown in its efforts to fight poverty.
+
+Also, China wants to reduce its dependence on cheap but dirty coal for energy, boost the use of natural gas and raise environmental standards for fuels like diesel and gasoline, said Leung.
+
+&quot;Given such firm commitment from the policymakers, there is huge potential for clean-tech startups to take the initiative to look for cleaner, more renewable energy to deliver on the targets set by the government, and to look for private investment to fuel the development of such innovations,&quot; Leung said.
+
+&quot;If you ask about Chinese government policies, I would say we are satisfied with their developments and actual work,&quot; Timofeev said.
+
+However, it still takes time for the booming Chinese clean-tech startups to realize their core competitiveness and figure out how to make money.
+
+In the Finima case, the team moved in the wrong direction at first by researching a high-efficiency power-generating mechanism.
+
+&quot;We spent nearly two months and lots of resources building a mechanism for transforming maximum torque into electricity, with a minimal lost of power in the generating process,&quot; said the founder of Finima, Chan Kwai Nam.
+
+&quot;Also, we built more than 10 different new generator mechanisms, tested them hundreds of times and finally got a 0.45 percent power transforming efficiency improvement compared with traditional mechanism,&quot; he said.
+
+Then, he said, the team finally realized they were wasting too much time building a generator that had nothing to do with ocean wave energy.
+
+The company refocused their aim on wave movement, water particle properties, buoy and mooring mechanism analysis and hundreds of failure case studies, with extensive modeling and testing, he said.
+
+&quot;The mechanism is now an advance wave-movement capturing system, a breakthrough from existing technologies,&quot; Chan said.</field>
+  </row>
+
+  <row>
+	<field name="ID">266</field>
+	<field name="Title">404 Not Found</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/us/2014-03/18/content_17358090.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:47</field>
+	<field name="Time_Check">2014-03-18 18:39:47</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">274</field>
+	<field name="Title">Malaysia plane pilots, passengers back under scrutiny[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/16/content_17350038.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:15</field>
+	<field name="Time_Check">2014-03-18 18:40:15</field>
+	<field name="Content">KUALA LUMPUR - Confirmation that a missing Malaysian airliner was deliberately diverted suggests several scenarios that have sharpened scrutiny of the passengers and cockpit crew, with police reportedly searching the pilot's home.
+
+Prime Minister Najib Razak announced Saturday that satellite and radar data clearly indicated the plane's automated communications had been disabled and the plane then turned away from its intended path and flown on for hours.
+
+&quot;These movements are consistent with deliberate action by someone on the plane,&quot; he said, adding that investigators had consequently &quot;refocused their investigation into crew and passengers on board.&quot;
+
+Flight MH370 was under the command of Captain Zaharie Ahmad Shah, and his First Officer Fariq Abdul Hamid.
+
+Malaysian reporters said they witnessed police enter Zaharie's home on Saturday, spending two hours there.
+
+The 53-year-old had assembled his own flight simulator at home, according to online tributes describing his passion for flying.
+
+Since the Sept 11, 2001 terror attacks, the International Civil Airline Organisation has mandated high security standards for plane cockpits.
+
+Cockpit doors - reinforced to withstand bullets - must be locked from the inside before push off from the gate.
+
+&quot;So for me there's only a few scenarios,&quot; said Paul Yap, an aviation lecturer at Temasek Polytechnic inSingapore.
+
+&quot;First the people involved in the deliberate actions are the pilots, one of them or both of them in cahoots.
+
+&quot;Then we have a scenario where terrorists make the pilots change course and switch off the transponders under duress, maybe threatening to kill passengers,&quot; Yap said.
+
+The transponder of MH370 was switched off around the time analysts said it would have reached its cruising altitude, when pilots often emerge to take a bathroom or coffee break.
+
+The hijackers of the four planes used in the 9/11 attacks turned off the transponders of three of the jets.</field>
+  </row>
+
+  <row>
+	<field name="ID">264</field>
+	<field name="Title">Man who said he kissed nurse in Times Square photo dies at 86[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354322.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:40</field>
+	<field name="Time_Check">2014-03-18 18:39:40</field>
+	<field name="Content">Man who said he kissed nurse in Times Square photo dies at 86
+
+AUSTIN, Texas  - In the black-and-white photo, the sailor would always be a young man, locked in a kiss with a nurse in New York's Times Square to mark the end of World War Two.
+
+Glenn Edward McDuffie, who said he was the kissing sailor in the iconic Life magazine photograph, died this month at the age of 86, the Houston Chronicle newspaper reported on Friday.
+
+For years, many men had claimed to be the sailor in the photograph taken by Alfred Eisenstaedt. In 2007, Life magazine's parent, Time, reported that McDuffie likely was the man, based on an analysis by a police forensic artist.
+
+McDuffie told the Chronicle in 2007 that he never spoke to the nurse before he kissed her during celebrations to mark the end of fighting with Japan in August 1945. He was 18 at the time.
+
+&quot;When I got off from the subway, a lady told me the war was over, and I went into the street yelling. I saw the nurse and she was smiling at me, so I just grabbed her,&quot; he said.
+
+He said he kept quiet about the picture for years and only came forward in 1980, when the editors of Life were seeking the two people in the photograph.
+
+&quot;I never thought I needed publicity, just to be somebody,&quot; McDuffie told the Chronicle. &quot;But it made me mad they wouldn't recognize it was me.&quot;
+
+He spent the last years of his life in poor health. His daughter, Glenda Bell, told the Chronicle that when women asked to recreate the photograph with him, he gave them a peck on the cheek.
+
+McDuffie, who spent most of his post-war years in Houston, will be buried in a veteran's cemetery in Dallas, family members told the newspaper.</field>
+  </row>
+
+  <row>
+	<field name="ID">273</field>
+	<field name="Title">Energy startups on same wavelength</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354349.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:06</field>
+	<field name="Time_Check">2014-03-18 18:40:06</field>
+	<field name="Content">Harnessing the energy of ocean waves is a concept that is at least 200 years old, but a clear technology has yet to surface. This week, a startup from China is unveiling a mechanism that might just catch the big wave.
+
+&quot;We want to attract California users by offering a compelling and sweet deal — reliable, cheap and clean electricity to single house or small community,&quot; Sam Timofeev, a management partner of Hong Kong-based Finima Innovations, told China Daily in Palo Alto.
+
+Timofeev was among several Chinese cleantech startups on a trip to Silicon Valley to take part in the Hong Kong Science and Technology Parks (HKSTP)-hosted CleanTech Forum, an annual international showcase for venture-grade, emerging clean energy investment opportunities, where
+
+US businesses can also get coached on how to take advantage of the facilities and services provided by this hub of innovation in Asia.
+
+&quot;This offers us a chance to stand out,&quot; Timofeev said. &quot;Consumer wave energy is cool — as long as it really works and can be applied.&quot;
+
+The target market for Finima’s &quot;breakthrough&quot; technology is individual households, coastal communities and small-scale and distributed electricity generation, he said.
+
+The plan for most of the Chinese cleantech technology startups’ attending the forum is networking, getting out and speaking with people who are likeminded and creative.
+
+As of Jan 31, 2014, a total of 41 partner companies and 13 incubatees have found a home at the HKSTP, including three energy application projects, five energy efficiency projects, eight environmental engineering, four Green transportation and electric vehicle ventures, six on renewable energy, 14 concerning solid-state lighting, and more.
+
+HKSTP’s incubation program provides assistance to technology startups in their vulnerable inception stages, enabling them to grow and flourish.
+
+The park also launched a soft-landing program to provide a platform for overseas and local universities, research institutes, their spin-offs and startup companies to promote their innovations and technologies among Hong Kong industries.
+
+&quot;China has demonstrated strong potential and a commitment to driving clean-tech development,&quot; said Frank Leung, a consultant on green-tech and precision engineering with HKSTP.
+
+In a 2014 budget speech, China’s finance ministry said it would increase spending on the environment by 7.1 percent — after a drop of 9.7 percent in 2013 — as the nation tries to tackle harsh air pollution that has shrouded many of the nation’s cites and the industrial waste that has fouled many of its waterways, Leung pointed out.
+
+In a recent keynote speech to parliament, Premier Li Keqiang vowed to &quot;declare war on pollution&quot; and promised the same level of resolve the government has shown in its efforts to fight poverty.
+
+Also, China wants to reduce its dependence on cheap but dirty coal for energy, boost the use of natural gas and raise environmental standards for fuels like diesel and gasoline, said Leung.
+
+&quot;Given such firm commitment from the policy makers, there is huge potential for clean-tech startups to take the initiative to look for cleaner, more renewable energy to deliver on the targets set by the government, and to look for private investment to fuel the development of such innovations,&quot; Leung said.
+
+&quot;If you ask about Chinese government policies, I would say we are satisfied with their developments and actual work,&quot; Timofeev said.
+
+However, it still takes time for the booming Chinese clean-tech startups to realize their core competitiveness and figure out how to make money.
+
+In the Finima case, the team moved in the wrong direction at first by researching a high-efficiency power-generating mechanism.
+
+&quot;We spent nearly two months and lots of resources building a mechanism for transforming maximum torque into electricity, with a minimal lost of power in the generating process,&quot; said the founder of Finima, Chan Kwai Nam.
+
+&quot;Also, we built more than 10 different new generator mechanisms, tested them hundreds of times and finally got a 0.45 percent power transforming efficiency improvement compared with traditional mechanism,&quot; he said.
+
+Then, he said, the team finally realized they were wasting too much time building a generator that had nothing to do with ocean wave energy.
+
+The company refocused their aim on wave movement, water particle properties, buoy and mooring mechanism analysis and hundreds of failure case studies, with extensive modeling and testing, he said.
+
+&quot;The mechanism is now an advance wave-movement capturing system, a breakthrough from existing technologies,&quot; Chan said.</field>
+  </row>
+
+  <row>
+	<field name="ID">275</field>
+	<field name="Title">Helen Wan: Writing, living 'American dream story'</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354411.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:29</field>
+	<field name="Time_Check">2014-03-18 18:40:29</field>
+	<field name="Content">By AMY HE in New York (China Daily USA)
+
+When Helen Wan started writing a book more than a decade ago, she thought it would be a collection of short personal essays about her experiences in the work force as someone who occupied not just one category of &quot;outsider&quot; status, but two: woman and minority.
+
+&quot;I specifically remember trying to go into bookstores to find a book about how either a woman or a minority — or even better, a woman of color, an Asian American woman — can navigate corporate culture authentically and successfully, but I could not find one,&quot; Wan said.
+
+So she decided to write one.
+
+Wan juggled writing as she worked in the corporate department of Paul, Weiss, Rifkind, Wharton &amp; Garrison LLP, her first job after graduating from the University of Virginia Law School. After putting together a 100-page manuscript, she submitted it to a handful of literary agents.
+
+&quot;Soundly rejected,&quot; she said. &quot;It did not get anywhere.&quot;
+
+The agents liked the style and the voice of Wan's writing, but they said it would be hard to sell a book written by an unknown 25-year-old about toiling away at a law firm, especially if the stories were personal essays.
+
+If the book were redone as a fiction piece, she was told, the reaction might be very different.
+
+&quot;That was advice that I did not take for a very, very long time, because I was a full-time associate at Paul Weiss and I was thinking, 'Oh my goodness, it took me so long to put together 100 pages of non-fiction, how on earth am I going to find time to turn it into fiction?!'&quot; she said.
+
+But she did. Now it was about a young Chinese-American lawyer called Ingrid Yung, and the feedback fell into two categories. Agents wanted Wan to make the book much more ethnically-focused than it was, or she had to take out the her character's ethnicity.
+
+&quot;They said to me, 'We don't get it. Is this supposed to be an ethnic novel? If so, the book needs to be much more 'Chinese-y',' Wan said. &quot;Or, they said, 'If you can't make it more ethnic, take the ethnicity out. Can you just make it about a white woman?'&quot;
+
+Wan, who grew up in the suburbs of Washington, said she wasn't willing to write about her protagonist getting sent to Beijing — &quot;having all these crazy, exotic adventures&quot; — and rewriting it from the point of view of a blonde woman was not an alternative she wanted either.
+
+&quot;This is a uniquely American story, it's a uniquely American Dream story,&quot; she said. &quot;My whole purpose was that there were not enough books out there — particularly novels — featuring strong Chinese-American female protagonists, and that was a very important goal in getting this book published.&quot;
+
+Wan's The Partner Track is a fictional account of how a female Chinese-American lawyer tries to navigate the world of corporate culture at a time when company diversity meant having &quot;Dumpling Day&quot; in the company cafeteria. The main character, Yung, is on her way to becoming a partner at the firm she works at — the first minority to do so — and dealing with how being on the &quot;partner track&quot; reveals much about the lack of resources available to women, and particularly women of color.
+
+Diversity at the fictional law firm where Yung works is never a problem until a culturally-insensitive skit makes its way to a company party, and a diversity committee is set up at the firm to solve the problem.
+
+In her 15 years of practicing the law, Wan said that diversity has gotten better and companies trying to diversify didn't resort to token solutions like bringing on a diversity committee. But she admitted that &quot;change is very slow coming.&quot;
+
+After working at Paul Weiss, she spent seven years at Frankfurt Kurnit Klein &amp; Selz before becoming associate general counsel at Time Inc in 2007.
+
+&quot;I actually think that the scenes that take place in the novel could very well still happen today, and do, by the way,&quot; she said. &quot;They happen with less frequency, but still do happen.&quot;
+
+Big firms are perhaps savvier in dealing with diversity issues than they used to be, Wan said, focusing more on cultivating diversity presence in the executive level, training employees on how to build organic relationships with the right mentors and sponsors at the company.
+
+But some of the problems that she noticed as a young associate starting out in the legal world are still present today.
+
+&quot;What I was noticing then — and not just me — was that there were some patterns as to who was getting plum assignments. Just who were being tapped for certain projects,&quot; Wan said. &quot;There were certain of our entering classmates who were quickly being kind of protected or taken up by very powerful mentors and sponsors, and others of us who were not.&quot;
+
+Wan said she didn't feel like any of this was &quot;systemic or systematic,&quot; which is what makes it even more difficult to pinpoint and correct. But Partner Track was her take on the other half in corporate America try to navigate that system.
+
+The book was published in September to positive response and was discussed in small communities across the US. But through word of mouth and social media, support for the book grew and Wan was invited to speak about diversity and the workforce, using her book to start dialogue about inclusive environments, which she said she found incredibly flattering.
+
+Eventually, the response grew so large that Wan decided to take a year off from her work at Time Inc and focus on promoting the book and working on a second novel, which does not yet have a release date.
+
+Wan said that she has even gotten mail from readers in China who read the book in English and liked it so much that they offered to translate it into Chinese.
+
+&quot;I would be so fascinated to speak with Chinese readers to find out their thoughts about this uniquely Chinese-American experience in the American workforce,&quot; Wan said.</field>
+  </row>
+
+  <row>
+	<field name="ID">270</field>
+	<field name="Title">Obama imposes sanctions on Russians over Crimea</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17354889.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:58</field>
+	<field name="Time_Check">2014-03-18 18:39:58</field>
+	<field name="Content">WASHINGTON - US President Barack Obama on Monday slapped sanctions on two top aides to President Vladimir Putin and nine other people linked to Russia's military incursion into Crimea as tensions increased between the two countries over the Ukraine crisis.
+
+Facing one of his toughest foreign policy tests yet, Obama made clear the United States was prepared to impose more sanctions if Russia formally annexed Crimea in response to a weekend referendum in the region that Washington and its allies called illegitimate.
+
+&quot;Going forward, we can calibrate our response based on whether Russia chooses to escalate or to de-escalate the situation,&quot; Obama said.
+
+The sanctions were the most visible sign of US anger at Russia's attempt to absorb the Crimea region in southern Ukraine, reflecting the deepest plunge in US-Russian relations since the Cold War.
+
+Senior administration officials told reporters the penalties were the most comprehensive sanctions applied to Russia in more than two decades.
+
+Republican Senator John McCain, however, said Obama did not go far enough when the president cited so few individuals and no businesses.
+
+The US sanctions came in an executive order signed by Obama a day after a Crimea referendum aimed at allowing Russia to annex the autonomous region.
+
+&quot;If Russia continues to interfere in Ukraine, we stand ready to impose further sanctions,&quot; Obama said.
+
+Putin signed a decree on Monday recognizing Crimea as a sovereign state and was expected to take up the annexation issue with the Russian parliament on Tuesday.
+
+Obama's ability to influence Putin has proved minimal. The two spoke four times over the past three weeks even as Russia moved closer to Crimea.
+
+The belief among US officials, however, is that calibrated sanctions over time will damage the Russian economy, which has close ties to Europe, and force Moscow to rethink.
+
+Amid fears that Russia might move into eastern Ukraine, Obama said provocations will achieve nothing except to &quot;further isolate Russia and diminish its place in the world.&quot;
+
+Obama's order freezes any assets in the United States and bans travel into the country of seven ranking Russian government officials and four individuals identified as Crimea-based separatist leaders. Ousted Ukrainian President Viktor Yanukovich, who fled Kiev after bloody protests against his rule, was among those sanctioned.
+
+The United States also reached into Putin's inner circle by naming presidential aide Vladislav Surkov and adviser Sergei Glazyev.
+
+Steven Pifer, a senior fellow at the Brookings Institution think tank and a former US ambassador to Ukraine, said Surkov was a long-time Putin assistant and that Glazyev had been the Kremlin's point person on Ukraine over the past year.
+
+&quot;These steps by themselves likely will not change Mr. Putin's course, but he has to take account that both US and EU officials say more sanctions are on offer, perhaps including broader financial measures against Russia,&quot; Pifer said.
+
+Russia's deputy prime minister, Dmitri Rogozin, and two state Duma deputies, Leonid Slutsky and Yelena Mizulina also were targeted.
+
+A senior official said Obama's order cleared the way for sanctions on people associated with the Russian weapons industry and targeted &quot;the personal wealth of cronies&quot; of the Russian leadership.
+
+Putin himself was not sanctioned. A senior Obama administration official said it would have been highly unusual and extraordinary to target a head of state.
+
+White House spokesman Jay Carney did not rule out sanctioning Putin or providing military assistance to Ukraine, but said the focus so far was on diplomacy and trying to de-escalate the situation.
+
+Carney shrugged off a Russian TV anchor's comment that only Russia had the power to reduce the United States to radioactive dust.
+
+&quot;People say crazy things on TV all the time,&quot; he said.
+
+The administration announced plans for sanctions two months ago but had not named the individuals until Monday. The European Union also imposed travel bans and asset freezes on 21 Russian and Ukrainian officials on Monday.
+
+Obama said he would travel to Europe next week and that Vice President Joe Biden was headed on Monday to Poland and Lithuania to reassure US allies in the region.
+
+&quot;Our message will be clear, as NATO allies we have a solemn commitment to our collective defense and we will uphold this commitment,&quot; he said.
+
+A senior Obama administration official said there was &quot;concrete evidence&quot; that some ballots in the Crimea referendum arrived in some Crimean cities pre-marked.
+
+Officials said they did not fear retaliatory measures from Russia, saying they believed that country had more to lose politically and economically from isolation than the United States. They doubted Russia would cut off cooperation in trying to resolve disputes with Iran and Syria.</field>
+  </row>
+
+  <row>
+	<field name="ID">271</field>
+	<field name="Title">Photos of the captain of missing plane made public[1]</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17355056.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:03</field>
+	<field name="Time_Check">2014-03-18 18:40:03</field>
+	<field name="Content">Captain Zaharie Ahmad Shah, pilot of the ill-fated Malaysian Airlines flight bound for Beijing from Kuala Lumpur which disappeared without trace March 8, 2014. He is pictured in a posting by a member of his family on a YouTube tribute video. [Photo/icpress.cn]</field>
+  </row>
+
+  <row>
+	<field name="ID">280</field>
+	<field name="Title">UN chief concerns over DPRK's missile launch</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17355523.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:44</field>
+	<field name="Time_Check">2014-03-18 18:40:44</field>
+	<field name="Content">UNITED NATIONS -- UN Secretary-General Ban Ki-moon on Monday voiced his concern that the latest missile launch by the Democratic People's Republic of Korea (DPRK) &quot;will lead to increased tension in the region.&quot;
+
+&quot;The secretary-general is concerned that the launch of short-range ballistic missiles by the Democratic People's Republic of Korea (DPRK) will lead to increased tension in the region,&quot; Ban's spokesman Stephane Dujarric told reporters here Monday night.
+
+The DPRK fired off a total of 25 more short-range missiles toward eastern waters Sunday evening, local media reported from Seoul, citing the South Korean Joint Chiefs of Staff.
+
+The DPRK launched 10 projectiles for 10 minutes from 6:20 p.m. local time, before firing off eight projectiles for five minutes from 8:03 p.m. and seven more projectiles for four minutes from 9: 28 p.m., according to the Joint Chiefs of Staff.
+
+Those projectiles were believed to be short-range missiles, possibly the FROG surface-to-surface missiles, as they have a range of around 70 km, according to South Korean military officials. The DPRK was known to have introduced the FROG missiles from the Soviet Union from the 1960s.
+
+Those missiles were fired from Wonsan areas in the DPRK's southeastern coast toward the eastern open waters.
+
+The launches came 12 days after Pyongyang fired off seven projectiles, possibly artillery shells from the DPRK's new multiple rocket launcher termed by the South Korean military as KN- 09.
+
+&quot;The secretary-general emphasizes the need for the DPRK to refrain from any provocative acts and instead to work with its neighbors to build a political atmosphere conducive for the resumption of dialogue,&quot; the UN spokesman said.
+
+On Jan. 29, the DPRK's ambassador to China, Chi Jae Ryong, said in Beijng, capital of China, that the DPRK agrees on the resumption of six-party talks, calling on the United States to fulfil its related obligations.
+
+On the issue of the stalled six-party talks, involving the DPRK, the Republic of Korea, the United States, China, Japan and Russia, Chi said the DPRK has already &quot;taken a seat on the boat of the talks,&quot; urging other concerned parties to come on board.
+
+The six-party talks, first held in Beijing in August 2003, repeated a pattern of agreement and its annulment. In 2005, the six parties agreed on a historic Sept. 19 Joint Statement, in which the DPRK pledged to abandon all its nuclear weapons and existing nuclear programs in exchange for energy aid and security guarantees.
+
+Chi said the reason why the Sept. 19 Joint Statement was not implemented is that the United States has evaded its promises and obligation.</field>
+  </row>
+
+  <row>
+	<field name="ID">278</field>
+	<field name="Title">Japan imposes sanctions on Russia over Crimea crisis</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://usa.chinadaily.com.cn/world/2014-03/18/content_17355526.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:38</field>
+	<field name="Time_Check">2014-03-18 18:40:38</field>
+	<field name="Content">TOKYO - Japan on Tuesday imposed sanctions on Russia over crisis related to Crimea, according to Japan's Foreign Ministry.
+
+In a statement released by the ministry Tuesday, Foreign Minister Fumio Kishida said that the Japanese government does not recognize Sunday's Crimean referendum, which said over 95 percent of voters wanted the region join in Russia.
+
+Kishida announced in the statement to suspend negotiation with Russia on relaxing visa regulation and talks on agreements covering investment, outerspace and prevention of dangerous military movement.
+
+The Crimean parliament on Monday adopted a resolution on the independence of the territory and asked Russia to admit it as its new constituent member.
+
+Russian President Vladimir Putin has signed a decree to recognize Crimea as a sovereign and independent state, according to the Kremlin press service Monday.</field>
+  </row>
+
+  <row>
+	<field name="ID">267</field>
+	<field name="Title">Connecting China Connecting the World</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://www.chinadaily.com.cn/china/2014-03/18/content_17355489.htm</field>
+	<field name="Time_Publish">2014-03-18 18:39:49</field>
+	<field name="Time_Check">2014-03-18 18:39:49</field>
+	<field name="Content">Sorry, the page you requested was not found. Please check the URL for proper spelling and capitalization. If you're having trouble locating a destination on Chinadaily.com.cn, try visiting the Chinadaily home page</field>
+  </row>
+
+  <row>
+	<field name="ID">276</field>
+	<field name="Title">Connecting China Connecting the World</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://www.chinadaily.com.cn/epaper/2014-03/17/content_17351406.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:31</field>
+	<field name="Time_Check">2014-03-18 18:40:31</field>
+	<field name="Content">Sorry, the page you requested was not found. Please check the URL for proper spelling and capitalization. If you're having trouble locating a destination on Chinadaily.com.cn, try visiting the Chinadaily home page</field>
+  </row>
+
+  <row>
+	<field name="ID">272</field>
+	<field name="Title">US Congressmen head to China to study new reforms</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://www.chinadaily.com.cn/kindle/2014-03/14/content_17347442.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:04</field>
+	<field name="Time_Check">2014-03-18 18:40:04</field>
+	<field name="Content">US Congressman Rick Larsen is leaving for his ninth trip to China on Saturday, but this time on crutches.
+
+The Democrat House member from Washington State is still healing from a broken ankle.
+
+Larsen, co-chair of the House US-China Working Group, will be joined on the week-long trip by three other House members: Charles Boustany, a Louisiana Republican who co-chairs the working group; Kenny Marchant, a Republican from Texas; and Mike Quigley, a Democrat from Illinois.
+
+The group will also include two Congressional staff members from Larsen's and Boustany's offices as well as Fordham Law School professor Carl Minzner, a specialist on China's legal system.
+
+The National Committee on US-China Relations is hosting the March 16-23 trip, taking the group to Beijing, Xi'an and Guangzhou. Committee President Steve Orlins is already in China.
+
+Larsen said the trip's goal is to understand the role of the economic reforms that have been announced since the Third Plenum.
+
+&quot;From the United States' perspective, understanding the economic reform proposed and how it relates to the US-China economic relationship is very important and will have an impact on US policy and US economic policy toward China,&quot; Larsen told China Daily on Thursday.
+
+In Beijing, the group will meet top Chinese officials to discuss and learn about China's economic reforms. In Xi'an they will visit the aerospace manufacturing industry.
+
+&quot;I am mainly driving that part of the agenda because I want to understand better the role and future of Chinese aviation industry,&quot; said Larsen, smiling and looking back at a Boeing plane model in one corner of his office in the House Rayburn Building. &quot;I think the Chinese government expects aviation industry to be a major part of its growing economy in the future.&quot;
+
+China is one of the largest customers for Boeing, which has nearly half of its 170,000 employees based in the Washington state.
+
+To Larsen, the trip to Guangzhou in South China, a trailblazer of China's economic reform in the past decades, will help the group understand how economic reform will work in a place that is far from Beijing.
+
+Larsen said he already has received positive messages about China's economic reforms since the Third Plenum, citing Chinese President Xi Jinping, who is personally heading the comprehensive economic reform leadership office.
+
+&quot;I think he is trying to be in control of promoting and pressing for economic reform, which the new Chinese leadership sees as important for China's future economic growth,&quot; said the 48-year-old.
+
+But Larsen pointed out that the challenge for China has been implementation.
+
+&quot;It's one thing to read about it. It's another thing to see it,&quot; said Larsen, who is in his seventh term in Congress since 2000.
+
+Besides meeting Chinese officials and lawmakers, the US Congressional delegation will also meet Chinese business leaders to learn how the economic reforms will affect them and how they are going to use the reforms to help job creation in China.
+
+The group will also meet with US companies doing businesses in China and also meet people in the financial industry. Financial reform has been a priority in China's next economic reform program.
+
+Larsen said he and Boustany will brief Senators Mark Kirk, a Republican from Illinois, and Mazie Hirono, a Democrat from Hawaii, after returning from China. The two Senators have been planning to form a Senate China working group this fall.
+
+Larsen and Kirk, a House member who became a Senator in 2010, set up the House US-China Working Group in 2005 in wake of the failed acquisition of California-based Unocal by China National Offshore Oil Company (CNOOC) in a bid to educate members of Congress about China-related issues.
+
+The trip by the group in the coming week was originally scheduled for last September but was canceled due to the federal government's partial shutdown.
+
+Larsen believes that with the Third Plenum concluded and now the National People's Congress sessions ended, the timing is probably better. &quot;All the steps that have been taking place now are for Chinese leadership to start reform,&quot; said Larsen.
+
+All of Larsen's trips to China have all been about business. He has not yet taken a leisure trip there with his wife, but he said he is looking forward to such an opportunity.
+
+&quot;That shows how dedicated I'm on this (US-China) relationship. I'm going to China on crutches,&quot; said Larsen, laughing.</field>
+  </row>
+
+  <row>
+	<field name="ID">279</field>
+	<field name="Title">Strategy is key to success in China: marketing chiefs</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.chinadaily.com.cn</field>
+	<field name="url">http://www.chinadaily.com.cn/kindle/2014-03/14/content_17347443.htm</field>
+	<field name="Time_Publish">2014-03-18 18:40:43</field>
+	<field name="Time_Check">2014-03-18 18:40:43</field>
+	<field name="Content">China's emerging middle class - growing and strong - creates numerous opportunities for international businesses in all sectors. These opportunities, however, also bring competition, and marketing strategies are key for these businesses to grow and sustain in China, according to a panel of chief marketing officers (CMO) from different global firms.
+
+&quot;There are so many opportunities, but the question really is: 'Where to go next'?&quot; said Miguel Patricio, CMO of Anheyser-Busch Inbev, the world's largest brewer, at the Big Rethink 2014 US conference on Thursday.
+
+&quot;It's not about whether we should go to big places - where others go - it's about identifying where you have more chances to succeed,&quot; Patricio said.
+
+Anheyser-Busch Inbev, which has about 25 percent of the global market, defines China and Brazil as the &quot;right markets&quot; where they are strongly positioned. The Belgian-Brazilian multinational beverage firm believes those two emerging markets, together with the US, help it keep a &quot;balanced footprint&quot; in long-term growth of profitability in both developed and emerging markets.
+
+In China, one of the next big steps for ABInBev is investment in building breweries.
+
+Among the six new ones the company will build in China, &quot;one of them is on the coast, the other five include Yunan and Henan provinces&quot;.
+
+While the giant brewer is betting big on China's market of 1.3 billion people - with some 300 million middle class - the company realizes the challenges.
+
+&quot;The challenge is really the fierce competition and the still fragmented market,&quot; Patricio said.
+
+More than 75 percent of China's urban consumers will earn $9,000 to $34,000 a year by 2022, according to consulting firm McKinsey &amp; Company.
+
+But for many multinational companies, which are in China, the long-term strategy is brand building, especially for consumer goods.
+
+China has become a top market for many foreign brands. It's now the biggest market for General Motors, which sells more vehicles here than in the US, its home base. About 60 percent of current sales for Chevrolet - one of GM's global marquees - are in emerging markets.
+
+&quot;For sure, China is an important part of our strategy, and it's still a matter of building awareness,&quot; said Tim Mahoney, the head of Chevrolet's and GM's marketing operations.
+
+Awareness-building campaigns help Chevrolet - the 103-year-old brand - to reach more consumers in China, which became the brand's No 2 market globally last year, said Mahoney.
+
+&quot;So it means something's working over there,&quot; he said.
+
+The brand's $560 million sponsorship of the Manchester United soccer team - where the brand's logo is emblazoned on sports jerseys - is expected to be well-received in China, which, together with other emerging markets, has nearly one-third of more than 300 million fans in the Asia-Pacific region.
+
+&quot;It's a chance for us to get people that you couldn't buy necessarily on TV,&quot; Mahoney said.
+
+Amway, an American company that manufactures, markets and distributes consumer products, saw its global sales grow by $500 million last year to $11.8 billion, with about 40 percent coming out of China - the company's the No 1 market.
+
+Candace Matthews, Amways' CMO, said their strategy is to &quot;work together with the government&quot;.
+
+On the main leadership team, Matthews said, it's critical that they have some senior leaders who know the government very well.
+
+&quot;Several of our top leaders have worked in the Chinese government before and were very instrumental in letting us understand how strong it was to build that relationship (with the government),&quot; Matthews said. &quot;It's that partnership that really worked very well for us.&quot;
+
+Among the observations from these top global CMOs is that Chinese consumers are willing to try new things, which creates opportunities for their businesses.
+
+&quot;It's hard to make a generalization about Chinese consumers,&quot; Mahoney said. &quot;But there seems to be a greater tendency to experiment and try new brands where in the past it was more traditional, conservative-oriented.&quot;
+
+Chris Hosmer, managing director (Asia Pacific) of Continuum, a leading service design firm, said sustainability is vital for these global firms to think long term.
+
+&quot;It's not enough to be the first, the fastest or the biggest in the Chinese market,&quot; said Hosmer.
+
+&quot;That's not sustainable any more, you have to be relevant in a way that consumers will care a year or two years from now,&quot; he added.</field>
+  </row>
+
+  <row>
+	<field name="ID">301</field>
+	<field name="Title">‘The Chinese government wants to kill us,’ say Hong Kong women accused of Taiwan</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.scmp.com</field>
+	<field name="url">http://www.scmp.com/news/china-insider/article/1450899/chinese-government-wants-kill-us-say-hong-kon</field>
+	<field name="Time_Publish">2014-03-18 18:54:26</field>
+	<field name="Time_Check">2014-03-18 18:54:26</field>
+	<field name="Content">Two women said to be from Hong Kong have become notorious in Taiwan for allegedly vandalising an apartment and telling local authorities that they are being &quot;hunted&quot; by the Chinese government.
+
+Tsang Lai-wun, 20, and Yau Hiu-tung, 19, made headlines on March 12 after they used fake IDs to enter Taiwan and defaced NT$30,000 (HK$8,000) worth of their former Taipei landlord's property, local media reported.
+
+The pair reportedly filled their 33-square-metre room with rubbish, sanitary pads and bloody underwear, and even stole a 37-inch flat-screen television.
+
+According to Taiwan's Now News, after Tsang and Yau were questioned by Taipei police, news of their arrest went viral and the duo fled to southern Taiwan. They were first reported by a hostel owner in Pingtung county and finally apprehended in a separate hostel in Tainan, Taiwan's oldest city.
+
+A worker at the Tainan hostel recognised the two women from television, even though Tsang had dyed her hair orange and Yau had dyed hers pink.
+
+The worker said that one of the women had checked into the hostel using the fake name Chen Mei-ling, but &quot;definitely had a Hong Kong accent&quot; which revealed that she was most likely not a native Taiwanese.
+
+Local Tainan police arrived at the hostel and found that the women's room had been vandalised in a similar manner as their flat in Taipei. Rubbish was strewn about the bed, table and floor, while the toilet had been blocked with tissue. The words &quot;Taiwan is China&quot; had been written on the wall.
+
+Tsang and Yau were arrested and taken to a police station in Taipei. Upon arrest, the two women reportedly demanded fried chicken, and Yau, who had been eating dried pinapple cakes that had cut her gums, asked police to call an ambulance. Her request was denied.
+
+According to Apple Daily reports, when authorities asked the women why they had used fake IDs to enter Taiwan, the pair said that they were on the run after robbing 100,000 yuan (HK$ 126,000) worth of treasure from graves in Xiamen, Fujian province.
+
+Tsang and Yau added that they had smuggled themselves on a boat to the outlying Taiwanese island of Kinmen before entering Taipei and said they had fled Hong Kong after they were framed for stealing a mobile phone.
+
+They insisted that the Chinese Communist Party was &quot;trying to kill them&quot;, and that they planned to commit suicide after their funds were exhausted.
+
+Their claims have yet to be confirmed and investigations are still underway.
+
+Prior to being arrested for theft, forgery and criminal damage, the pair alleged that they were both from Hong Kong and had come to Taipei to study at National Taiwan University of Arts and National Taiwan University.
+
+News of the women's actions has ignited heated online discussion among several Hongkongers, and some netizens have speculated that the women may be &quot;new Hongkongers&quot;, or recent migrants from the mainland.</field>
+  </row>
+
+  <row>
+	<field name="ID">300</field>
+	<field name="Title">President Maduro warns Caracas protesters to clear square</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.scmp.com</field>
+	<field name="url">http://www.scmp.com/news/world/article/1450245/president-maduro-warns-caracas-protesters-clear-squar</field>
+	<field name="Time_Publish">2014-03-18 18:54:22</field>
+	<field name="Time_Check">2014-03-18 18:54:22</field>
+	<field name="Content">Venezuela's President Nicolas Maduro warned protesters in Caracas to clear a square they have made their stronghold, or face eviction by security forces.
+
+Plaza Altamira, in upscale east Caracas, has been a focus of anti-government protests and violence during six weeks of unrest around Venezuela that has killed 28 people.
+
+&quot;I'm giving the Chuckys, the killers, just a few hours,&quot; Maduro said on Saturday, using the name of a murderous child-doll in a horror film to describe anti-government demonstrators who have made the normally genteel 1940s square a base.
+
+&quot;If they don't retreat, I'm going to liberate those spaces with the security forces.&quot;
+
+As dusk fell on Saturday, there were only a handful of protesters in Altamira Square, but some demonstrators were starting to put up barricades of rubbish on other streets in the zone.
+
+Students and other protesters have been using the square, in the pro-opposition Chacao district of Caracas, as a rallying point since a wave of protests started to gather steam in mid-February.
+
+Most nights around dusk, a hard core of several hundred demonstrators has been fighting police and army lines there, in an attempt to access a nearby highway and block traffic.
+
+At a military rally, Maduro also alleged that right-wingers in the US State Department and Pentagon were recommending extreme measures against Venezuela, including sanctions and even his assassination.
+
+&quot;President [Barack] Obama, if this message reaches you, you should know that it would be the worst mistake of your life to sign the authorisation of the assassination of President Nicolas Maduro,&quot; he said in a speech recalling his predecessor Hugo Chavez's spats with the United States.
+
+US antipathy to the socialist government has been in evidence since the start of Chavez's 1999-2013 rule, not least in Washington's quick recognition of a brief 2002 coup against him.
+
+Chavez died from cancer last year, with his protégé Maduro, a 51-year-old former bus driver, winning a vote to replace him.
+
+Maduro says he has seen off a &quot;coup&quot; attempt, and he does not look in danger of being toppled, with the military apparently still behind him.</field>
+  </row>
+
+  <row>
+	<field name="ID">299</field>
+	<field name="Title">Centaline to build up its online business in mainland China</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.scmp.com</field>
+	<field name="url">http://www.scmp.com/property/hong-kong-china/article/1448521/centaline-build-its-online-business-mai</field>
+	<field name="Time_Publish">2014-03-18 18:54:17</field>
+	<field name="Time_Check">2014-03-18 18:54:17</field>
+	<field name="Content">Centaline China, the mainland’s largest property agency by number of branches for the past 10 years, is preparing for the changes that will result from the boom in e-commerce in real estate.
+
+“Our goal last year is to counter the competition from Home Link, our largest competitor on the mainland. This year, we will invest heavily in the online business,” said Sherman Lai Ming-kai, chairman of Centaline Group, the parent company of Centaline China.
+
+Centaline China owns more than 1,700 branches in 15 mainland cities and already has its own property website.
+
+However, that is not enough in this competitive market, Lai said.
+
+E-commerce on the mainland is more popular and well-developed than in Hong Kong, he said.
+
+In the second-hand market, Home Link, a Beijing-based property agency, has developed a mature online property platform and app for smartphones.
+
+Its intranet is also well developed and allows its agents to search for suitable flats available for sale.
+
+I believe e-commerce will create a larger service platform for our business. We could provide a variety of products and immigration services to clients
+
+In the new home market, companies such as online shopping platform Taobao and property information websites SouFun and Sina House have expanded into the property agency business.
+
+“For example, they will gather hundreds of agencies to sell a project and negotiate with the developer to offer a discount,” Lai said.
+
+“If a certain number of people sign up for the offer, then the buyers would be able to get the discounted price.”
+
+Nearly 400 new projects in Beijing are offering discounts on SouFun at present.
+
+“We will set up and launch an e-commerce platform on the mainland this year,” Lai said. “Our strength is we have a strong back-up from our branches and staff.”
+
+The popularity of e-commerce also provides property agencies with more business opportunities, Lai said.
+
+“I believe e-commerce will create a larger service platform for our business. We could provide a variety of products and immigration services to clients,” he said.
+
+In the C-Suite interview on page P3, Sherman Lai reveals his strategies to deal with competitors and why he identifies Home Link as the major competitor in the mainland’s agency business. He also talks about his outlook for the market.</field>
+  </row>
+
+  <row>
+	<field name="ID">244</field>
+	<field name="Title">阿里再投佰程旅行网 BAT逐鹿在线旅游_财经频道_一财网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.yicai.com</field>
+	<field name="url">http://www.yicai.com/news/2014/03/3574873.html</field>
+	<field name="Time_Publish">2014-03-18 18:00:51</field>
+	<field name="Time_Check">2014-03-18 18:00:51</field>
+	<field name="Content">继腾讯近期追投同程后，佰程旅行网（下称“佰程”）也获青睐，佰程创始人兼CEO曾松昨日接受《第一财经日报》采访时透露，其刚完成B轮融资，投资方为阿里巴巴和宽带资本，融资金额近2000万美元，其中阿里巴巴为主要投资方。
+
+对佰程的投资，只是BAT布局移动互联网入口的一个片段。在任何一个APP都可能成为流量入口，也可能因流量导入而形成商业模式爆发的今天，不差钱的巨头们不会放过任何一个“占座”的机会。
+
+说起佰程,并非很多人知道，其实它与携程成立于同年代，至今已15年之久。“最初佰程是大型出境游批发商华远国旅的子公司，佰程主要是华远国旅的前端业务，负责旅游产品的零售，但久而久之，我们发现光作为一家旅游批发商的前端公司并不是一个很好的商业模式，于是我们开始找新方向。”曾松告诉本报记者，其间他曾聘请过职业经理人管理佰程，但并未见起色，而与此同时，起家于同年代的携程和艺龙已成为业界佼佼者。
+
+有接近人士透露，之后佰程经历过数次起伏，终于在2012年，曾松发现，应该做特色差异化业务，研究市场后，曾松决定转型，另辟蹊径地突出签证业务。
+
+“人们要出国旅游必须有签证，而专做签证业务的在线旅游商几乎没有，于是我们在2012年转型，并将公司董事会和股东全面重新调整，并将佰程从华远国旅中独立分拆出来。目前两家公司是完全独立运作的。”曾松透露，2年前的分拆令佰程盈利模式转变，成为以签证业务为主，并兼有自由行、团队游、酒店、机票等相关业务的在线旅游商，业绩急速上升。
+
+曾松表示，正因转型的成效，让阿里巴巴看到佰程的平台聚集效应，从去年年底双方开始接触，之后便顺理成章地达成了融资合作。
+
+据悉，2008年,佰程曾获得集富亚洲和银瑞达投资公司千万美元A轮融资。此番B轮融资已完成，本次融资所得资金主要用于互联网建设、品牌推广和服务体验的提升。
+
+佰程方面透露，其2013年服务的出境人次超过40万，同比2012年增长471%，今年其预计该数字可突破100万人次，未来其还可能进行C轮融资并有上市计划，但暂无上市时间表和详细讯息可透露。
+
+记者在采访中获悉，原本OTA业界只有携程和艺龙两个“老冤家”死磕对方，但随着市场发展，已经演变成携程一边与艺龙打起酒店价格战，一边和去哪儿上演机票价格战，还同时与驴妈妈、同程以大幅度返现甚至“白送”方式抢夺在线门票市场的现状。
+
+“说到底都是为市场份额，无论是机票、酒店还是门票、火车票等新业务，多一个渠道就多一种抢客源的可能性。但另一个问题是，价格战耗资巨大，比如携程一年烧了10多亿元进行价格战，一度利润受挫。艺龙则被价格战拖累巨亏。”劲旅咨询总经理魏长仁指出。
+
+财报显示，去哪儿去年归属于股东的净利润为亏损1.9亿元，扣除了员工期权费用以及从百度获取免费流量产生的非现金费用后净损为1.177亿元。艺龙已连续6个季度亏损，去年全年运营亏损1.78亿元，净亏损1.68亿元。只有“财大气粗”的携程在去年仍获净利润9.98亿元，同比上升40%。
+
+劲旅咨询发布《2013年中国在线旅游度假市场研究报告》显示，2013年，中国旅行社行业总交易额约为3174.3亿元，其中在线交易额占9.2%，通过携程产生的旅游度假业务全年交易额约占在线旅游度假市场总交易额的23.3%，位居第一；途牛占比约为9.8%，排第二；驴妈妈占比3.4%，居第三；遨游网、芒果网等占比都在1%左右。从市场份额统计看，主要几家OTA中，携程的份额超过其他6家的总和，达50%左右。
+
+大战的背后，BAT三巨头正在加紧布局，为大战各方提供“弹药”。腾讯此前入股艺龙，成艺龙第二大机构股东；去年底，腾讯向同程追加5亿元投资成为同程门票价格战上的资金“后盾”；数年前，百度入股去哪儿成其第一大机构股东，近期去哪儿透露，未来三年，百度将根据需求给予去哪儿超过3亿美元的授信；阿里巴巴则自建淘宝旅行，之后又收购穷游网等，此番又注资佰程。日前，关于BAT中一家可能收购携程的消息甚嚣尘上，不过携程并未回应，业界大多认为携程“不差钱”，且要收购携程的溢价太高，因此成行可能性暂时不大。
+
+“在移动互联网时代，任何一个APP都可能是流量入口。”艾维邑动CEO石一告诉本报记者。
+
+这一观点也适用于旅游类APP——在OTA“肉搏战”的外衣下，与流量入口关系密切。在去年至今的价格大战中，BAT就在幕后操控在线旅游网站打前锋，加速对在线旅游入口的争夺。百度已看到携程的全面战争，所以3亿美元的支持就是为了保住去哪儿在发展业务和市场竞争中不受资金约束，从而能更多地占领市场份额。
+
+昨日，阿里巴巴表示，其看好佰程的商业模式，希望能推动在线旅行业O2O业务的发展。
+
+据悉，虽然阿里巴巴在移动购物、移动支付、地图、团购、移动社交等的布局逐渐形成闭环，但尚无微信一类的“杀手级”流量入口，其移动端的流量来源较为分散，即需要各个领域平均用力。显然，对于混战中在线旅游市场，阿里巴巴迫切希望“分羹”。
+
+易观国际分析师顾浩一认为，在线旅游与互联网巨头的合作，目前还是双向的正向循环，但是究竟能带来多大的流量互动，其实大家都是“摸着石头过河”。毕竟BAT巨头总体来说都“不差钱”，战略意义大于资本意义。</field>
+  </row>
+
+  <row>
+	<field name="ID">242</field>
+	<field name="Title">中国媒体在马航客机新闻战中为何失败_思想频道_一财网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.yicai.com</field>
+	<field name="url">http://www.yicai.com/news/2014/03/3593223.html</field>
+	<field name="Time_Publish">2014-03-18 18:00:33</field>
+	<field name="Time_Check">2014-03-18 18:00:33</field>
+	<field name="Content">参加搜救的国家超过10个，最终也变相地演变成一场反潜与卫星战的大演习，虽然谁都没有最后取胜，但是，美英两国显然表现出其强大的情报监控实力。而在这之外，另外一场战斗正在悄然进行，那便是世界超级媒体之间的新闻战。
+
+马航客机失联事件发生后，我赶到北京丽都饭店，自认为捕捉到的最有价值的消息，便是站在马航代表的背后，拍摄到了他手中新闻稿上没有发表的一些内容，并以博文的形式将其发表。这当然是作为记者最低档次的采访。其实，我当时最想做的，是从中国乘客名单中立即去分析：其中有无中国政府高官，有无来自新疆的乘客，或者有无其他特殊的人物？从中去得出是否有可能是恐怖事件。但是，我单枪匹马无法做到。但是中国有媒体完全可以做到：新华社、人民日报和中央电视台。
+
+也许他们只是没有想到，或者想到了也不敢去做，因为这太难，需要从国家某些部门中去获取或印证这些资料，或者，即使发现了一些蛛丝马迹，也不能发表。
+
+其结果，这些天来，中国官方大媒总是跟在人家屁股后面跑——据CNN报道、路透社的最新消息说、纽约时报披露……除了记者会上看到听到的，中国媒体没有一点“独家消息”。
+
+新闻战拼的是实力！实力来自何处？不是拼谁的相机好，谁离发言人近，而是来自于敏锐的职业嗅觉，和FBI一般的情报刺探与分析能力。这只能靠经验，和关系。
+
+马航失联事件发生一天后，纽约时报的一位朋友给我发了一份邮件，说他们调集了30名资深记者成立了报道团队，并在第一时间里写出了18篇报道与分析文章。我当时就想，纽约时报之所以会有这么大的动作，一定发现这一架飞机失联的蹊跷！但是，我更是感叹：他们怎么能够在短时间里写出18篇文章，这预先需要掌握多少的资料数据和专业知识？
+
+此后的事件演变，证明了纽约时报和华尔街日报、美联社、CNN、BBC、金融时报等英美新闻大鳄的实力——从卫星数据到通讯记录，从飞行轨迹到飞行时间，一件件搞到手，一件件抖露出来，虽然马来西亚一次次否认，最终还是纸包不住火，在15日的总理记者会上，承认了媒体报道的众多事实。
+
+英美新闻大鳄为什么能够搞到这些至关紧要的数据情报？毫无疑问，是军方、卫星公司、情报机构向他们作了提供，但是，能够搞定军方和情报机构，便是这些记者的能耐，其中涉及到长期建立的信赖关系，和记者特殊的情报搜集能力。当然，这些媒体也毫无疑问掏出了大把的钱买了卫星公司的数据。
+
+那么，中国媒体，尤其是央媒为什么做不到？甚至都没有搞到10颗卫星定点扫描的照片？原因很简单：中国媒体一直是在被动中成长，已经丧失了主动出击的能力。也就是说，“听传达”变成了职业，而“挖消息”变成了大忌。这就注定，中国央媒是养尊处优的公主，而不是四处寻生的小贩。
+
+还有一个原因，是中国的媒体没有培养专家型记者的制度，尤其是央媒套用机关的游戏规则来框定记者的政治待遇和经济待遇，使得优秀的记者最终都成为无事所所的官僚干部，享受了待遇，毁灭了才华。也正因为如此，许多优秀的记者一旦临近四十，就不愿跑第一线，甚至觉得自己还在第一现场，是一种无能的羞耻(除个别电视节目主持人之外)。
+
+跑了17年的中国两会，发现熟悉的面孔越来越少，更多的是刚出炉的年轻记者，她(他)们很努力地拦委员挡代表，但出来的文章大同小异，深刻的观察与分析文章很少见报。坐在北京人民大会堂，我有时候会有一种强烈的孤独感：那些资深的记者都到哪里去了？为什么大家不学学外媒，让那些头发有些花白的资深记者到“两会”这一中国最有新闻源的地方去挖新闻呢？
+
+也许，许多资深的记者想这么做，但是，没人给他机会。
+
+中国有钱可以打造人数最多的新闻航母，但是我们显然需要更多的，是软实力，并改变我们的一些制度框架。只有这样，在下一场的国际新闻战中，才会有中国媒体的一席之地。</field>
+  </row>
+
+  <row>
+	<field name="ID">243</field>
+	<field name="Title">新一代MINI有望北京车展上市_汽车频道_一财网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.yicai.com</field>
+	<field name="url">http://www.yicai.com/news/2014/03/3597725.html</field>
+	<field name="Time_Publish">2014-03-18 18:00:40</field>
+	<field name="Time_Check">2014-03-18 18:00:40</field>
+	<field name="Content">前有国外媒体报道称，新一代MINI有望在4月份的北京车展上市，这比我们之前预计的时间要提前了不少，而MINI COOPER和MINI COOPER S有望称为率先引进的车型。（本文配图为新一代MINI COOPER）
+
+MINI ONE搭载1.2L双涡轮管单涡轮增压三缸汽油发动机，最大功率为75kW（102PS），峰值扭矩为180Nm，极速可达195km/h。新一代MINI ONE自动挡车型0-100km/h的时间为10.2s，这成绩已经超越了现款MINI COOPER的百公里加速成绩，而手动挡车型则踏入10秒内，达到9.9s。
+
+MINI ONE D车型国内没有，因为这是柴油车型。新一代MINI ONE D搭载1.5T柴油增压发动机，最大输出70kW（95PS），峰值扭矩220Nm，0-100km/h加速时间为11s，极速可达190km/h。
+
+外观方面，新一代MINI COOPER的中网镀铬横条可能还能在MINI ONE上保留下来，但卖萌的圆形大灯中销魂的半圆型LED日间行车灯入门版的MINI ONE估计是没有了。还有轮毂方面的配置MINI ONE也是最寒酸的。
+
+另外配置方面MINI ONE也是以简为主，多功能方向盘、皮革内饰、真皮座椅预计都不会有，自动泊车、动态悬挂控制系统、自动巡航系统、HUD抬头显示系统、哈曼卡顿音响等这些更是想都不要想。唯一能期盼的是MINI ONE会保留新一代MINI COOPER的圆形中控大屏和半圆氛围灯。</field>
+  </row>
+
+  <row>
+	<field name="ID">295</field>
+	<field name="Title">该页面不存在_一财网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.yicai.com</field>
+	<field name="url">http://www.yicai.com/Stock/sz200726.htm</field>
+	<field name="Time_Publish">2014-03-18 18:46:51</field>
+	<field name="Time_Check">2014-03-18 18:46:51</field>
+	<field name="Content"></field>
+  </row>
+
+  <row>
+	<field name="ID">241</field>
+	<field name="Title">王世雄：两千点下方不必悲观_股民学校_网站视音频_一财网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.yicai.com</field>
+	<field name="url">http://www.yicai.com/video/2014/03/3597749.html</field>
+	<field name="Time_Publish">2014-03-18 18:00:02</field>
+	<field name="Time_Check">2014-03-18 18:00:02</field>
+	<field name="Content">你现在的位置 : 一财网</field>
+  </row>
+
+  <row>
+	<field name="ID">240</field>
+	<field name="Title">2000点下方仍是布局好时机_一财速递_网站视音频_一财网</field>
+	<field name="Author">author</field>
+	<field name="Domain">www.yicai.com</field>
+	<field name="url">http://www.yicai.com/video/2014/03/3598906.html</field>
+	<field name="Time_Publish">2014-03-18 17:59:55</field>
+	<field name="Time_Check">2014-03-18 17:59:55</field>
+	<field name="Content">你现在的位置 : 一财网</field>
+  </row>
+
+  <row>
+	<field name="ID">306</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
+	<field name="Domain">domain</field>
+	<field name="url">www.a.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:50</field>
+	<field name="Time_Check">2014-03-19 04:14:50</field>
+	<field name="Content">content</field>
+  </row>
+
+  <row>
+	<field name="ID">304</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
+	<field name="Domain">domain</field>
+	<field name="url">www.a.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:18</field>
+	<field name="Time_Check">2014-03-19 04:14:18</field>
+	<field name="Content">content</field>
+  </row>
+
+  <row>
+	<field name="ID">302</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
+	<field name="Domain">domain</field>
+	<field name="url">www.a.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:04</field>
+	<field name="Time_Check">2014-03-19 04:14:04</field>
+	<field name="Content">content</field>
+  </row>
+
+  <row>
+	<field name="ID">305</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
+	<field name="Domain">domain</field>
+	<field name="url">www.b.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:24</field>
+	<field name="Time_Check">2014-03-19 04:14:24</field>
+	<field name="Content">content</field>
+  </row>
+
+  <row>
+	<field name="ID">303</field>
+	<field name="Title">author</field>
+	<field name="Author">title</field>
+	<field name="Domain">domain</field>
+	<field name="url">www.b.com</field>
+	<field name="Time_Publish">2014-03-19 04:14:13</field>
+	<field name="Time_Check">2014-03-19 04:14:13</field>
+	<field name="Content">content</field>
+  </row>
+</resultset>
