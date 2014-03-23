@@ -123,10 +123,10 @@ footer {
 }
 
 /* Responsive Styles */
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
 
   .carousel {
-    height: 70%;
+    height: 70%;*/
  /* increases the carousel height so it looks good on phones */
-  }
-}
+/*  }
+}*/
