@@ -23,6 +23,10 @@
   </row>
 
   <row>
+	<field name="url">http://health.people.com.cn/n/2014/0321/c14739-24696367.html</field>
+  </row>
+
+  <row>
 	<field name="url">http://health.ycwb.com/2014-03/18/content_6337802.htm</field>
   </row>
 
@@ -67,11 +71,19 @@
   </row>
 
   <row>
+	<field name="url">http://paper.nandu.com/nis/201403/21/191694.html</field>
+  </row>
+
+  <row>
 	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016698.html</field>
   </row>
 
   <row>
 	<field name="url">http://photos.caijing.com.cn/2014-03-18/114016991.html</field>
+  </row>
+
+  <row>
+	<field name="url">http://pic.people.com.cn/n/2014/0321/c1016-24699034.html</field>
   </row>
 
   <row>
@@ -112,6 +124,14 @@
 
   <row>
 	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/18/content_17354438.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/21/content_17366035.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://usa.chinadaily.com.cn/china/2014-03/21/content_17368713.htm</field>
   </row>
 
   <row>
@@ -192,6 +212,10 @@
 
   <row>
 	<field name="url">http://www.chinadaily.com.cn/kindle/2014-03/14/content_17347443.htm</field>
+  </row>
+
+  <row>
+	<field name="url">http://www.chinadaily.com.cn/travel/2014-03/20/content_17362691.htm</field>
   </row>
 
   <row>

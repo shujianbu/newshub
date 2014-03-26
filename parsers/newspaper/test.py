@@ -1,10 +1,8 @@
-url = "wwww.sina.com"
-title = "This is a funny story"
+'''
+domain = input("Please input the domain for specific news source, or \"ALL\" for all news sources:\n")
 
-content1 = url, title
+print (domain)
+'''
 
-content2 = url + '\n' + title
-
-print content1
-
-print content2
+person = raw_input('Enter your name: ')
+print 'Hello', person
