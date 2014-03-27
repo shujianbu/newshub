@@ -7,9 +7,11 @@ For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap
 */
 
 /* Global Styles */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
 
 html, body {
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -119,7 +121,17 @@ body {
 
 /* Footer Styles */
 footer {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
+  padding: 10px 30px;
+  position: relative;
+  bottom: 0;
+  background-color: #101010;
+  width: 100%;
+  color: #888;
+}
+footer a{
+	text-decoration: none;
+	color: #888;
 }
 
 /* Responsive Styles */
@@ -130,3 +142,10 @@ footer {
  /* increases the carousel height so it looks good on phones */
 /*  }
 }*/
+.navbar{
+	font-weight: 100;
+}
+.navbar-brand{
+	font-size: 30px;
+	font-weight: 100;
+}
