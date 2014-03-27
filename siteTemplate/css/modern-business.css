@@ -1,22 +1,9 @@
-/* 
-Custom CSS for...
-'Modern Business' HTML Theme by Start Bootstrap
-
-All Start Bootstrap themes are licensed under Apache 2.0. 
-For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
-*/
-
-/* Global Styles */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700);
-
 html, body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  padding-top: 50px;
- /* body padding for fixed top nav */
+  padding-top: 120px; /* body padding for fixed top nav */
 }
 
 .img-home-portfolio,
@@ -52,7 +39,7 @@ body {
 
 /* Half Page Height Carousel Customization */
 .carousel {
-  height: 50%;
+  height: 68%;
 }
 
 .item,
@@ -119,47 +106,16 @@ body {
   font-style: italic;
 }
 
-
-
-
-
-
-
-
-
-/* Responsive Styles */
-/*@media (max-width: 767px) {
-
-  .carousel {
-    height: 70%;*/
- /* increases the carousel height so it looks good on phones */
-/*  }
-}*/
-
-
-
-
-
-
-/***
-**
-**
-
-Newshub customized CSS dy
-
-**
-**
-**/
-
 .navbar{
-	font-weight: 100;
 }
 .navbar-brand{
-	font-size: 30px;
-	font-weight: 100;
+  font-size: 80px !important;
+  line-height: 80px !important;
+}
+.navbar-brand a:hover {
+  color: #555;
 }
 h2, p{
-	font-weight: 100;
 }
 p{
 	line-height: 22px;
@@ -195,10 +151,15 @@ footer a{
 nav.navbar.navbar-inverse.navbar-fixed-top,
 nav.navbar.navbar-inverse.navbar-fixed-top a
 {
-	background-color: rgb(0, 88, 161);
-	color: #fff;
+  color: #555;
+  background: #fff;
+  font-size: 20px;
+  line-height: 120px;
 }
 nav.navbar.navbar-inverse.navbar-fixed-top a:hover{
-	background-color: rgb(0, 88, 161);
-	font-weight: bolder;
+  color: #00559b;
+}
+.icon-arrow {
+  color: #0058a1;
+  zoom: 2;
 }
