@@ -171,7 +171,7 @@ p{
 .about-info{
 	text-align: right;
 	padding-right: 15px;
-	border-right: 3px solid #999;
+	border-right: 3px solid rgba(0, 88, 161, 0.5 );
 	color: #444;
 }
 /* Footer Styles */
@@ -180,15 +180,25 @@ footer {
   padding: 0 30px;
   bottom: 0;
   position: fixed;
-  background-color: #101010;
+  background-color: rgb(0, 88, 161);
   width: 100%;
 
 }
 footer p{
-  color: #888;
+  color: #fff;
   text-align: right;
 }
 footer a{
 	text-decoration: none;
-	color: #888;
+	color: #fff;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top,
+nav.navbar.navbar-inverse.navbar-fixed-top a
+{
+	background-color: rgb(0, 88, 161);
+	color: #fff;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top a:hover{
+	background-color: rgb(0, 88, 161);
+	font-weight: bolder;
 }
