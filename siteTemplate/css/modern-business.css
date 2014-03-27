@@ -119,20 +119,13 @@ body {
   font-style: italic;
 }
 
-/* Footer Styles */
-footer {
-  margin: 50px 0 0 0;
-  padding: 10px 30px;
-  position: relative;
-  bottom: 0;
-  background-color: #101010;
-  width: 100%;
-  color: #888;
-}
-footer a{
-	text-decoration: none;
-	color: #888;
-}
+
+
+
+
+
+
+
 
 /* Responsive Styles */
 /*@media (max-width: 767px) {
@@ -142,10 +135,60 @@ footer a{
  /* increases the carousel height so it looks good on phones */
 /*  }
 }*/
+
+
+
+
+
+
+/***
+**
+**
+
+Newshub customized CSS dy
+
+**
+**
+**/
+
 .navbar{
 	font-weight: 100;
 }
 .navbar-brand{
 	font-size: 30px;
 	font-weight: 100;
+}
+h2, p{
+	font-weight: 100;
+}
+p{
+	line-height: 22px;
+	color: #444;
+}
+.about-info{
+	margin-top: 40px;
+}
+.about-info{
+	text-align: right;
+	padding-right: 15px;
+	border-right: 3px solid #999;
+	color: #444;
+}
+/* Footer Styles */
+footer {
+  margin: 50px 0 0 0;
+  padding: 0 30px;
+  bottom: 0;
+  position: fixed;
+  background-color: #101010;
+  width: 100%;
+
+}
+footer p{
+  color: #888;
+  text-align: right;
+}
+footer a{
+	text-decoration: none;
+	color: #888;
 }
