@@ -1,4 +1,4 @@
-#import os
+import os
 import sys
 import diff_match_patch
 import MySQLdb
@@ -71,16 +71,11 @@ def get_article():
 	# The problem with English and Chinese can be solved with 
 	for field_urls in root_urls.findall("row"):
 		url_urls = field_urls.find("field").text
-		#print "****************"
-		#print url_urls
 
 		a = Article(url_urls, language='zh')
 		a.download()
 		a.parse()
 		content_urls = a.text
-		#print a.title
-		# This is the article content
-		#print content_urls
 		
 		compare_article(url_urls, content_urls)
 
