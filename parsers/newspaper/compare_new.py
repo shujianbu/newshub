@@ -46,6 +46,7 @@ def get_articles():
 
 				f_output.write("<meta http-equiv=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"/> \n")
 				f_output.write("<link href=\"style.css\" rel=\"stylesheet\"> \n\n")
+				f_output.close()
 
 				encodingMark = False
 
@@ -91,47 +92,30 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 	time_pub = dict_a['time_pub_a']
 	time_check = dict_b['time_check_b']
 	articleID = "arcDiff_" + str(counter)
-	
-	if(newArticle == True):
-		f_output.write("<section id=\"header\"> \n <div class=\"articleUrl\"> \n")
-		
-		f_output.write("URL: <span>")
-		f_output.write(url)
-		f_output.write("</span> \n </div> \n <br> \n")
-		f_output.write("<div class=\"articleTitle\"> \n")
-		f_output.write("Title: ")
-		f_output.write(title)
-		f_output.write("\n Domain: ")
-		f_output.write(domain)
-		f_output.write("\n </div> \n </section> \n\n")
 
+	if(newArticle == True):
+		f_output.write("<section id=\"header\"> \n<div class=\"articleUrl\"> \nURL: <span>")	
+		f_output.write(url)
+		f_output.write("</span> \n</div> \n<br> \n<div class=\"articleTitle\"> \nTitle: ")
+		f_output.write(title)
+		f_output.write("</span> \n</div> \n<br> \n<div class=\"articleDomain\"> \nDomain: ")
+		f_output.write(domain)
+		f_output.write("\n</div> \n<br> \n</section> \n\n")
 
 	f_output.write("<section id=\"")
 	f_output.write(articleID)
-	f_output.write("\"> \n")
-	f_output.write("<div class=\"articleDiff\"> \n")
+	f_output.write("\"> \n<div class=\"articleDiff\"> \n")
 	f_output.write(output_html)
-	f_output.write("\n </div> \n\n")
+	f_output.write("\n</div> \n\n")
 
-	f_output.write("<br> \n <div class=\"articleMeta\"> \n")
-	f_output.write("<br> \n Time_Publish:<br> \n")
-	f_output.write("<div class=\"articleMeta_publishTime\">")
+	f_output.write("\n<div class=\"articleMeta\"> \n<br> \nTime_Publish:<br> \n<div class=\"articleMeta_publishTime\">")
 	f_output.write(time_pub)
 	f_output.write("</div><br> \n")
 	
-	f_output.write("<br> \n Time_Check:<br> \n")
-	f_output.write("<class=\"articleMeta_checkTime\">")
+	f_output.write("\nTime_Check:<br> \n<class=\"articleMeta_checkTime\">")
 	f_output.write(time_check)
 
-	f_output.write("</span><del style=\"background:#ffe6e6;\">19</del><ins style=\" \
-					background:#e6ffe6;\">22</ins><span> </span><ins style=\" \
-					background:#e6ffe6;\">2</ins><span>0</span><del style=\" \
-					background:#ffe6e6;\">1</del><span>:</span><del style=\" \
-					background:#ffe6e6;\">4</del><span>1</span><ins style=\" \
-					background:#e6ffe6;\">5</ins><span>:</span><del style=\" \
-					background:#ffe6e6;\">22</del><ins style=\" \
-					background:#e6ffe6;\">30</ins></div><br>")
-	f_output.write("<br> \n </div> \n </section>")
+	f_output.write("</span><del style=\"background:#ffe6e6;\">19</del><ins style=\"background:#e6ffe6;\">22</ins><span> </span><ins style=\"background:#e6ffe6;\">2</ins><span>0</span><del style=\"background:#ffe6e6;\">1</del><span>:</span><del style=\"background:#ffe6e6;\">4</del><span>1</span><ins style=\"background:#e6ffe6;\">5</ins><span>:</span><del style=\"background:#ffe6e6;\">22</del><ins style=\"background:#e6ffe6;\">30</ins></div><br><br> \n</div> \n</section>\n\n\n")
 
 	return
 
