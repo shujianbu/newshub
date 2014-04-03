@@ -1,8 +1,6 @@
-'''
-domain = input("Please input the domain for specific news source, or \"ALL\" for all news sources:\n")
+f = open("parament", 'w')
 
-print (domain)
-'''
+f.write("what is this")
+f.write("what do you mean?")
 
-person = raw_input('Enter your name: ')
-print 'Hello', person
+f.close()

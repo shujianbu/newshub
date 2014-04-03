@@ -1070,7 +1070,7 @@ class diff_match_patch:
     html = []
     for (op, data) in diffs:
       text = (data.replace("&", "&amp;").replace("<", "&lt;")
-                 .replace(">", "&gt;"))
+                 .replace(">", "&gt;").replace("\n", "&para;<br>"))
       if op == self.DIFF_INSERT:
         html.append("<ins style=\"background:#e6ffe6;\">%s</ins>" % text)
       elif op == self.DIFF_DELETE:
