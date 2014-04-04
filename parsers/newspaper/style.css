@@ -29,6 +29,9 @@ section {
 .articleMeta_domain, .articleMeta_publishTime {
 	color: #0000ff;
 }
+.articleMeta_checkTime {
+	color: #ff8900;
+}
 
 #arcDiff_4 {
 	background: #eee;
