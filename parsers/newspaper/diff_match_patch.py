@@ -186,7 +186,7 @@ class diff_match_patch:
     if hm:
       # A half-match was found, sort out the return data.
       (text1_a, text1_b, text2_a, text2_b, mid_common) = hm
-      # Send both pairs off for separate processing.
+      # Send both pairs off for separaste processing.
       diffs_a = self.diff_main(text1_a, text2_a, checklines, deadline)
       diffs_b = self.diff_main(text1_b, text2_b, checklines, deadline)
       # Merge the results.
