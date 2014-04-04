@@ -1,19 +1,6 @@
 
-var cnDescr = "list_cn.json";
-console.log(cnDescr)
-
-
-
-
-// $.getJSON(cnDescr, {
-//   format: "json"
-// }).done(
-// 	function( data ) {
-// 		console.log(data)
-//     	$.each( data.Name, function(i, Name) {
-//     		console.log(Name);
-//       		$("<li>").append($("<a>").append(Name))
-//       		.appendTo("#sidebar");
-//     		});
-//   	});
-
+d3.json("list_cn.json", function(error,data) {
+	if (error) return console.warn(error);
+	console.log(data);
+	console.log(data.length)
+});
