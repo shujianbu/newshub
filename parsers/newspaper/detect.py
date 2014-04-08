@@ -22,7 +22,7 @@ def upload_meta(url, title, author, domain, time_pub, text):
 
 	# since we cannot get the author attribute, so we use the word "author" instead
 	value = ['', title, author, domain, url, time_pub, gTime, text]
-	cursor.execute("insert into sampleTable values (%s, %s, %s, %s, %s, %s, %s, %s)", value);
+	cursor.execute("insert into articles values (%s, %s, %s, %s, %s, %s, %s, %s)", value);
 
 	conn.commit()
 	cursor.close()
@@ -36,7 +36,7 @@ def compare_article(url_urls, content_urls):
 	root_stored = tree_stored.getroot()
 
 	for entry in root_stored.findall("./row"):
-			url_stored = entry.find("field[@name='url']").text
+			url_stored = entry.find("field[@name='URL']").text
 
 			if(url_stored == url_urls):
 				content_stored = entry.find("field[@name='Content']").text

@@ -25,7 +25,7 @@ def get_articles():
 	dict_a['time_pub_a'] = None
 
 	for entry in root.findall("./row"):
-		url_b = entry.find("field[@name='url']").text
+		url_b = entry.find("field[@name='URL']").text
 		content_b = entry.find("field[@name='Content']").text
 		title_b = entry.find("field[@name='Title']").text
 		domain_b = entry.find("field[@name='Domain']").text

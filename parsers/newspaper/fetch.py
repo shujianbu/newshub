@@ -20,7 +20,7 @@ def upload_meta(url, title, domain, text):
 
 	# since we cannot get the author attribute, so we use the word "author" instead
 	value = ['', title, 'author', domain, url, gTime, gTime, text]
-	cursor.execute("insert into sampleTable values (%s, %s, %s, %s, %s, %s, %s, %s)", value);
+	cursor.execute("insert into articles values (%s, %s, %s, %s, %s, %s, %s, %s)", value);
 
 	conn.commit()
 	cursor.close()
@@ -36,14 +36,12 @@ def get_meta(article, domain):
 	title = article.title
 	text = article.text
 
-	# Strictly spearking, we need to detect whether the article is in the DB or not
-	# but the overhead of time would be extremely huge.
-
 	upload_meta(url, title, domain, text)
 
 def get_articles():
 	# get Chinese articles
-	i = 0
+	#i = 0
+	'''
 	for url in open("list_ch.txt", 'r'):
 		try: 
 			paper = newspaper.build(url, memoize_articles = True, language = 'zh')
@@ -53,17 +51,23 @@ def get_articles():
 			for article in paper.articles:
 				get_meta(article, domain)
 
+				
 				i = i + 1
 				if(i > 2):
 					break
+				
 		except:
 			pass
 
+		
 		if(i > 2):
 			break
+		
+	'''
+
 
 	# get English articles
-	j = 0
+	#j = 0
 	for url in open("list_en.txt", 'r'):
 		try:
 			paper = newspaper.build(url, memoize_articles = True, language = 'en')
@@ -73,14 +77,18 @@ def get_articles():
 			for article in paper.articles:
 				get_meta(article, domain)
 
+				'''
 				j = j + 1
 				if(j > 2):
 					break
+				'''
 		except:
 			pass
 
+		'''
 		if(j > 2):
 			break
+		'''
 
 	print "success!"
 	return
