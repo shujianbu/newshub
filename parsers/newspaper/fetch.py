@@ -36,7 +36,10 @@ def get_meta(article, domain):
 	title = article.title
 	text = article.text
 
-	upload_meta(url, title, domain, text)
+	if(text != '' or text != None):
+		upload_meta(url, title, domain, text)
+	else:
+		print "content of the article is empty"
 
 def get_articles():
 	# get Chinese articles

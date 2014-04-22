@@ -41,6 +41,8 @@ def compare_article(url_urls, content_urls):
 			if(url_stored == url_urls):
 				content_stored = entry.find("field[@name='Content']").text
 
+				print content_stored
+
 				# This is to compare the two articles to see if there are changes
 				dmp = diff_match_patch.diff_match_patch()
 
@@ -63,6 +65,7 @@ def compare_article(url_urls, content_urls):
 					domain_stored = entry.find("field[@name='Domain']").text
 					time_pub_stored = entry.find("field[@name='Time_Publish']").text
 
+
 					upload_meta(url_stored, title_stored, author_stored, domain_stored, \
 						time_pub_stored, content_urls)
 
@@ -78,7 +81,7 @@ def get_article():
 	for field_urls in root_urls.findall("row"):
 		url_urls = field_urls.find("field").text
 	#	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
-	#	url_urls = 'http://www.dawn.com/news/1101491/development-fund-cut-to-meet-imf-terms'
+	#	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
 
 		a_zh = Article(url_urls, language = 'zh')
 		a_zh.download()
