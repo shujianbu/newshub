@@ -11,8 +11,9 @@ Port: 3306
 
 How to run:
 1. python fetch.py
+2. python exe_prep4detect.py
 2. python detect.py
-3. python exe_prepare.py
+3. python exe_prep4comp.py
 4. python compare.py
 
 Hints: due to the huge number of articles, the "newspaper" module may sometimes run

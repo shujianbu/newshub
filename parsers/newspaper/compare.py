@@ -74,16 +74,19 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 	##f_output = open(arg_0, 'w')
 	f_output = open("output.html", 'a')
 
+	
 	if(dict_a['content_a'] == None):
 		dict_a['content_a'] = "#### This article is empty ####"
 	if(dict_b['content_b'] == None):
 		dict_b['content_b'] = "#### This article is empty ####"
+	
 
 	content_a = dict_a['content_a']
 	content_b = dict_b['content_b']
 
 	dmp = diff_match_patch.diff_match_patch()
 	diffs_content = dmp.diff_main(content_a, content_b)
+	dmp.diff_cleanupSemantic(diffs_content)
 	output_content = dmp.diff_prettyHtml(diffs_content)
 
 	diffs_title = dmp.diff_main(dict_a['title_a'], dict_b['title_b'])
