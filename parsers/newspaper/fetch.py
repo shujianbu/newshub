@@ -40,8 +40,6 @@ def get_meta(article, domain):
 
 def get_articles():
 	# get Chinese articles
-	#i = 0
-	'''
 	for url in open("list_ch.txt", 'r'):
 		try: 
 			paper = newspaper.build(url, memoize_articles = True, language = 'zh')
@@ -51,23 +49,11 @@ def get_articles():
 			for article in paper.articles:
 				get_meta(article, domain)
 
-				
-				i = i + 1
-				if(i > 2):
-					break
-				
 		except:
 			pass
 
-		
-		if(i > 2):
-			break
-		
-	'''
-
 
 	# get English articles
-	#j = 0
 	for url in open("list_en.txt", 'r'):
 		try:
 			paper = newspaper.build(url, memoize_articles = True, language = 'en')
@@ -77,18 +63,9 @@ def get_articles():
 			for article in paper.articles:
 				get_meta(article, domain)
 
-				'''
-				j = j + 1
-				if(j > 2):
-					break
-				'''
 		except:
 			pass
 
-		'''
-		if(j > 2):
-			break
-		'''
 
 	print "success!"
 	return

@@ -44,10 +44,16 @@ def compare_article(url_urls, content_urls):
 				# This is to compare the two articles to see if there are changes
 				dmp = diff_match_patch.diff_match_patch()
 
+				if(content_urls == ''):
+					content_urls = None
+
 				# check if the article is empty or not
 				if(content_urls != None and content_stored != None):
 					diffs = dmp.diff_main(content_urls, content_stored)
 					changes = dmp.diff_levenshtein(diffs)
+				elif(content_urls == None and content_stored == None):
+					changes = 0
+					
 				else:
 					changes = 1
 
@@ -71,12 +77,20 @@ def get_article():
 	# The problem with English and Chinese can be solved with 
 	for field_urls in root_urls.findall("row"):
 		url_urls = field_urls.find("field").text
+	#	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
+	#	url_urls = 'http://www.dawn.com/news/1101491/development-fund-cut-to-meet-imf-terms'
 
-		a = Article(url_urls, language='zh')
-		a.download()
-		a.parse()
-		content_urls = a.text
-		
+		a_zh = Article(url_urls, language = 'zh')
+		a_zh.download()
+		a_zh.parse()
+		content_urls = a_zh.text
+
+		if(content_urls == ''):
+			a_en = Article(url_urls, language = 'en')
+			a_en.download()
+			a_en.parse()
+			content_urls = content_urls + a_en.text
+
 		compare_article(url_urls, content_urls)
 
 get_article()
