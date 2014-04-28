@@ -175,6 +175,8 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 	time_check = dict_a['time_check_a']
 	articleID = "arcDiff_" + str(counter)
 
+	print time_check
+
 	if(newArticle == True):
 		f_output.write("<section id=\"header\"> \n<div class=\"articleUrl\"> \nURL: <span>")	
 		f_output.write(url)
@@ -194,8 +196,9 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 	f_output.write(time_pub)
 	f_output.write("</div><br> \n")
 	
-	f_output.write("\nTime_Check:<br> \n<class=\"articleMeta_checkTime\">")
+	f_output.write("\nTime_Check:<br> \n<div class=\"articleMeta_checkTime\">")
 	f_output.write(time_check)
+	f_output.write("</div><br> \n")
 
 	#f_output.write("</span><del style=\"background:#ffe6e6;\">19</del><ins style=\"background:#e6ffe6;\">22</ins><span> </span><ins style=\"background:#e6ffe6;\">2</ins><span>0</span><del style=\"background:#ffe6e6;\">1</del><span>:</span><del style=\"background:#ffe6e6;\">4</del><span>1</span><ins style=\"background:#e6ffe6;\">5</ins><span>:</span><del style=\"background:#ffe6e6;\">22</del><ins style=\"background:#e6ffe6;\">30</ins></div><br><br> \n</div> \n</section>\n\n\n")
 	f_output.write("</div><br> \n</div> \n</section>\n\n\n")
