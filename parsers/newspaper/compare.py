@@ -80,7 +80,15 @@ def get_deletions():
 	dict_del['time_check_a'] = None
 	dict_del['time_pub_a'] = None
 
+	f_output = open("output_deleted.html", 'w')
+	f_output.truncate();
+	f_output.write("<meta http-equiv=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"/> \n")
+	f_output.write("<link href=\"style.css\" rel=\"stylesheet\"> \n\n")
+	f_output.close()
+
 	for entry in root.findall("./row"):
+		print "round"
+
 		url = entry.find("field[@name='URL']").text
 		content = entry.find("field[@name='Content']").text
 		title = entry.find("field[@name='Title']").text
@@ -94,16 +102,6 @@ def get_deletions():
 		dict_del['content'] = content
 		dict_del['time_pub'] = time_pub
 		dict_del['time_check'] = time_check
-
-		if(encodingMark == True):
-			f_output = open("output_deleted.html", 'w')
-			f_output.truncate();
-
-			f_output.write("<meta http-equiv=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"/> \n")
-			f_output.write("<link href=\"style.css\" rel=\"stylesheet\"> \n\n")
-			f_output.close()
-
-			encodingMark = False
 
 		get_deleted_articles(dict_del)
 
