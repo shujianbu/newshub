@@ -1,42 +1,4 @@
 <?xml version="1.0"?>
 
 <resultset statement="select * from deletions order by url ASC, Time_Check DESC
-" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-  <row>
-	<field name="ID">4408</field>
-	<field name="Title">Robert Vadra will be in jail if NDA comes to power: Uma Bharti</field>
-	<field name="Author">author</field>
-	<field name="Domain">www.economictimes.indiatimes.com</field>
-	<field name="URL">http://articles.economictimes.indiatimes.com/2014-04-21/news/49290709_1_robert-vadra-uma-bharti-sonia-gandhi</field>
-	<field name="Time_Publish">2014-04-23 08:11:34</field>
-	<field name="Time_Check">2014-04-23 08:11:34</field>
-	<field name="Content">JHANSI: Notwithstanding BJP's assertion that there will be no witch-hunt if it comes to power, Uma Bharti has said that Sonia Gandhi's son-in-law Robert Vadra will be in jail if NDA comes to power.
-
-Bharti also alleged that Vadra had made money by breaking all the norms.
-
-&quot;Just because he is the son-in-law of Sonia Gandhi, all the Congress ruled state governments are afraid of him. Union Ministers were also under pressure from him. He has made money by breaking all the norms,&quot; she charged here last night.</field>
-  </row>
-
-  <row>
-	<field name="ID">3257</field>
-	<field name="Title">国内120位实力派画家作品在陕秦汉新城展出_大公书画_大公网</field>
-	<field name="Author">author</field>
-	<field name="Domain">www.takungpao.com</field>
-	<field name="URL">http://arts.takungpao.com/q/2014/0423/2438757.html</field>
-	<field name="Time_Publish">2014-04-23 07:16:36</field>
-	<field name="Time_Check">2014-04-23 07:16:36</field>
-	<field name="Content">大公网西安4月18日电（实习记者 黄香梅）4月18日，为期三天的“秦风汉韵”杯中国画名家四条屏展在西咸新区秦汉新城隆重举行，国内120名实力派画家的480幅山水、人物、花鸟画作品在此展览。
-
-中国画即国画，主要分为人物、花鸟和山水画。所谓“画分三科”，即概括了宇宙和人生的三个方面：人物画所表现的是人类社会，人与人的关系;山水画所表现的是人与自然的关系，将人与自然融为一体;花鸟画则是表现大自然的各种生命，与人和谐相处。中国画的分类，是由艺术升华的哲学思考，三者之合构成了宇宙的整体，相得益彰。
-
-作为西咸新区的核心组团，秦汉新城范围内秦咸阳城和西汉帝陵群等大遗址分布密集，这里曾见证过秦孝公至秦始皇时期140多年的历史变迁，也承载了中国历史曾经最为雄阔壮美的帝国烟云。西汉9位皇帝长眠于此，枕首宗山濯足渭水，历史地形成了中国最为壮观的一个帝陵遗址群带，被誉为“东方金字塔群”。
-
-根植于此、成长于斯。秦汉新城在理性思考了保护与建设的关系之后，提出了建设“文化之城”的宏伟目标。在合理的开发建设中保护好文物资源，在充分挖掘历史文化资源的过程中，以先进的科技手段，借文化产业之平台，展示秦汉历史文化所蕴含的智慧和力量，教育、感召今天的人们，投入到建设西咸新区现代田园城市的实践之中。
-
-据西咸新区管委会副主任、秦汉新城管委会主任杨占文介绍，为进一步宣传陕西省西咸新区秦汉新城打造“文化之城”，将中国书画艺术融入秦汉新城人文建设之中，使传统优秀文化与锐意进取的秦汉精神在现代化城市的开发建设中互为补充、相得益彰，秦汉新城管委会特联合安徽《美术时空》杂志社和陕西秦宇实业集团有限公司举办此次展览。
-
-据悉，此次画展上，共展出了国内120名画家的480幅山水、人物、花鸟画。其中，这120名画家，均是中国美协会员、中国工艺美术协会副主席、国家一级美术师孙悦进一般的实力派名家。</field>
-  </row>
-
- </resultset>
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"></resultset>
