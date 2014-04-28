@@ -36,7 +36,7 @@ def get_meta(article, domain):
 	title = article.title
 	text = article.text
 
-	if(text != '' or text != None):
+	if(text != '' and text != None and len(str(text)) > 0):
 		upload_meta(url, title, domain, text)
 	else:
 		print "content of the article is empty"
@@ -73,4 +73,6 @@ def get_articles():
 	print "success!"
 	return
 
-get_articles()
+
+if __name__ == "__main__":
+	get_articles()
