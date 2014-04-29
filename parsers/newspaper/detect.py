@@ -36,6 +36,15 @@ def upload_meta(articleExists, url, title, author, domain, time_pub, text):
 	if(articleExists == True):
 		print "upload an updated article"
 	else:
+		conn = MySQLdb.connect(host="newshub.c5dehgoxr0wn.us-west-2.rds.amazonaws.com",
+				user="newshub", passwd="columbiacuj", db="Newshub", charset="utf8")
+		cursor = conn.cursor()
+
+		cursor.execute("delete from deletions where URL=\'url\'")
+		conn.commit()
+		cursor.close()
+		conn.close()
+
 		print "move a deleted article"
 
 def compare_article(url_urls, content_urls):
@@ -132,7 +141,7 @@ def get_article():
 			resp = h.request(url_urls, 'HEAD')
 			status = int(resp[0]['status'])
 
-			if(status < 400):
+			if(status >= 500 or status == 400 or status == 404 or status == 408 or status == 410):
 				a_zh = Article(url_urls, language = 'zh')
 				a_zh.download()
 				a_zh.parse()
