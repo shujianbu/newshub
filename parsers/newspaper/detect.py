@@ -141,7 +141,7 @@ def get_article():
 			resp = h.request(url_urls, 'HEAD')
 			status = int(resp[0]['status'])
 
-			if(status >= 500 or status == 400 or status == 404 or status == 408 or status == 410):
+			if(status == 404):
 				move2deletion(url_urls)
 			else:
 				a_zh = Article(url_urls, language = 'zh')

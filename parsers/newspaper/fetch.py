@@ -3,6 +3,7 @@ import newspaper
 import sys
 import re
 import MySQLdb
+import httplib2
 
 from time import gmtime, strftime
 #from newspaper import Config
@@ -36,8 +37,15 @@ def get_meta(article, domain):
 	title = article.title
 	text = article.text
 
+	# if the content is empty, the article will not be uploaded
 	if(text != '' and text != None and len(str(text)) > 0):
-		upload_meta(url, title, domain, text)
+		# if the content is merely 404 information, the article will not be uploaded either
+		h = httplib2.Http()
+		resp = h.request(url, 'HEAD')
+		status = int(resp[0]['status'])
+
+		if(status != 404):
+			upload_meta(url, title, domain, text)
 	else:
 		print "content of the article is empty"
 
