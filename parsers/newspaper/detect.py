@@ -127,26 +127,29 @@ def get_article():
 	#	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
 	#	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
 
-		h = httplib2.Http()
-		resp = h.request(url_urls, 'HEAD')
-		status = int(resp[0]['status'])
+		try:
+			h = httplib2.Http()
+			resp = h.request(url_urls, 'HEAD')
+			status = int(resp[0]['status'])
 
-		if(status < 400):
-			a_zh = Article(url_urls, language = 'zh')
-			a_zh.download()
-			a_zh.parse()
-			content_urls = a_zh.text
+			if(status < 400):
+				a_zh = Article(url_urls, language = 'zh')
+				a_zh.download()
+				a_zh.parse()
+				content_urls = a_zh.text
 
-			if(content_urls == ''):
-				a_en = Article(url_urls, language = 'en')
-				a_en.download()
-				a_en.parse()
-				content_urls = content_urls + a_en.text
+				if(content_urls == ''):
+					a_en = Article(url_urls, language = 'en')
+					a_en.download()
+					a_en.parse()
+					content_urls = content_urls + a_en.text
 
-			if(content_urls != ''):
-				compare_article(url_urls, content_urls)
-		else:
-			move2deletion(url_urls)
+				if(content_urls != ''):
+					compare_article(url_urls, content_urls)
+			else:
+				move2deletion(url_urls)
+		except:
+			pass
 
 
 if __name__ == "__main__":

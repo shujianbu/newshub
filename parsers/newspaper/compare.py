@@ -87,8 +87,6 @@ def get_deletions():
 	f_output.close()
 
 	for entry in root.findall("./row"):
-		print "round"
-
 		url = entry.find("field[@name='URL']").text
 		content = entry.find("field[@name='Content']").text
 		title = entry.find("field[@name='Title']").text
@@ -174,8 +172,6 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 	time_pub = dict_a['time_pub_a']
 	time_check = dict_a['time_check_a']
 	articleID = "arcDiff_" + str(counter)
-
-	print time_check
 
 	if(newArticle == True):
 		f_output.write("<section id=\"header\"> \n<div class=\"articleUrl\"> \nURL: <span>")	
