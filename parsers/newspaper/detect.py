@@ -142,6 +142,8 @@ def get_article():
 			status = int(resp[0]['status'])
 
 			if(status >= 500 or status == 400 or status == 404 or status == 408 or status == 410):
+				move2deletion(url_urls)
+			else:
 				a_zh = Article(url_urls, language = 'zh')
 				a_zh.download()
 				a_zh.parse()
@@ -154,9 +156,7 @@ def get_article():
 					content_urls = content_urls + a_en.text
 
 				if(content_urls != ''):
-					compare_article(url_urls, content_urls)
-			else:
-				move2deletion(url_urls)
+					compare_article(url_urls, content_urls)			
 		except:
 			pass
 
