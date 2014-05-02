@@ -40,7 +40,7 @@ def upload_meta(articleExists, url, title, author, domain, time_pub, text):
 				user="newshub", passwd="columbiacuj", db="Newshub", charset="utf8")
 		cursor = conn.cursor()
 
-		cursor.execute("delete from deletions where URL=\'url\'")
+		cursor.execute("delete from articles where URL=%s", url)
 		conn.commit()
 		cursor.close()
 		conn.close()

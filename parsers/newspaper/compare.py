@@ -113,7 +113,7 @@ def get_deleted_articles(dict_del):
 
 	url = dict_del['url']
 	title = dict_del['title']
-	domain = dict_del['title']
+	domain = dict_del['domain']
 	content = dict_del['content']
 	time_pub = dict_del['time_pub']
 	time_check = dict_del['time_check']
