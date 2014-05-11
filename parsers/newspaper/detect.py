@@ -3,7 +3,8 @@ import sys
 import diff_match_patch
 import MySQLdb
 import xml.etree.ElementTree as ET
-import httplib2
+#import httplib2
+import urllib2
 
 from newspaper import Article
 from time import gmtime, strftime
@@ -137,9 +138,16 @@ def get_article():
 	#	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
 
 		try:
+			'''
 			h = httplib2.Http()
 			resp = h.request(url_urls, 'HEAD')
 			status = int(resp[0]['status'])
+			'''
+
+			response = urllib2.urlopen(url_urls)
+			status = response.code
+
+			print "response code: ", status
 
 			if(status == 404):
 				move2deletion(url_urls)
