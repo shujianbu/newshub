@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Newshub.cc - Track news story changes</title>
+
+
+<link rel=stylesheet href="{{ url_for('static', filename='css/bootstrap.css') }}">
+<link rel=stylesheet href="{{ url_for('static', filename='css/modern-business.css') }}">
+<link rel=stylesheet href="{{ url_for('static', filename='font-awesome/css/font-awesome.min.css') }}">
+
+<script type=text/javascript> var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};</script>
+<script src="{{ url_for('static', filename='vendor/d3.v3.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/jquery-1.11.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+{% block body %}{% endblock %}
