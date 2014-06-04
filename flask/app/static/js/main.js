@@ -11,11 +11,10 @@ d3.json("static/js/list_cn.json", function(error,data) {
 
 	$('#sidebar ul li').click(function(e) {
 		var index = items.indexOf(e.target.innerHTML);
-
 		$('#sidebar ul li').removeClass('selected');
 		$('#sidebar ul li').eq(index).addClass('selected');
 		$('.page-header small').html(e.target.innerHTML);
-		$('.col-md-9 p').html(data.list[index].descr);
+		$('.newspaperDesc').html(data.list[index].descr);
 	});
 
 });
