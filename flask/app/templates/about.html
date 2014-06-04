@@ -1,0 +1,189 @@
+{% extends "layout.html" %}
+{% block body %}
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Newshub</a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="content">Browse</a></li>
+                    <li class="active"><a href="about">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Newshub</h2>
+
+                <p>Newshub is a tool to watch different versions of online news articles in Asia. </p>
+                <p>In today’s information-driven world, news websites publish several thousand stories a day. Many times, particularly in authoritarian regimes, changes are made to articles without any communication to readers. This can be due to political interference, or a nexus between the media and influential entities.</p>
+                <p>We embarked on this project to expose censorship and inappropriate journalistic practice post-publication and engage the public to hold journalism accountable. </p>
+                <h2>Asia-focused</h2>
+                <p>There are several things we still don't have clear answers to when it comes to the media landscape in Asia. </p>
+                <p>We know that censorship exists in China, but don't know how much of it is post-publication. We know that the government of Singapore controls the media, but we don't know how often is an article deleted completely, or altered substantially to reflect the government's viewpoint. </p>
+                <p>In India, the media is largely free, but is increasingly being influenced by big businesses. How many times does pressure from big business result in editors changing the tone of a story, or taking out names of influential people from controversial stories?  </p>
+                
+                <h2>Our goal</h2>
+                <p>Through Newshub we plan to have answers to these questions that have been in the realm of speculation for years. For now, we are going to track changes in news websites in English and Mandarin Chinese, but over time plan to expand it to multiple languages to broaden our scope to other regions where the media is being unduly influenced. </p>
+                 <h2>How we do it</h2>
+                <p>Instead of creating individual scripts for each websites we track, which can be time consuming and cumbersome, we have used a new python module to help pull out content of news articles from over 50 news websites in Asia.</p> 
+                <p>We will produce monthly news reports and visualizations to help our readers better understand the data we collect and analyze. Ultimately, Newshub is for you, the reader, to help hold your newssources accountable. Welcome aboard.</p>
+
+                
+            </div>
+
+            <div class="col-md-6" class="logos">
+
+                <a target="blank " href="http://www.journalism.columbia.edu/" target="blank "><img  class="img-responsive" src="http://www.livestream.com/filestore/logos/5d6a9e68-3c83-e570-6fd4-c5695657e2d9-banner.jpg"></a>
+                <a target="blank " href="http://brown.stanford.edu/" target="blank "><img  class="img-responsive2" src="static/img/brown_logo.jpg" g></a>
+            </div>
+
+            <div class="col-md-6" >
+               <p class="about-info">Newshub is the joint effort of recent graduates from Columbia Graduate School of Journalism and Columbia the Fu Foundation School of Engineeringa and Applied Science.</p>
+                <p class="about-info">The project has been funded through <a target="blank " href="http://brown.stanford.edu/magic" target="blank ">Magic Grant</a>, awarded annually by the <a target="blank " href="http://brown.columbia.edu/">Brown Institue for Media Innovation</a>, a collaboration between <a target="blank " href="http://www.columbia.edu/">Columbia University</a> and <a target="blank " href="http://www.stanford.edu/">Stanford University</a>.</p>
+                <p class="about-info">We welcome any suggestions or questions on the publication selection, data interpretation, algorithm, etc. If you have any stories about censorship and inappropriate journalistic practice post-publication, please also contact us at <a target="blank " href="mailto:info@newshub.cc">info@newshub.cc</a></p>
+
+                <p class="about-info">Newshub实时监测亚洲网上新闻故事的删除与修改，旨在帮助读者对网上发布的新闻文章有更全面的把握，从而成为新闻媒体有效的监督者，提高网络新闻故事的可靠性。</p> 
+                <p class="about-info">我们以亚洲网络新闻为目标对象，实时监控超过五十家网络媒体。此外，我们将撰写月报分析主流媒体当月动态，以及突发事件的自主整理报道。</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/4/000/147/105/2a02025.jpg">
+                <h3>Shujian Bu
+<!--                     <small>Journalist | Developer</small>
+ -->                </h3>
+                <p> Data Scientist at Pitch Interactive Inc.</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a target="blank " href="https://www.facebook.com/shujianbu" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a target="blank " href="https://www.linkedin.com/in/shujianbu" target="blank " data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a target="blank " href="https://twitter.com/ShujianBu" target="blank " data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a target="blank " href="https://github.com/shujianbu" target= " " data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-github-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/6/000/1c6/30c/22e7785.jpg">
+                <h3>Yi Du
+<!--                     <small>Journalist | Designer</small>
+ -->                </h3>
+                <p>Intern digital editor Crain Communications</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a target="blank " href="https://www.facebook.com/yidu86" target="blank " data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a target="blank " href="https://www.linkedin.com/in/yidu86" target="blank " data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a target="blank " href="https://twitter.com/YiDu86" target="blank " data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a target="blank " href="https://plus.google.com/102955568271782957657/posts" target="blank " data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive" src="https://media.licdn.com/media/p/3/000/1aa/27d/3075a3b.jpg">
+                <h3>Yue Qiu
+<!--                     <small>Journalist | Designer</small>
+ -->                </h3>
+                <p>Journalism | Communications | Data Visualization</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a target="blank " href="https://www.facebook.com/profile.php?id=1000040387" data-toggle="tooltip" target="blank " data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a target="blank " href="https://www.linkedin.com/in/yueqiu1" target="blank " data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a target="blank " href="https://twitter.com/YueQiu_Columbia" target="blank " data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a target="blank " href="https://github.com/YueQiu" target="blank " data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-github-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/000/1c4/32f/3cc6624.jpg">
+                <h3>Shiyao Zhu
+<!--                     <small>Developer</small>
+ -->                </h3>
+                <p>Associate Research Scholar at Columbia University</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a target="blank " href="https://www.facebook.com/zhu.shiyao.92" data-toggle="tooltip" target="blank " data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a target="blank " href="https://www.linkedin.com/pub/shiyao-zhu/58/28/31b" data-toggle="tooltip" target="blank " data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a target="blank " href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a target="blank " href="https://github.com/gamblegear" target="blank " data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-github-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm-4">
+                <img class="img-responsive" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/3/005/054/0b5/25d11a7.jpg">
+                <h3>Anirvan Ghosh
+<!--                     <small>Journalist</small>
+ -->                </h3>
+                <p>Network, Opinion Writer, Global Communications at SAP </p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a target="blank " href="https://www.facebook.com/anirvan.ghosh?fref=ts" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a target="blank " href="www.linkedin.com/pub/anirvan-ghosh/4/9a6/504" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+<!--                     <li class="tooltip-social twitter-link"><a target="blank " href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+ -->                    
+<!--  </li>
+                    <li class="tooltip-social google-plus-link"><a target="blank " href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li> -->
+                </ul>
+            </div>
+
+<!--             <div class="col-sm-4">
+                <img class="img-responsive" src="http://placehold.it/750x450">
+                <h3>Sraven Lastname
+                    <small>Developer</small>
+                </h3>
+                <p>What does this team member do? Keep it short! This is also a great spot for social links!</p>
+                <ul class="list-unstyled list-inline list-social-icons">
+                    <li class="tooltip-social facebook-link"><a target="blank " href="#facebook-profile" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social linkedin-link"><a target="blank " href="#linkedin-profile" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social twitter-link"><a target="blank " href="#twitter-profile" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li class="tooltip-social google-plus-link"><a target="blank " href="#google-plus-profile" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-lg-12" id="copyright">
+                <ul>
+                    <li>&copy; <a target="blank " target="_blank" href="https://github.com/shujianbu/newshub">Newshub</a> 2014</li>
+                    <li><a target="blank " target="_blank" href="about">About</a></li>
+                    <li><a target="blank " target="_blank" href="mailto:info@newshub.cc">Contact us</a></li>
+                    <li><a target="blank " target="_blank" href="http://brown.stanford.edu/about">Brown Institute</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+{% endblock %}
