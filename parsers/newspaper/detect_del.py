@@ -86,7 +86,6 @@ def compare_article(url_urls, content_urls):
 			continue
 		else:
 			break
-		return
 
 def move2deletion(url_urls):
 	tree_stored = ET.parse("DB_stored.xml")
@@ -117,7 +116,6 @@ def move2deletion(url_urls):
 		else:
 			break
 
-	return
 
 def get_article():
 	tree_urls = ET.parse("DB_urls.xml")
@@ -129,6 +127,8 @@ def get_article():
 	#	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
 	#	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
 
+		print url_urls
+
 		try:
 			response = urllib2.urlopen(url_urls)
 			status = response.code
@@ -137,6 +137,10 @@ def get_article():
 
 			if(status == 404):
 				move2deletion(url_urls)
+
+			else:
+				print "pass"
+			'''
 			else:
 				a_zh = Article(url_urls, language = 'zh')
 				a_zh.download()
@@ -151,6 +155,8 @@ def get_article():
 
 				if(content_urls != ''):
 					compare_article(url_urls, content_urls)			
+			'''
+
 		except:
 			pass
 

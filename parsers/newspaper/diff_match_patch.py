@@ -1079,6 +1079,43 @@ class diff_match_patch:
         html.append("<span>%s</span>" % text)
     return "".join(html)
 
+  def diff_pretty_ins(self, diffs):
+    """
+    Self-modified function to tag article insertions
+    """
+    ins = []
+    for (op, data) in diffs:
+      text = (data.replace("&", "&amp;").replace("<", "&lt;")
+                 .replace(">", "&gt;"))
+      if op == self.DIFF_INSERT:
+        ins.append("<ins style=\"background:#e6ffe6;\">%s</ins>" % text)
+    return "".join(ins)
+
+  def diff_pretty_del(self, diffs):
+    """
+    Self-modified function to tag article deletions
+    """
+    del_ = []
+    for (op, data) in diffs:
+      text = (data.replace("&", "&amp;").replace("<", "&lt;")
+                 .replace(">", "&gt;"))
+      if op == self.DIFF_DELETE:
+        del_.append("<del style=\"background:#ffe6e6;\">%s</del>" % text)
+    return "".join(del_)
+
+  def diff_pretty_eql(self, diffs):
+    """
+    Self-modified function to tag article deletions
+    """
+    eql = []
+    for (op, data) in diffs:
+      text = (data.replace("&", "&amp;").replace("<", "&lt;")
+                 .replace(">", "&gt;"))
+      if op == self.DIFF_EQUAL:
+        eql.append("<span>%s</span>" % text)
+    return "".join(eql)
+
+
   def diff_text1(self, diffs):
     """Compute and return the source text (all equalities and deletions).
 
