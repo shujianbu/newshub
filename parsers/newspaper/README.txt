@@ -1,24 +1,25 @@
-Currently, we have moved to the stage of gathering and comparing articles in
-the real database table:
+We use Linux's Cron to run the engine automatically.
 
-Database: Newshub
-Table: articles
+The strategy for scripting is as follows:
 
-You need the key set from AWS to run the program and please set the path accordingly.
+1.fetch
+fetch.py runs at 00:00 UTC everyday, which is 08:00 Beijing time.
 
-URL for Database: newshub.c5dehgoxr0wn.us-west-2.rds.amazonaws.com
-Port: 3306
+2. detect deletion
+exe_detect_del.py runs at 08:00 and 20:00 UTC everyday.
 
-How to run:
-1. python fetch.py
-2. python exe_prep4detect.py
-2. python detect.py
-3. python exe_prep4comp.py
-4. python compare.py
+3. detect comparison
+exe_detect_cmp.py runs at 12:00 UTC every Monday, Wednesday and Friday.
 
-Hints: due to the huge number of articles, the "newspaper" module may sometimes run
-into problems from reading the list_en.txt and list_cn.txt and therefore, throw
-exceptions in running. When this happens, simply run the program (fetch.py and detect.py)
-again and it will continue from the point where exception occurs. Since we have set
-the program to ignore duplicates in fetch.py, there is no need to worry about this
-issue in the fetching stage.
+4. compare
+exe_compare.py runs at 22:00 UTC everyday.
+
+5. clean database
+exe_cleanDB.py runs at 20:00 UTC every 28th of the month.
+- articles before 1st of the month will be deleted from Newshub/articles
+- articles before January or July of the year will be deleted from Newshub/deletions
+
+PS:
+1. To check if the scripts run properly, go to /var/log/syslog and search for CRON
+
+2. The commands for crontab is listed in file crontab.txt
