@@ -16,3 +16,5 @@ os.system(db_connect)
 # get all entries in the DB ordered by their urls and time_check
 db_connect = db_identify + db_authenticate + db_query_all + " > DB_stored.xml"
 os.system(db_connect)
+
+os.system("python detect_cmp.py")

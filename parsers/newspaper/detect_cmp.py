@@ -47,12 +47,10 @@ def upload_meta(articleExists, url, title, author, domain, time_pub, text):
 
 		print "move a deleted article"
 
-def move2deletion(url_urls):
+def compare_article(url_urls, content_urls):
 	tree_stored = ET.parse("DB_stored.xml")
 	root_stored = tree_stored.getroot()
 	detected = False
-
-	#print "move2deletion executed"
 
 	for entry in root_stored.findall("./row"):
 		url_stored = entry.find("field[@name='URL']").text
@@ -60,21 +58,35 @@ def move2deletion(url_urls):
 		if(url_stored == url_urls):
 			detected = True
 
-			title_stored = entry.find("field[@name='Title']").text
-			author_stored = entry.find("field[@name='Author']").text
-			domain_stored = entry.find("field[@name='Domain']").text
-			time_pub_stored = entry.find("field[@name='Time_Publish']").text
 			content_stored = entry.find("field[@name='Content']").text
 
-			articleExists = False
-			upload_meta(articleExists, url_stored, title_stored, author_stored, domain_stored, \
-				time_pub_stored, content_stored)
-			break
+		#	print content_stored
+			# This is to compare the two articles to see if there are changes
+			dmp = diff_match_patch.diff_match_patch()
 
+			# check if the article is empty or not
+			if(content_urls != None and content_stored != None):
+				diffs = dmp.diff_main(content_urls, content_stored)
+				changes = dmp.diff_levenshtein(diffs)
+			
+
+			if(changes > 0):
+				title_stored = entry.find("field[@name='Title']").text
+				author_stored = entry.find("field[@name='Author']").text
+				domain_stored = entry.find("field[@name='Domain']").text
+				time_pub_stored = entry.find("field[@name='Time_Publish']").text
+
+				articleExists = True
+				upload_meta(articleExists, url_stored, title_stored, author_stored, domain_stored, \
+					time_pub_stored, content_urls)
+			else:
+				print "the detected article is not changed"
+			
 		elif(detected == False):
 			continue
 		else:
 			break
+		return
 
 
 def get_article():
@@ -84,6 +96,8 @@ def get_article():
 	# The problem with English and Chinese can be solved with 
 	for field_urls in root_urls.findall("row"):
 		url_urls = field_urls.find("field").text
+	#	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
+	#	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
 
 		try:
 			response = urllib2.urlopen(url_urls)
@@ -92,11 +106,21 @@ def get_article():
 			#print "detected webpage code:", status
 
 			if(status == 404):
-				move2deletion(url_urls)
-			else:
-				print "url lives"
 				continue
+			else:
+				a_zh = Article(url_urls, language = 'zh')
+				a_zh.download()
+				a_zh.parse()
+				content_urls = a_zh.text
 
+				if(content_urls == ''):
+					a_en = Article(url_urls, language = 'en')
+					a_en.download()
+					a_en.parse()
+					content_urls = content_urls + a_en.text
+
+				if(content_urls != ''):
+					compare_article(url_urls, content_urls)			
 		except:
 			pass
 

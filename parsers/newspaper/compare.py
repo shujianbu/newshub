@@ -15,7 +15,7 @@ def get_articles():
 	dict_a = {}
 	dict_b = {}
 	newArticle = True
-	encodingMark = True
+	firstComma = True
 	counter = 0
 
 	dict_a['url_a'] = None
@@ -24,6 +24,11 @@ def get_articles():
 	dict_a['domain_a'] = None
 	dict_a['time_check_a'] = None
 	dict_a['time_pub_a'] = None
+
+	f_output = open("output_compare.json", 'w')
+	f_output.truncate()
+	f_output.write("{\"compare\":[")
+	f_output.close()
 
 	for entry in root.findall("./row"):
 		url_b = entry.find("field[@name='URL']").text
@@ -54,7 +59,11 @@ def get_articles():
 				encodingMark = False
 			"""
 
-			compare_articles(dict_a, dict_b, newArticle, counter)
+			if(firstComma == True):
+				compare_articles(dict_a, dict_b, newArticle, counter, True)
+				firstComma = False
+			else:
+				compare_articles(dict_a, dict_b, newArticle, counter, False)
 			counter = counter + 1
 			newArticle = False
 
@@ -68,6 +77,9 @@ def get_articles():
 		dict_a['time_check_a'] = dict_b['time_check_b']
 		dict_a['time_pub_a'] = dict_b['time_pub_b']
 
+	f_output = open("output_compare.json", 'a')
+	f_output.write("]}")
+
 	return
 
 def get_deletions():
@@ -75,7 +87,7 @@ def get_deletions():
 	root = tree.getroot()
 
 	dict_del = {}
-	encodingMark = True
+	firstComma = True
 
 	dict_del['url_a'] = None
 	dict_del['content_a'] = None
@@ -85,7 +97,8 @@ def get_deletions():
 	dict_del['time_pub_a'] = None
 
 	f_output = open("output_deleted.json", 'w')
-	f_output.truncate();
+	f_output.truncate()
+	f_output.write("{\"deleted\":[")
 	#f_output.write("<meta http-equiv=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"/> \n")
 	#f_output.write("<link href=\"style.css\" rel=\"stylesheet\"> \n\n")
 	f_output.close()
@@ -105,11 +118,21 @@ def get_deletions():
 		dict_del['time_pub'] = time_pub
 		dict_del['time_check'] = time_check
 
-		get_deleted_articles(dict_del)
+		if(firstComma == True):
+			get_deleted_articles(dict_del, True)
+			firstComma = False
+		else:
+			get_deleted_articles(dict_del, False)
+
+	f_output = open("output_deleted.json", 'a')
+	f_output.write("]}")
+	#f_output.write("<meta http-equiv=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\"/> \n")
+	#f_output.write("<link href=\"style.css\" rel=\"stylesheet\"> \n\n")
+	f_output.close()
 
 	return
 
-def get_deleted_articles(dict_del):
+def get_deleted_articles(dict_del, firstComma):
 	f_output = open("output_deleted.json", 'a')
 
 	if(dict_del['content'] == None):
@@ -117,9 +140,11 @@ def get_deleted_articles(dict_del):
 
 	encoded_del = json.dumps(dict_del)
 
-	f_output.write('\n')
+	#f_output.write('\n')
+	if(firstComma == False):
+		f_output.write(',')
 	f_output.write(encoded_del)
-	f_output.write('\n')
+	#f_output.write('\n')
 
 	'''
 	url = dict_del['url']
@@ -157,7 +182,7 @@ def get_deleted_articles(dict_del):
 
 	return
 
-def compare_articles(dict_a, dict_b, newArticle, counter):
+def compare_articles(dict_a, dict_b, newArticle, counter, firstComma):
 	##f_output = open(arg_0, 'w')
 	f_output = open("output_compare.json", 'a')
 	output_json = {}
@@ -183,24 +208,31 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 
 	if(changes > 0):
 		dmp.diff_cleanupSemantic(diffs_content)
-		#output_content = dmp.diff_prettyHtml(diffs_content)
+		output_content = dmp.diff_prettyHtml(diffs_content)
+		'''
 		output_content_ins = dmp.diff_pretty_ins(diffs_content)
 		output_content_del = dmp.diff_pretty_del(diffs_content)
 		output_content_eql = dmp.diff_pretty_eql(diffs_content)
+		'''
 
+		'''
 		diffs_title = dmp.diff_main(dict_a['title_a'], dict_b['title_b'])
 		output_title_ins = dmp.diff_pretty_ins(diffs_title)
 		output_title_del = dmp.diff_pretty_del(diffs_title)
 		output_title_eql = dmp.diff_pretty_eql(diffs_title)
+		'''
 
 		url = dict_a['url_a']
 		domain = dict_a['domain_a']
+		title = dict_a['title_a']
 		time_pub = dict_a['time_pub_a']
 		time_check = dict_a['time_check_a']
 		articleID = "arcDiff_" + str(counter)
 
+		'''
 		output_content = {}
 		output_title = {}
+
 
 		output_content['content_ins'] = output_content_ins
 		output_content['content_del'] = output_content_del
@@ -209,20 +241,24 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 		output_title['title_ins'] = output_title_ins
 		output_title['title_del'] = output_title_del
 		output_title['title_eql'] = output_title_eql
+		'''
 
 		output_json['url'] = url
 		output_json['domain'] = domain
+		output_json['title'] = title
 		output_json['time_check'] = time_check
 		output_json['time_pub'] = time_pub
 		output_json['articleID'] = articleID
-		output_json['title'] = output_title
+		#output_json['title'] = output_title
 		output_json['content'] = output_content
 
 		encoded_cmp = json.dumps(output_json)
 
-		f_output.write('\n')
+		if(firstComma == False):
+			f_output.write(',')
+
 		f_output.write(encoded_cmp)
-		f_output.write('\n')
+		#f_output.write(',')
 
 		'''
 		if(newArticle == True):
@@ -258,7 +294,7 @@ def compare_articles(dict_a, dict_b, newArticle, counter):
 
 	f_output.close()
 
-	return
+	return firstComma
 
 
 if __name__ == "__main__":
