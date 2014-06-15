@@ -1,0 +1,13 @@
+http://www.chinadaily.com.cn/rss/china_rss.xml
+http://www.chinadaily.com.cn/rss/bizchina_rss.xml
+http://www.chinadaily.com.cn/rss/world_rss.xml
+http://www.chinadaily.com.cn/rss/opinion_rss.xml
+http://www.chinadaily.com.cn/rss/sports_rss.xml
+http://www.chinadaily.com.cn/rss/entertainment_rss.xml
+http://www.chinadaily.com.cn/rss/lifestyle_rss.xml
+http://www.chinadaily.com.cn/rss/photo_rss.xml
+http://www.chinadaily.com.cn/rss/video_rss.xml
+http://www.chinadaily.com.cn/rss/cndy_rss.xml
+http://www.chinadaily.com.cn/rss/hk_rss.xml
+http://usa.chinadaily.com.cn/usa_kindle.xml
+http://europe.chinadaily.com.cn/euweekly_rss.xml

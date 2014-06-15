@@ -10,11 +10,11 @@ db_query_distinct = "select distinct url from articles order by url ASC\""
 db_query_all = "select * from articles order by url ASC, Time_Check DESC\""
 
 # get all distinct urls stored in the DB
-db_connect = db_identify + db_authenticate + db_query_distinct + " > ~/Newshub/DB_urls.xml"
+db_connect = db_identify + db_authenticate + db_query_distinct + " > ./DB_urls.xml"
 os.system(db_connect)
 
 # get all entries in the DB ordered by their urls and time_check
-db_connect = db_identify + db_authenticate + db_query_all + " > ~/Newshub/DB_stored.xml"
+db_connect = db_identify + db_authenticate + db_query_all + " > ./DB_stored.xml"
 os.system(db_connect)
 
 os.system("python detect_del.py")

@@ -7,7 +7,7 @@ db_authenticate = " -u newshub -pcolumbiacuj -e \"use Newshub; "
 db_query_selected = "select * from articles order by url ASC, Time_Check DESC\""
 
 # get entries of the selected domain from articles
-db_connect = db_identify + db_authenticate + db_query_selected + " > ~/Newshub/DB_updated.xml"
+db_connect = db_identify + db_authenticate + db_query_selected + " > ./Newshub/DB_updated.xml"
 os.system(db_connect)
 
 
@@ -15,7 +15,7 @@ os.system(db_connect)
 db_query_selected = "select * from deletions order by url ASC, Time_Check DESC\""
 
 # get entries of the selected domain from deletions
-db_connect = db_identify + db_authenticate + db_query_selected + " > ~/Newshub/DB_deleted.xml"
+db_connect = db_identify + db_authenticate + db_query_selected + " > ./Newshub/DB_deleted.xml"
 os.system(db_connect)
 
 os.system("python compare.py")

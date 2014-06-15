@@ -17,7 +17,9 @@ db_connect = db_identify + db_authenticate + db_query_selected
 os.system(db_connect)
 
 # build the query for database table deletions
+'''
 if(current_month_only == 01 or current_month_only == 07):
 	db_query_selected = "delete from deletions where Time_Publish<\"" + first_date + "\";"
 	db_connect = db_identify + db_authenticate + db_query_selected
 	os.system(db_connect)
+'''

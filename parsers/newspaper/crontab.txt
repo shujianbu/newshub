@@ -21,7 +21,7 @@
 # 
 # m h  dom mon dow   command
 
-0 0 * * * python ~/Newshub/fetch.py
+0 1 * * * python ~/Newshub/fetch.py
 
 0 8,20 * * * python ~/Newshub/exe_detect_del.py
 
