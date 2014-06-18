@@ -21,13 +21,13 @@
 # 
 # m h  dom mon dow   command
 
-0 1 * * * python ~/Newshub/fetch.py
+0 22 * * * cd Newshub && python fetch.py
 
-0 8,20 * * * python ~/Newshub/exe_detect_del.py
+0 8,20 * * * cd Newshub && python exe_detect_del.py
 
-0 12 * * 1,3,5 python ~/Newshub/exe_detect_cmp.py
+0 12 * * 1,3,5 cd Newshub && python exe_detect_cmp.py
 
-0 22 * * * python ~/Newshub/exe_compare.py
+0 10 * * * cd Newshub && python exe_compare.py
 
-0 20 28 * * python ~/Newshub/exe_cleanDB.py
-~                                            
+0 20 28 * * cd Newshub && python exe_cleanDB.py
+
