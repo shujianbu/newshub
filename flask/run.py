@@ -12,6 +12,10 @@ from pprint import pprint  # print json object
 def index():
     return render_template('index.html')
 
+@app.route('/summary')
+def summary():
+    return render_template('summary.html')
+
 @app.route('/content')
 def content():
     return render_template('content.html')

@@ -3,8 +3,6 @@ d3.json("static/js/list.json", function(error,listObj) {
 	if (error) return console.warn(error);
 	
 	d3.json("static/js/output_compare.json", function(error,compareObj) {
-		// console.log("compare:");
-		// console.log(compareObj.compare);
 
 		d3.json("static/js/output_deleted.json", function(error,deletedObj) {
 			// console.log("deleted:");
