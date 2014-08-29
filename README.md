@@ -19,13 +19,7 @@ Translations of the guide are available in the following languages.
   
   # Library 
   pip install Flask
-  pip install requests 
-  
-  # sync the database
-  python website/manage.py syncdb 
-  
-  # migration
-  python website/manage.py migrate  
+  python flask/run.py
   
 ```
 
