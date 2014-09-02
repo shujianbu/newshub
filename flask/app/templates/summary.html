@@ -41,11 +41,14 @@
             <div class="col-md-8 col-sm-9">
                 <h1 class="page-header">Browse > <small>People's Daily 人民日报</small></h1>
                 <p class="newspaperDesc">People's Daily is the official newspaper of the Central Committee of the Communist Party of China (CPC), published worldwide with a circulation of 3 to 4 million. In addition to its main Chinese-language edition, it has editions in English, Japanese, French, Spanish, Russian, Arabic and Korean. People's Daily provides direct information on the policies and viewpoints of the Party.</p>
+
+                <div class="paperViz"></div>
             </div>
         </div>
     </div>
 </div>
 
+<script src="{{ url_for('static', filename='js/wordTrie.js') }}"></script>
 <script src="{{ url_for('static', filename='js/summary.js') }}"></script>
 
 {% endblock %}

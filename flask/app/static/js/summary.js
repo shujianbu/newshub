@@ -1,28 +1,29 @@
-
 d3.json("static/js/list.json", function(error,listObj) {
 	if (error) return console.warn(error);
 
 	d3.json("static/js/cn_withcontent.json", function(error,deletedObj) {
-
-		// console.log(deletedObj.deleted);
 
 		// Step 1: Get newspaper list
 		var items = [];
 		var siteAdd = [];
 		var deletedByPaper = [];
 		var deletedData = [];
+		var deletedText = [];
 		for (var i = 0; i < listObj.list.length; i++) {
 			items[i] = listObj.list[i].Name;
 			siteAdd[i] = listObj.list[i].link;
 			deletedByPaper[i] = [];
 			deletedData[i] = {};
+			deletedText[i] = {};
 			deletedData[i]['Paper'] = listObj.list[i].Name;
+			deletedText[i]['Paper'] = listObj.list[i].Name;
+			deletedText[i]['Content'] = '';
 		}
 		$('#sidebar ul').append('<li>' + items.join('</li><li>') + '</li>');
 		$('#sidebar ul li:first-child').addClass('selected');
 
 		// Step 2: Get deleted articles 
-		// console.log(deletedObj.deleted.length);
+		// console.log(deletedObj.deleted);
 
 		var startMonth = 201612;
 		var endMonth = 201201;
@@ -37,7 +38,7 @@ d3.json("static/js/list.json", function(error,listObj) {
 					deletedData[siteAdd.indexOf(deletedObj.deleted[i]['domain'])][tmpMonth] += 1;
 				else
 					deletedData[siteAdd.indexOf(deletedObj.deleted[i]['domain'])][tmpMonth] = 1
-
+				deletedText[siteAdd.indexOf(deletedObj.deleted[i]['domain'])]['Content'] += deletedObj.deleted[i].content;
 			} else {
 				// console.log("invalid domain: " + deletedObj.deleted[i]['domain']);
 			}
@@ -80,8 +81,7 @@ d3.json("static/js/list.json", function(error,listObj) {
 		});
 
 		// deletedData.sort(function(a, b) { return b.total - a.total; });
-
-		console.log(deletedData);
+		// console.log(deletedData);
 
 		x.domain(deletedData.map(function(d) { return d.Paper; }));
 		y.domain([0, d3.max(deletedData, function(d) { return d.total; })]);
@@ -148,9 +148,12 @@ d3.json("static/js/list.json", function(error,listObj) {
 
 
 		// Step 4: Show default people's daily
-
+	
 
 		// Step 5: Click Handler
+
+		// console.log(deletedByPaper); // each visualization for paper
+
 		$('#sidebar ul li').click(function(e) {
 			var index = items.indexOf(e.target.innerHTML);
 			$('#sidebar ul li').removeClass('selected');
@@ -159,21 +162,52 @@ d3.json("static/js/list.json", function(error,listObj) {
 			$('.newspaperDesc').html(listObj.list[index].descr);
 			
 			content = ""; // update delete
-			$('.deletedInfo').html(deletedByPaper[index].length + ' articles deleted!')
-			for(var i = 0; i < deletedByPaper[index].length; i++){
-				content += "<div class='contentEntry'><div class='contentHead'><div class='title'>Title: " + deletedByPaper[index][i].title + "</div><div class='time_pub'>Time Published: " + deletedByPaper[index][i].time_pub + "</div><div class='time_check'>Time Checked: " + deletedByPaper[index][i].time_check + "</div></div><div class = 'url'><a href='" + deletedByPaper[index][i].url + "' target='_blank'>DELETED</a>" + "</div><div class='deletedContent'>" + deletedByPaper[index][i].content + "</div></div>" 
-			}
-			$('.deletedDiv').html(content)
-
-			content = ""; // update modifited
-			$('.compareInfo').html(compareByPaper[index].length + ' articles modified!')
-			for(var i = 0; i < compareByPaper[index].length; i++){
-				content += "<div class='contentEntry'><div class='contentHead'><div class='title'>Title: " + compareByPaper[index][i].title + "</div><div class='time_pub'> Time Published: " + compareByPaper[index][i].time_pub + "</div><div class='time_check'>Time Checked: " + compareByPaper[index][i].time_check + "</div></div><div class = 'url'><a href='" + compareByPaper[index][i].url + "' target='_blank'>VIEW</a>" + "</div><div class='compareContent'>" + compareByPaper[index][i].content + "</div></div>" 
-			}
-			$('.compareDiv').html(content)
+			$('.paperViz').html(deletedByPaper[index].length + ' articles deleted!');
 
 		});
 
+
+		// Step 6: Textual Analysis
+		console.log("deletedText: ");
+		console.log(deletedText);
+		
+		// 字典
+		var dict  = [];
+		var stop  = {
+			"的" : 1,
+			"了": 1,
+			"和": 1,
+			"是": 1,
+			"就": 1,
+			"都": 1,
+			"而": 1,
+			"及": 1,
+			"与": 1,
+			"着": 1,
+			"或": 1,
+			"一个": 1,
+			"沒有": 1,
+			"我们": 1,
+			"你们": 1,
+			"他们": 1,
+			"是否": 1
+		};
+
+		d3.csv("static/js/dict.csv", function(error,dictCSV) {
+			for(var i = 0; i < dictCSV.length; i++){
+				dict.push(dictCSV[i].word);
+			}
+			// console.log(dict);
+			var trie = new Trie();
+			trie.init(dict);
+			// var wordsTest = deletedText[0].Content.substring(0,99);
+			var result = trie.splitWords(wordsTest);	
+			console.log("分词结果:       ", result);
+
+		});		
+
 	});
 });
+
+
 
