@@ -4,6 +4,8 @@ import diff_match_patch
 import MySQLdb
 import xml.etree.ElementTree as ET
 import urllib2
+from multiprocessing import Pool
+
 
 from newspaper import Article
 from time import gmtime, strftime
@@ -75,30 +77,53 @@ def move2deletion(url_urls):
 			continue
 		else:
 			break
+def f(url):
+	url_urls = url.text
+	try:
+		response = urllib2.urlopen(url_urls)
+		status = response.code
 
+		#print "detected webpage code:", status
+
+		if(status == 404):
+			move2deletion(url_urls)
+		else:
+			print "url lives"
+			pass
+
+	except:
+		pass
 
 def get_article():
 	tree_urls = ET.parse("DB_urls.xml")
 	root_urls = tree_urls.getroot()
 
+
+	NUMBER_OF_THREADS = 100
+	urls = root_urls.findall("./row/field")
+	print "Start Detecting"
+	pool = Pool(processes=NUMBER_OF_THREADS)
+	pool.map(f, urls)
+	thread_size = len(urls)/NUMBER_OF_THREADS
+
 	# The problem with English and Chinese can be solved with 
-	for field_urls in root_urls.findall("row"):
-		url_urls = field_urls.find("field").text
+	# for field_urls in root_urls.findall("row"):
+	# 	url_urls = field_urls.find("field").text
 
-		try:
-			response = urllib2.urlopen(url_urls)
-			status = response.code
+	# 	try:
+	# 		response = urllib2.urlopen(url_urls)
+	# 		status = response.code
 
-			#print "detected webpage code:", status
+	# 		#print "detected webpage code:", status
 
-			if(status == 404):
-				move2deletion(url_urls)
-			else:
-				print "url lives"
-				continue
+	# 		if(status == 404):
+	# 			move2deletion(url_urls)
+	# 		else:
+	# 			print "url lives"
+	# 			continue
 
-		except:
-			pass
+	# 	except:
+	# 		pass
 
 
 if __name__ == "__main__":

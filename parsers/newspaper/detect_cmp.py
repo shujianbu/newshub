@@ -4,6 +4,7 @@ import diff_match_patch
 import MySQLdb
 import xml.etree.ElementTree as ET
 import urllib2
+from multiprocessing import Pool
 
 from newspaper import Article
 from time import gmtime, strftime
@@ -13,6 +14,8 @@ from time import gmtime, strftime
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
+tree_stored = ET.parse("DB_stored.xml")
+root_stored = tree_stored.getroot()
 
 def upload_meta(articleExists, url, title, author, domain, time_pub, text):
 	gTime = strftime("%Y-%m-%d %H:%M:%S", gmtime())
@@ -48,8 +51,8 @@ def upload_meta(articleExists, url, title, author, domain, time_pub, text):
 		print "move a deleted article"
 
 def compare_article(url_urls, content_urls):
-	tree_stored = ET.parse("DB_stored.xml")
-	root_stored = tree_stored.getroot()
+	global tree_stored
+	global root_stored
 	detected = False
 
 	for entry in root_stored.findall("./row"):
@@ -88,41 +91,93 @@ def compare_article(url_urls, content_urls):
 			break
 		return
 
+def f(url):
+	url_urls = url.text
+	try:
+		response = urllib2.urlopen(url_urls)
+		status = response.code
+
+		#print "detected webpage code:", status
+
+		if(status == 404):
+			pass
+		else:
+			a_zh = Article(url_urls, language = 'zh')
+			a_zh.download()
+			a_zh.parse()
+			# content_urls = a_zh.text
+
+			# if(content_urls == ''):
+			# 	a_en = Article(url_urls, language = 'en')
+			# 	a_en.download()
+			# 	a_en.parse()
+			# 	content_urls = content_urls + a_en.text
+
+			# if(content_urls != ''):
+			# 	pass
+			# 	# compare_article(url_urls, content_urls)			
+	except:
+		pass
+		
 
 def get_article():
 	tree_urls = ET.parse("DB_urls.xml")
 	root_urls = tree_urls.getroot()
 
-	# The problem with English and Chinese can be solved with 
-	for field_urls in root_urls.findall("row"):
-		url_urls = field_urls.find("field").text
-	#	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
-	#	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
+	# The problem with English and Chinese can be solved with
+	
+	# make 40 threads to visit the urls 
+	NUMBER_OF_THREADS = 20
+	urls = root_urls.findall("./row/field")
+	print "Start Detecting"
+	pool = Pool(processes=NUMBER_OF_THREADS)
+	pool.map(f, urls)
+	thread_size = len(urls)/NUMBER_OF_THREADS
 
-		try:
-			response = urllib2.urlopen(url_urls)
-			status = response.code
+	# for field_url in urls:
+	# 	url = field_url.text
+	# 	print url
 
-			#print "detected webpage code:", status
 
-			if(status == 404):
-				continue
-			else:
-				a_zh = Article(url_urls, language = 'zh')
-				a_zh.download()
-				a_zh.parse()
-				content_urls = a_zh.text
 
-				if(content_urls == ''):
-					a_en = Article(url_urls, language = 'en')
-					a_en.download()
-					a_en.parse()
-					content_urls = content_urls + a_en.text
+	# for i in range(NUMBER_OF_THREADS):
 
-				if(content_urls != ''):
-					compare_article(url_urls, content_urls)			
-		except:
-			pass
+	# 	# run the thread
+	# 	continue
+
+
+	# for field_urls in root_urls.findall("row"):
+	# 	url_urls = field_urls.find("field").text
+	# #	url_urls = 'http://news.sina.com.cn/c/2014-04-21/204729980947.shtml'
+	# #	url_urls = 'http://china.caixin.com/2013-12-30/100623243.html'
+	
+	# 	# make 40 threads to visit the urls 
+
+	# 	try:
+	# 		response = urllib2.urlopen(url_urls)
+	# 		status = response.code
+
+	# 		#print "detected webpage code:", status
+
+	# 		if(status == 404):
+	# 			continue
+	# 		else:
+	# 			a_zh = Article(url_urls, language = 'zh')
+	# 			a_zh.download()
+	# 			a_zh.parse()
+	# 			content_urls = a_zh.text
+
+	# 			if(content_urls == ''):
+	# 				a_en = Article(url_urls, language = 'en')
+	# 				a_en.download()
+	# 				a_en.parse()
+	# 				content_urls = content_urls + a_en.text
+
+	# 			if(content_urls != ''):
+	# 				pass
+	# 				# compare_article(url_urls, content_urls)			
+	# 	except:
+	# 		pass
 
 
 if __name__ == "__main__":

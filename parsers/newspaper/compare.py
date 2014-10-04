@@ -298,5 +298,5 @@ def compare_articles(dict_a, dict_b, newArticle, counter, firstComma):
 
 
 if __name__ == "__main__":
-	get_articles()
+	# get_articles()
 	get_deletions()

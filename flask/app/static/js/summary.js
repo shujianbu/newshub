@@ -200,7 +200,7 @@ d3.json("static/js/list.json", function(error,listObj) {
 			// console.log(dict);
 			var trie = new Trie();
 			trie.init(dict);
-			// var wordsTest = deletedText[0].Content.substring(0,99);
+			var wordsTest = deletedText[0].Content.substring(0,99);
 			var result = trie.splitWords(wordsTest);	
 			console.log("分词结果:       ", result);
 
